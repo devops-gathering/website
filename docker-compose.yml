@@ -9,6 +9,8 @@ services:
       - NPM_INSTALL_BUILD_DEPS=make g++
     volumes:
       - ${PWD}:/node
+    ports:
+    - 9000:9000
     command: gulp
   hugo:
     build:
