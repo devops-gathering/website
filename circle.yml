@@ -1,0 +1,19 @@
+dependencies:
+  pre:
+    - ci/ci-install-hugo.sh
+
+test:
+  override:
+    - hugo
+
+deployment:
+  release:
+    branch: master
+    commands:
+      -  ci/update_github_pages.sh
+
+experimental:
+  notify:
+    branches:
+      only:
+        - master

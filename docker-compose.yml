@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  node:
+    build:
+      context: ./docker/node
+      dockerfile: Dockerfile
+    environment:
+      - NPM_INSTALL_BUILD_DEPS=make g++
+    volumes:
+      - ${PWD}:/node
+    command: gulp
+  hugo:
+    build:
+      context: ./docker/hugo
+      dockerfile: Dockerfile
+    ports:
+    - 1313:1313
+    volumes:
+    - ${PWD}:/hugo
+    command: hugo server --bind "0.0.0.0"
+
