@@ -5,7 +5,7 @@ draft = "true"
 
 ## Call for Papers
 
-Dear DevOps Friends and Speakers!
+### Dear DevOps Friends and Speakers!
 
 We are in the preparation of the first edition of DevOps Gathering Conference in March 2017. One week after the Docker Birthday, we invite you to continue the celebrations with us.
 

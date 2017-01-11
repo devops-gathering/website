@@ -1,0 +1,277 @@
+/* default transitions (repalce vars in styles)
+---------------------------------------------------------------------------------------- */
+@mixin default-trans($trans...) {
+	-webkit-transition: $trans;
+	-moz-transition: $trans;
+	-ms-transition: $trans;
+	-o-transition: $trans;
+	transition: $trans;
+}
+
+/* Center Content in  X-direction (horizontal)
+---------------------------------------------------------------------------------------- */
+@mixin translateX($trans: -50%) {
+	left: 50%;
+	position: absolute;
+	-webkit-transform: translateX($trans);
+	-moz-transform: translateX($trans);
+	-ms-transform: translateX($trans);
+	-o-transform: translateX($trans);
+	transform: translateX($trans);
+}
+
+/* Center Content in  Y-direction (vertical)
+---------------------------------------------------------------------------------------- */
+@mixin translateY($trans: -50%) {
+	top: 50%;
+	position: absolute;
+	-webkit-transform: translateY($trans);
+	-moz-transform: translateY($trans);
+	-ms-transform: translateY($trans);
+	-o-transform: translateY($trans);
+	transform: translateY($trans);
+}
+
+/* Center Content in both directions X, Y
+---------------------------------------------------------------------------------------- */
+@mixin translateXY() {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+/* unbind center position
+---------------------------------------------------------------------------------------- */
+@mixin translateUnbind() {
+	top: 0;
+	left: 0;
+	position: static;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+}
+
+/* Rotate elements
+---------------------------------------------------------------------------------------- */
+@mixin rotate($trans: 0deg, $time: 1s) {
+	-webkit-transform: rotate($trans);
+	-moz-transform: rotate($trans);
+	-o-transform: rotate($trans);
+	-ms-transform: rotate($trans);
+	transform: rotate($trans);
+	-webkit-transition: 	all $time ease;
+	-moz-transition: all $time ease;
+	-o-transition: all $time ease;
+	-ms-transition: all $time ease;
+}
+
+/* Unbind rotate elements
+---------------------------------------------------------------------------------------- */
+@mixin rotateUnbind() {
+	-webkit-transform: rotate(0deg) !important;
+	-moz-transform: rotate(0deg) !important;
+	-o-transform: rotate(0deg) !important;
+	-ms-transform: rotate(0deg) !important;
+	transform: rotate(0deg) !important;
+	-webkit-transition: 	all 0s ease !important;
+	-moz-transition: all 0s ease !important;
+	-o-transition: all 0s ease !important;
+	-ms-transition: all 0s ease !important;
+	top: 0;
+	left: 0;
+	position: static;
+  }   
+
+/*  scale background images
+---------------------------------------------------------------------------------------- */
+@mixin scale($x: 1, $y: 1, $time: 0.5s) {
+	transition: $time all ease-out;
+	-webkit-transform: scale($x, $y);
+	-moz-transform: scale($x, $y);
+	-ms-transform: scale($x, $y);
+	-o-transform: scale($x, $y);
+	transform: scale($x, $y);
+}
+
+@mixin scaleUnbind($x: 1, $y: 1, $time: 0s) {
+	transition: $time all ease-out;
+	-webkit-transform: scale($x, $y);
+	-moz-transform: scale($x, $y);
+	-ms-transform: scale($x, $y);
+	-o-transform: scale($x, $y);
+	transform: scale($x, $y);
+}
+
+/*  triangleTop
+---------------------------------------------------------------------------------------- */
+@mixin triangleTop($width: 20px, $height: 25px, $color: #fff) {
+	&:before {
+		width: 0;
+		height: 0;
+		content: "";
+		border-style: solid;
+		border-width: 0 $width $height $width;
+		border-color: transparent transparent $color transparent;
+		@include translateX();
+		top: -$height;
+	}
+}
+
+/* Background gradient
+---------------------------------------------------------------------------------------- */
+@mixin bgGradient($opacity:1, $color1: rgba(30,109,188,$opacity), $color2: rgba(201,8,61,$opacity)) {
+background: -moz-linear-gradient(left,  $color1 0%, $color2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  $color1 0%, $color2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  $color1 0%, $color2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#801e6dbc', endColorstr='#80c9083d',GradientType=1 ); /* IE6-9 */
+
+}
+
+/* Media Queries
+---------------------------------------------------------------------------------------- */
+
+@mixin mq($mq: 1680px) {@media (max-width: $mq) {@content; }}
+@mixin mq-1440 {@media (max-width: 1440px) {@content; }}
+@mixin mq-1360 {@media (max-width: 1360px) {@content; }}
+@mixin mq-1280 {@media (max-width: 1280px) {@content; }}
+@mixin mq-1200 {@media (max-width: 1200px) {@content; }}
+@mixin mq-1120 {@media (max-width: 1120px) {@content; }}
+@mixin mq-1100 {@media (max-width: 1100px) {@content; }}
+@mixin mq-1024 {@media (max-width: 1024px) {@content; }}
+@mixin mq-1000 {@media (max-width: 1000px) {@content; }}
+
+@mixin mq-980 {@media (max-width: 980px) {@content; }}
+@mixin mq-960 {@media (max-width: 960px) {@content; }}
+@mixin mq-920 {@media (max-width: 920px) {@content; }}
+@mixin mq-900 {@media (max-width: 900px) {@content; }}
+@mixin mq-860 {@media (max-width: 860px) {@content; }}
+
+@mixin mq-768 {@media (max-width: 768px) {@content; }}
+@mixin mq-750 {@media (max-width: 750px) {@content; }}
+@mixin mq-700 {@media (max-width: 700px) {@content; }}
+@mixin mq-680 {@media (max-width: 680px) {@content; }}
+@mixin mq-640 {@media (max-width: 640px) {@content; }}
+@mixin mq-620 {@media (max-width: 620px) {@content; }}
+
+@mixin mq-500 {@media (max-width: 500px) {@content; }}
+@mixin mq-420 {@media (max-width: 420px) {@content; }}
+@mixin mq-320 {@media (max-width: 320px) {@content; }}
+
+
+/* Pace Preloader
+---------------------------------------------------------------------------------------- */
+@mixin pace-default($color:  red) { 
+	.pace {
+		-webkit-pointer-events: none;
+		pointer-events: none;
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
+
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: #1f2128;
+
+		-webkit-transform: translate3d(0, -50px, 0);
+		-ms-transform: translate3d(0, -50px, 0);
+		transform: translate3d(0, -50px, 0); 
+
+		-webkit-transition: -webkit-transform .5s ease-out;
+		-ms-transition: -webkit-transform .5s ease-out;
+		transition: transform .5s ease-out;
+		}
+
+		.pace.pace-active {
+			-webkit-transform: translate3d(0, 0, 0);
+			-ms-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+
+		.pace .pace-progress {
+			display: block;
+			position: fixed;
+			z-index: 2000;
+			top: 0;
+			right: 100%;
+			width: 100%;
+			height: 5px;
+			pointer-events: none;
+			@include bgGradient();
+		}
+
+		body > :not(.pace),body:before,body:after {
+			-webkit-transition:opacity .4s ease-in-out;
+			-moz-transition:opacity .4s ease-in-out;
+			-o-transition:opacity .4s ease-in-out;
+			-ms-transition:opacity .4s ease-in-out;
+			transition:opacity .4s ease-in-out
+		}
+
+		body:not(.pace-done) > :not(.pace),body:not(.pace-done):before,body:not(.pace-done):after {
+			opacity:0
+		}
+	}
+
+@mixin pace-center($color:  red) { 
+	.pace {
+		-webkit-pointer-events: none;
+		pointer-events: none;
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
+
+		z-index: 2000;
+		position: fixed;
+		margin: auto;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 5px;
+		width: 200px;
+		background: #1f2128;
+		border: 1px solid  $color;
+
+		overflow: hidden;
+	}
+
+	.pace .pace-progress {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+
+		max-width: 200px;
+		position: fixed;
+		z-index: 2000;
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 100%;
+		height: 100%;
+		width: 100%;
+		background: #29d;
+	}
+
+	.pace.pace-inactive {
+		display: none;
+	}
+}
