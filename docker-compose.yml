@@ -8,8 +8,11 @@ services:
     environment:
       - NPM_INSTALL_BUILD_DEPS=make g++
     volumes:
-      - ${PWD}:/node
-    command: gulp
+      - ${PWD}/themes:/node
+    ports:
+    - 9000:9000
+    - 3001:3001
+    command: gulp serve
   hugo:
     build:
       context: ./docker/hugo
