@@ -164,6 +164,11 @@ header {
       padding: 0.7rem 0;
       line-height: 1.4; }
 
+#contact {
+  background: #222;
+  color: #fff;
+  height:300px;
+}
 .content-box.sponsoring {
   background: #333; }
   .content-box.sponsoring h2, .content-box.sponsoring p {
