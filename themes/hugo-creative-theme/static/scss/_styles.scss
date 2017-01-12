@@ -124,7 +124,154 @@ header {
 	}
 }
 
+// Programm
+//--------------------------------------------------------------------------------------------------------
+.content-box.program {
+	background: $accent1;
+	padding-bottom:  6rem;
 
+	h2, p {
+		color: $light;
+	}
+
+	p {
+		margin-bottom:  3rem;
+	}
+	
+	.accordion {
+		display: block;
+		background: $light;
+		margin:  0 auto;
+		max-width: 1024px;
+		list-style-type: none;
+		padding: 0 1.5rem;
+
+		.acc-container, .acc-container-break {
+			text-align: left;
+			position: relative;
+			border-bottom: 1px solid #cecece;
+
+			.acc-title {
+				height: auto;
+				overflow: hidden;
+				width: 100%;
+			}
+
+			p {
+				text-align: left;
+			}
+
+			h3 {
+				text-align: left;
+				float: none;
+				display: block;
+				position: relative;
+				height: auto;
+				min-height: 66px;
+				box-sizing: border-box;
+				padding: 1rem 3rem 1rem 0;
+				font-size:  1.2rem;
+				line-height: 1.5;
+				font-family: $font1;
+				cursor: pointer;
+				margin-bottom: 0;
+				@include default-trans(1s color ease);
+
+				&:hover {
+					color: $accent1;
+				}
+
+				.time {
+					background: $accent1;
+					display: block;
+					width:  136px;
+					text-align: center;
+					color: $light;
+					float: left;
+					font-size: 1.125rem;
+					margin-right:  1rem;
+					margin-top: 4px;
+					padding: 0.5rem;
+					font-family: $font1;
+
+					&.break {
+						background: #b3b3b3;
+					}
+				}
+
+				.speaker, .subline {
+					display: block;
+					font-size: 1rem; 
+					font-family: $font2;
+					font-weight: 300;
+					color: #7d7d7d;
+				}
+			}
+
+			i {
+				position: absolute;
+				right: 0;
+				top: 1rem;
+				font-size: 1.5rem;
+				color: #adacac;
+			}
+
+			.acc-content {
+				height: auto;
+				padding: 0 0 0.5rem 0;
+				display: none;
+
+				p {
+					text-align: left;
+					margin: 0 0 1rem 0;
+					padding-left: 155px;
+					font-size: 1rem;
+					line-height: 1.5;
+					color: #7d7d7d;
+
+					span {
+						font-family: $font1;
+						font-weight: 700;
+						color: #333;
+					}
+				}
+			}
+
+			&.active {
+				h3 {
+					color: $accent1;
+				}
+			}				
+		}
+		.acc-container-break {
+			h3 {
+				cursor: default;
+
+				&:hover {
+					color: $dark;
+				}
+			}
+		}	
+	}
+}
+
+@include mq-960 {
+	.content-box.program {
+		.accordion {
+			.acc-container, .acc-container-break {
+				
+				h3 span.time {
+					float: none;
+					margin-bottom: 1rem;
+				}
+
+				.acc-content p {
+					padding: 0;
+				}
+			}
+		}
+	}
+}
 
 // sponsores
 //--------------------------------------------------------------------------------------------------------
