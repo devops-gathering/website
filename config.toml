@@ -39,6 +39,22 @@ baseurl = "https://devops-gathering.io"
 		buttonText = "Call for Papers"
 		link = "https://papercall.io/devops-gathering2017"
 
+	# Comitee section
+	[[params.commitee.members]]
+		img = "dog.png"
+		name = "Doger Rabitt"
+		social = [
+			["fa-twitter", "https://twitter.com/devopsgathering"],
+		]
+
+	[[params.commitee.members]]
+		img = "dog.png"
+		name = "Doger Rabitt"
+		social = [
+			["fa-twitter", "https://twitter.com/devopsgathering"],
+		]
+
+
 	# Contact section
 	[params.contact]
 		headline = "Questions ?"
