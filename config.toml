@@ -28,7 +28,7 @@ baseurl = "https://devops-gathering.io"
 	# About Devops Gathering
 	[params.about]
 		title="About DevOps Gathering"
-		
+
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
@@ -41,14 +41,16 @@ baseurl = "https://devops-gathering.io"
 
 	# Comitee section
 	[[params.commitee.members]]
-		img = "dog.png"
+		img = "crew-ph.png"
 		name = "Doger Rabitt"
 		social = [
+			["fa-twitter", "https://twitter.com/devopsgathering"],
+			["fa-twitter", "https://twitter.com/devopsgathering"],
 			["fa-twitter", "https://twitter.com/devopsgathering"],
 		]
 
 	[[params.commitee.members]]
-		img = "dog.png"
+		img = "crew-ph.png"
 		name = "Doger Rabitt"
 		social = [
 			["fa-twitter", "https://twitter.com/devopsgathering"],

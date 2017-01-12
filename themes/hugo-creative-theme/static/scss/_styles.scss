@@ -124,7 +124,90 @@ header {
 	}
 }
 
+//  crew Styles
+//----------------------------------------------------------------------------------------
+.content-box.crew {
+	height: auto;
+	overflow: hidden;
+	padding: 4rem 0;
 
+	.inner-content {
+		max-width: 480px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	h3{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	img {
+		text-align: center;
+		display: block;
+		margin: 1rem auto 2rem;	
+		max-height: 200px;
+		width: auto;
+	}
+
+	ul {
+		text-align: center;
+		margin: 0;
+
+		li {
+			list-style-type: none;
+			display: inline-block;
+			text-align: center;
+			margin-right: 0.5rem;
+
+			&:last-child {
+				margin: 0;
+			}
+
+			a {
+				display: block;
+				float: left;
+				height: 40px;
+				width: 40px;
+				text-align: center;
+				line-height: 40px;
+				background: $accent1;
+				border-radius: 50%;
+				color: $light;
+				@include default-trans(1s background ease, 1s color ease);
+
+				&:hover {
+					background: $accent2;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+@include mq-680 {
+	.content-box.crew {
+		padding: 2rem 0.5rem;
+
+		img {
+			max-width: 100px;
+			margin-bottom:  0.5rem;
+		}
+
+		p {
+			margin-bottom: 1rem;
+		}
+
+		ul {
+			margin-bottom: 2rem;
+		}
+	}	
+}
 
 // sponsores
 //--------------------------------------------------------------------------------------------------------
