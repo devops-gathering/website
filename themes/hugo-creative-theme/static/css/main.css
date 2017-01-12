@@ -183,6 +183,105 @@ header {
   .content-box.sponsoring .more {
     margin: 0 auto; }
 
+.content-box.program {
+  background: #f05f40;
+  padding-bottom: 6rem; }
+  .content-box.program h2, .content-box.program p {
+    color: #fff; }
+  .content-box.program p {
+    margin-bottom: 3rem; }
+  .content-box.program .accordion {
+    display: block;
+    background: #fff;
+    margin: 0 auto;
+    max-width: 1024px;
+    list-style-type: none;
+    padding: 0 1.5rem; }
+    .content-box.program .accordion .acc-container, .content-box.program .accordion .acc-container-break {
+      text-align: left;
+      position: relative;
+      border-bottom: 1px solid #cecece; }
+      .content-box.program .accordion .acc-container .acc-title, .content-box.program .accordion .acc-container-break .acc-title {
+        height: auto;
+        overflow: hidden;
+        width: 100%; }
+      .content-box.program .accordion .acc-container p, .content-box.program .accordion .acc-container-break p {
+        text-align: left; }
+      .content-box.program .accordion .acc-container h3, .content-box.program .accordion .acc-container-break h3 {
+        text-align: left;
+        float: none;
+        display: block;
+        position: relative;
+        height: auto;
+        min-height: 66px;
+        box-sizing: border-box;
+        padding: 1rem 3rem 1rem 0;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        font-family: "Open Sans", sans-serif;
+        cursor: pointer;
+        margin-bottom: 0;
+        -webkit-transition: 1s color ease;
+        -moz-transition: 1s color ease;
+        -ms-transition: 1s color ease;
+        -o-transition: 1s color ease;
+        transition: 1s color ease; }
+        .content-box.program .accordion .acc-container h3:hover, .content-box.program .accordion .acc-container-break h3:hover {
+          color: #f05f40; }
+        .content-box.program .accordion .acc-container h3 .time, .content-box.program .accordion .acc-container-break h3 .time {
+          background: #f05f40;
+          display: block;
+          width: 136px;
+          text-align: center;
+          color: #fff;
+          float: left;
+          font-size: 1.125rem;
+          margin-right: 1rem;
+          margin-top: 4px;
+          padding: 0.5rem;
+          font-family: "Open Sans", sans-serif; }
+          .content-box.program .accordion .acc-container h3 .time.break, .content-box.program .accordion .acc-container-break h3 .time.break {
+            background: #b3b3b3; }
+        .content-box.program .accordion .acc-container h3 .speaker, .content-box.program .accordion .acc-container h3 .subline, .content-box.program .accordion .acc-container-break h3 .speaker, .content-box.program .accordion .acc-container-break h3 .subline {
+          display: block;
+          font-size: 1rem;
+          font-family: "Merriweather", serif;
+          font-weight: 300;
+          color: #7d7d7d; }
+      .content-box.program .accordion .acc-container i, .content-box.program .accordion .acc-container-break i {
+        position: absolute;
+        right: 0;
+        top: 1rem;
+        font-size: 1.5rem;
+        color: #adacac; }
+      .content-box.program .accordion .acc-container .acc-content, .content-box.program .accordion .acc-container-break .acc-content {
+        height: auto;
+        padding: 0 0 0.5rem 0;
+        display: none; }
+        .content-box.program .accordion .acc-container .acc-content p, .content-box.program .accordion .acc-container-break .acc-content p {
+          text-align: left;
+          margin: 0 0 1rem 0;
+          padding-left: 155px;
+          font-size: 1rem;
+          line-height: 1.5;
+          color: #7d7d7d; }
+          .content-box.program .accordion .acc-container .acc-content p span, .content-box.program .accordion .acc-container-break .acc-content p span {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            color: #333; }
+      .content-box.program .accordion .acc-container.active h3, .content-box.program .accordion .acc-container-break.active h3 {
+        color: #f05f40; }
+    .content-box.program .accordion .acc-container-break h3 {
+      cursor: default; }
+      .content-box.program .accordion .acc-container-break h3:hover {
+        color: #333; }
+
+@media (max-width: 960px) {
+  .content-box.program .accordion .acc-container h3 span.time, .content-box.program .accordion .acc-container-break h3 span.time {
+    float: none;
+    margin-bottom: 1rem; }
+  .content-box.program .accordion .acc-container .acc-content p, .content-box.program .accordion .acc-container-break .acc-content p {
+    padding: 0; } }
 .section-heading {
   margin-top: 0; }
 
