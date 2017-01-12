@@ -25,7 +25,10 @@ baseurl = "https://devops-gathering.io"
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
-
+	# About Devops Gathering
+	[params.about]
+		title="About DevOps Gathering"
+		
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.

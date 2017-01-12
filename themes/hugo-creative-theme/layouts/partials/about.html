@@ -1,21 +1,20 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
 <section class="bg-primary" id="about">
-    <div class="container">
-        <div class="row">
+<div class="content-box topics">
+	<div class="inner-content">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                {{ with .Site.Params.about.headline }}
-                    <h2 class="section-heading">{{ . }}</h2>
+                {{ with .Site.Params.about.title }}
+                    <h2 class="section-heading">{{ . | markdownify }}</h2>
                 {{ end }}
-                {{ if and .Site.Params.about.headline .Site.Params.about.description }}
-                    <hr class="light">
-                {{ end }}
-                {{ with .Site.Params.about.description }}
-                    <p class="text-faded">{{ . | markdownify }}</p>
-                {{ end }}
-                {{ with .Site.Params.about.buttonText }}
-                    <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
-                {{ end }}
+      
+                <p class="text-faded">The DevOps Gathering is an international conference based in Bochum - surrounded by the metropolitan area of the Ruhr Valley. 
+                        This melting pot for industrial revolutions is today a hot spot for Germany’s IT industry -  a perfect place to discuss the current DevOps revolution. 
+                        The DevOps Gathering conference is designed to be a hub for infrastructure technology and innovative solutions.</p>
+                        
+                <p>We are hosting a <strong>high-quality, non-profit conference</strong> with awesome and experienced international DevOps speakers at the G Data Campus in the heart of Bochum.</p>
             </div>
         </div>
     </div>
+        </div>
+            </div>
 </section>
