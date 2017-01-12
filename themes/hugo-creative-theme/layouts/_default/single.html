@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+            {{ partial "head.html" . }}
+    </head>
+    <body class="single">
+     {{ partial "nav.html" . }}
+     {{ partial "hero-single.html" . }}
+
+     <div class="content-box single-content">
+         <div class="inner-content"> 
+            {{ .Content}}
+        </div>
+    </div>
+     {{ partial "js.html" . }}
+    </body>
+
+</html>
