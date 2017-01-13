@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+			{{ partial "head.html" . }}
+	</head>
+	<body>
+		{{ partial "nav.html" . }}
+
+		{{ if .Site.Params.hero }}
+			{{ partial "hero.html" . }}
+		{{ end }}
+
+		<div class="container">
+			{{ partial "callforpapers.html" . }}
+			{{ partial "topics.html" . }}
+			{{ partial "sponsoring.html" . }}
+			{{ partial "workshops.html" . }}
+			{{ partial "contact.html" . }}
+		</div>
+
+		{{ partial "js.html" . }}
+
+		{{ template "_internal/google_analytics.html" . }}
+	</body>
+</html>
