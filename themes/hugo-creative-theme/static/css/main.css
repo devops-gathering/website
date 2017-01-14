@@ -188,7 +188,7 @@ header {
   overflow: hidden;
   padding: 4rem 0; }
   .content-box.crew .inner-content {
-    max-width: 480px; }
+    max-width: 960px; }
   .content-box.crew h2 {
     text-align: center; }
   .content-box.crew h3 {
@@ -201,7 +201,8 @@ header {
     display: block;
     margin: 1rem auto 2rem;
     max-height: 200px;
-    width: auto; }
+    width: 200px;
+    border-radius: 50%; }
   .content-box.crew ul {
     text-align: center;
     margin: 0; }

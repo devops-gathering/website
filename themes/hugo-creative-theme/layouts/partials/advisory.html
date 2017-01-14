@@ -1,19 +1,16 @@
 
 	<div class="content-box crew ">
 	
-	            <h2>Paper Commitee</h2>
-	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit commodi neque adipisci vel, temporibus odit sapiente minus animi, architecto quam, eveniet expedita? Ipsam ex aspernatur harum deleniti dignissimos, minima! Illum.</p>
-
+	 <h2>Advisory Board</h2>
+	           
 	<div class="inner-content">
 			{{ range .Site.Params.commitee.members }}
 				<div class="small-12 medium-6 large-6 columns">
 					<img src="img/{{ .img }}" alt="">
-					<h3>{{ .name | markdownify }}</h3>
-					<ul>
-						{{ range .social }}
-							<li><a href="{{ index . 1 }}"><i class="a fa {{ index . 0 }}"></i></a></li>
-						 {{ end }}
-					</ul>
+					<h3>{{ .name  }}</h3>
+					<p>{{ .firm }} </p>
+				
+					<p>{{ .bio}}</p>
 				</div>
 			{{ end }}
 		</div>
