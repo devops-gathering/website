@@ -145,19 +145,20 @@ header {
 // sponsoring
 //--------------------------------------------------------------------------------------------------------
 .content-box.sponsoring {
-	background: #333;
+	background: $accent4;
 
 	h2, p {
-		color: $light;
+		color: $dark;
 	}
 	
 	.logo {  
 		margin: 0 0 2rem 0;
 
 		div{
-			background: #fff;
-			display: flex;
-			items-align: middle;
+			//background: #fff;
+			@include flexbox;
+			justify-content:center;
+			align-items: center;
 
 			&.big {height: 300px;}
 			&.medium {height: 250px;}

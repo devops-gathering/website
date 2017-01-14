@@ -275,3 +275,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#801e6dbc', e
 		display: none;
 	}
 }
+
+/* Flexbox
+---------------------------------------------------------------------------------------- */
+
+@mixin flexbox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+}

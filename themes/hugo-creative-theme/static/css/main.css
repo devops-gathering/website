@@ -22,6 +22,8 @@
 ---------------------------------------------------------------------------------------- */
 /* Pace Preloader
 ---------------------------------------------------------------------------------------- */
+/* Flexbox
+---------------------------------------------------------------------------------------- */
 h1, h2, h3, h5, h6 {
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -202,21 +204,20 @@ header {
       padding: 0.7rem 0;
       line-height: 1.4; }
 
-#contact {
-  background: #222;
-  color: #fff;
-  height:300px;
-}
 .content-box.sponsoring {
-  background: #333; }
+  background: #f5f5f5; }
   .content-box.sponsoring h2, .content-box.sponsoring p {
-    color: #fff; }
+    color: #333; }
   .content-box.sponsoring .logo {
     margin: 0 0 2rem 0; }
     .content-box.sponsoring .logo div {
-      background: #fff;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
       display: flex;
-      items-align: middle; }
+      justify-content: center;
+      align-items: center; }
       .content-box.sponsoring .logo div.big {
         height: 300px; }
       .content-box.sponsoring .logo div.medium {
