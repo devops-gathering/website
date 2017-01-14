@@ -4,16 +4,14 @@
             {{ partial "head.html" . }}
     </head>
     <body>
-        {{ partial "nav.html" . }}
 
-        {{ if .Site.Params.hero }}
-            {{ partial "hero.html" . }}
-        {{ end }}
+        {{ partial "hero.html" . }}
 
         <div class="container">
             {{ partial "about.html" . }}
             {{ partial "callforpapers.html" . }}
             {{ partial "topics.html" . }}
+            {{ partial "advisory.html" . }}
             {{ partial "sponsoring.html" . }}
             {{ partial "contact.html" . }}
         </div>
@@ -21,5 +19,6 @@
         {{ partial "js.html" . }}
 
         {{ template "_internal/google_analytics.html" . }}
+
     </body>
 </html>

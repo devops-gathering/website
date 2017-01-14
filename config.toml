@@ -28,7 +28,7 @@ baseurl = "https://devops-gathering.io"
 	# About Devops Gathering
 	[params.about]
 		title="About DevOps Gathering"
-		
+
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
@@ -38,6 +38,21 @@ baseurl = "https://devops-gathering.io"
 		location = "G Data Campus Bochum"
 		buttonText = "Call for Papers"
 		link = "https://papercall.io/devops-gathering2017"
+
+	# Comitee section
+	[[params.commitee.members]]
+		img = "peter-rossbach-bee42.png"
+		name = "Peter Rossbach"
+		firm = "bee42 solutions gmbh"
+		bio = "Peter Rossbach is a infra coder, system architect and coach of numerous web systems and founder of the bee42 solutions gmbh. He realized appropriate infrastructure products and offer training based on the Docker ecosystem current web technologies, microservices, Apache Tomcat, NoSQL databases and cloud platforms."
+
+	[[params.commitee.members]]
+		img = "dieter-reuter.png"
+		name = "Dieter Reuter"
+		firm = "Hypriot"
+		bio  = "Dieter Reuter is Docker Captain at Hypriot  with thirty years of enterprise IT experience and unquenchable curiosity. Dealing with cutting-edge cloud technologies, obsessed with the DevOps movement and its associated automation. Is now in the process of pushing Docker and Containers to ARM based IoT devices with rocket-like speed."
+	
+
 
 	# Contact section
 	[params.contact]

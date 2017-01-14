@@ -14,6 +14,8 @@ header {
 		background: rgba(0, 0, 0, 0.7);
 		height: 100%;
 		width: 100%;
+		top: 0;
+		left: 0;
 	}
 
 	.header-content {
@@ -59,6 +61,50 @@ header {
 			margin: 0 auto;
 		}
 	}
+
+	&.single {
+		height: 60vh;
+		background-size: cover;
+		background: url(../img/header.jpg) center;
+
+
+		.header-content {
+			max-width: 960px;
+			@include translateUnbind;
+			position: relative;
+			z-index: 2;
+			margin:  0 auto;
+			height: inherit;
+
+			.header-content-inner {
+				position: absolute;
+				bottom: 4rem;
+			}
+
+
+			h1 {
+				position: relative;
+				text-align: left;
+				margin-bottom: 0;
+				font-size: 4rem;
+			}
+
+			p {
+				text-align: left;
+
+				&:before {
+					content: "";
+					width:  70px;
+					height: 3px;
+					background: $accent1;
+					position: absolute;	
+					top: -1.5rem;
+					left: 0;
+				}
+			}
+
+		}
+	}
 }
 
 
@@ -96,22 +142,112 @@ header {
 	}
 }
 
+//  crew Styles
+//----------------------------------------------------------------------------------------
+.content-box.crew {
+	height: auto;
+	overflow: hidden;
+	padding: 4rem 0;
+	background: $accent1;
+	color: $light;
+
+	.inner-content {
+		max-width: 960px;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	h3{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	img {
+		text-align: center;
+		display: block;
+		margin: 1rem auto 2rem;	
+		max-height: 200px;
+		
+		width: 200px;
+		border-radius: 50%;	
+	}
+
+	ul {
+		text-align: center;
+		margin: 0;
+
+		li {
+			list-style-type: none;
+			display: inline-block;
+			text-align: center;
+			margin-right: 0.5rem;
+
+			&:last-child {
+				margin: 0;
+			}
+
+			a {
+				display: block;
+				float: left;
+				height: 40px;
+				width: 40px;
+				text-align: center;
+				line-height: 40px;
+				background: $accent1;
+				border-radius: 50%;
+				color: $light;
+				@include default-trans(1s background ease, 1s color ease);
+
+				&:hover {
+					background: $accent2;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+@include mq-680 {
+	.content-box.crew {
+		padding: 2rem 0.5rem;
+
+		img {
+			max-width: 100px;
+			margin-bottom:  0.5rem;
+		}
+
+		p {
+			margin-bottom: 1rem;
+		}
+
+		ul {
+			margin-bottom: 2rem;
+		}
+	}	
+}
+
 // sponsoring
 //--------------------------------------------------------------------------------------------------------
 .content-box.sponsoring {
-	background: #333;
+	background: $accent4;
 
 	h2, p {
-		color: $light;
+		color: $dark;
 	}
 	
 	.logo {  
 		margin: 0 0 2rem 0;
 
 		div{
-			background: #fff;
-			display: flex;
-			items-align: middle;
+			//background: #fff;
+			@include flexbox;
+			justify-content:center;
+			align-items: center;
 
 			&.big {height: 300px;}
 			&.medium {height: 250px;}
@@ -124,375 +260,263 @@ header {
 	}
 }
 
-
-
-// sponsores
+// Programm
 //--------------------------------------------------------------------------------------------------------
+.content-box.program {
+	background: $accent1;
+	padding-bottom:  6rem;
 
-//colors
-$white: #fff;
-$color_outrageous_orange_90_approx: rgba(240,95,64,.9);
-$color_outrageous_orange_approx: #f05f40;
-$color_log_cabin_approx: #222;
-$color_gallery_approx: #ededed;
-$concrete: #f2f2f2;
-$color_pomegranate_approx: #ed431f;
+	h2, p {
+		color: $light;
+	}
 
-//fonts
-$font_0: Open Sans;
-$font_1: Helvetica Neue;
-$font_2: Arial;
-$font_3: sans-serif;
-
-.section-heading {
-	margin-top: 0;
-}
-.service-box {
-	margin: 50px auto 0;
-	max-width: 400px;
 	p {
-		margin-bottom: 0;
+		margin-bottom:  3rem;
 	}
-}
-@media(min-width:992px) {
-	.service-box {
-		margin: 20px auto 0;
-	}
-}
-.portfolio-box {
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	max-width: 650px;
-	.portfolio-box-caption {
+	
+	.accordion {
 		display: block;
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-		height: 100%;
-		text-align: center;
-		color: $white;
-		opacity: 0;
-		background: $color_outrageous_orange_90_approx;
-		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-		transition: all .35s;
-		.portfolio-box-caption-content {
-			position: absolute;
-			top: 50%;
-			width: 100%;
-			text-align: center;
-			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-			transform: translateY(-50%);
-			.project-category {
-				padding: 0 15px;
-				font-family: $font_0, $font_1, $font_2, $font_3;
-				text-transform: uppercase;
-				font-size: 14px;
-				font-weight: 600;
+		background: $light;
+		margin:  0 auto;
+		max-width: 1024px;
+		list-style-type: none;
+		padding: 0 1.5rem;
+
+		.acc-container, .acc-container-break {
+			text-align: left;
+			position: relative;
+			border-bottom: 1px solid #cecece;
+
+			.acc-title {
+				height: auto;
+				overflow: hidden;
+				width: 100%;
 			}
-			.project-name {
-				padding: 0 15px;
-				font-family: $font_0, $font_1, $font_2, $font_3;
-				font-size: 18px;
+
+			p {
+				text-align: left;
+			}
+
+			h3 {
+				text-align: left;
+				float: none;
+				display: block;
+				position: relative;
+				height: auto;
+				min-height: 66px;
+				box-sizing: border-box;
+				padding: 1rem 3rem 1rem 0;
+				font-size:  1.2rem;
+				line-height: 1.5;
+				font-family: $font1;
+				cursor: pointer;
+				margin-bottom: 0;
+				@include default-trans(1s color ease);
+
+				&:hover {
+					color: $accent1;
+				}
+
+				.time {
+					background: $accent1;
+					display: block;
+					width:  136px;
+					text-align: center;
+					color: $light;
+					float: left;
+					font-size: 1.125rem;
+					margin-right:  1rem;
+					margin-top: 4px;
+					padding: 0.5rem;
+					font-family: $font1;
+
+					&.break {
+						background: #b3b3b3;
+					}
+				}
+
+				.speaker, .subline {
+					display: block;
+					font-size: 1rem; 
+					font-family: $font2;
+					font-weight: 300;
+					color: #7d7d7d;
+				}
+			}
+
+			i {
+				position: absolute;
+				right: 0;
+				top: 1rem;
+				font-size: 1.5rem;
+				color: #adacac;
+			}
+
+			.acc-content {
+				height: auto;
+				padding: 0 0 0.5rem 0;
+				display: none;
+
+				p {
+					text-align: left;
+					margin: 0 0 1rem 0;
+					padding-left: 155px;
+					font-size: 1rem;
+					line-height: 1.5;
+					color: #7d7d7d;
+
+					span {
+						font-family: $font1;
+						font-weight: 700;
+						color: #333;
+					}
+				}
+			}
+
+			&.active {
+				h3 {
+					color: $accent1;
+				}
+			}				
+		}
+		.acc-container-break {
+			h3 {
+				cursor: default;
+
+				&:hover {
+					color: $dark;
+				}
+			}
+		}	
+	}
+}
+
+@include mq-960 {
+	.content-box.program {
+		.accordion {
+			.acc-container, .acc-container-break {
+
+				h3 span.time {
+					float: none;
+					margin-bottom: 1rem;
+				}
+
+				.acc-content p {
+					padding: 0;
+				}
 			}
 		}
 	}
-	&:hover .portfolio-box-caption {
-		opacity: 1;
-	}
 }
-@media(min-width:768px) {
-	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-		.project-category {
-			font-size: 16px;
-		}
-		.project-name {
-			font-size: 22px;
-		}
+
+// single-content
+//--------------------------------------------------------------------------------------------------------
+.content-box.single-content {
+	text-align: left;
+
+	.inner-content {
+		width: 960px;
 	}
-}
-.text-primary {
-	color: $color_outrageous_orange_approx;
-}
-.btn-default {
-	border-color: $white;
-	color: $color_log_cabin_approx;
-	background-color: $white;
-	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-	transition: all .35s;
-	&:hover {
-		border-color: $color_gallery_approx;
-		color: $color_log_cabin_approx;
-		background-color: $concrete;
+
+	h2, h3, p {
+		text-align: left;
 	}
-	&:focus {
-		border-color: $color_gallery_approx;
-		color: $color_log_cabin_approx;
-		background-color: $concrete;
+
+	p {
+		font-size: 1.125rem;
+		line-height: 1.5;
+		color: #565656;
 	}
-	&.focus {
-		border-color: $color_gallery_approx;
-		color: $color_log_cabin_approx;
-		background-color: $concrete;
+
+	h2 {
+		font-size: 2.5rem;
 	}
-	&:active {
-		border-color: $color_gallery_approx;
-		color: $color_log_cabin_approx;
-		background-color: $concrete;
-		background-image: none;
-	}
-	&.active {
-		border-color: $color_gallery_approx;
-		color: $color_log_cabin_approx;
-		background-color: $concrete;
-		background-image: none;
-	}
-	&.disabled {
-		border-color: $white;
-		background-color: $white;
+
+	a {
+		color: $accent1; 
+		@include default-trans(1s color ease);
+
 		&:hover {
-			border-color: $white;
-			background-color: $white;
-		}
-		&:focus {
-			border-color: $white;
-			background-color: $white;
-		}
-		&.focus {
-			border-color: $white;
-			background-color: $white;
-		}
-		&:active {
-			border-color: $white;
-			background-color: $white;
-		}
-		&.active {
-			border-color: $white;
-			background-color: $white;
+			color: $accent2;
 		}
 	}
-	.badge {
-		color: $white;
-		background-color: $color_log_cabin_approx;
+
+	.more {
+		color: $light;
+		max-width:  auto;
+		float: left;
 	}
-}
-.btn-default[disabled] {
-	border-color: $white;
-	background-color: $white;
-	&:hover {
-		border-color: $white;
-		background-color: $white;
+
+	ul {
+		display: block;
+		float: none;
+		clear: both;
+		margin: 0 0 2rem 0;
+
+		li {
+			list-style-type: none;
+			padding: 0.5rem 0 0.5rem 1.5rem;
+			margin-bottom: 5px;
+			position: relative;
+			border-bottom: 1px solid #ccc;
+			font-size: 1.125rem;
+			color: #565656;
+
+			&:last-child {
+				border: none;
+			}
+
+			&:before {
+				content: "";
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background: $accent1;
+				position: absolute;
+				left: 0;
+				top: 14px;
+			}
+		}
+
+		ul {
+			margin: 0 0 0 0.5rem;
+
+			li {
+				border: none;
+				margin-bottom: 0;
+				padding: 0.1rem 0 0 1.5rem;
+
+				&:before {
+					top: 9px;
+				}
+			}
+		}		
 	}
-	&:focus {
-		border-color: $white;
-		background-color: $white;
-	}
-	&.focus {
-		border-color: $white;
-		background-color: $white;
-	}
-	&:active {
-		border-color: $white;
-		background-color: $white;
-	}
-	&.active {
-		border-color: $white;
-		background-color: $white;
-	}
-}
-fieldset[disabled] {
-	.btn-default {
-		border-color: $white;
-		background-color: $white;
-		&:hover {
-			border-color: $white;
-			background-color: $white;
-		}
-		&:focus {
-			border-color: $white;
-			background-color: $white;
-		}
-		&.focus {
-			border-color: $white;
-			background-color: $white;
-		}
-		&:active {
-			border-color: $white;
-			background-color: $white;
-		}
-		&.active {
-			border-color: $white;
-			background-color: $white;
+
+	ol {
+		margin-bottom: 2rem;
+
+		li {
+			margin-bottom:  1rem;
+			color: #565656;
+			font-size: 1.125rem;
 		}
 	}
-	.btn-primary {
-		border-color: $color_outrageous_orange_approx;
-		background-color: $color_outrageous_orange_approx;
-		&:hover {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
+
+	table {
+		tr {
+			th{
+				text-align: right;
+		
+			&:first-child {
+				text-align: left;
+			}
 		}
-		&:focus {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
-		}
-		&.focus {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
-		}
-		&:active {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
-		}
-		&.active {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
 		}
 	}
 }
-.btn-primary {
-	border-color: $color_outrageous_orange_approx;
-	color: $white;
-	background-color: $color_outrageous_orange_approx;
-	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-	transition: all .35s;
-	&:hover {
-		border-color: $color_pomegranate_approx;
-		color: $white;
-		background-color: $color_pomegranate_approx;
-	}
-	&:focus {
-		border-color: $color_pomegranate_approx;
-		color: $white;
-		background-color: $color_pomegranate_approx;
-	}
-	&.focus {
-		border-color: $color_pomegranate_approx;
-		color: $white;
-		background-color: $color_pomegranate_approx;
-	}
-	&:active {
-		border-color: $color_pomegranate_approx;
-		color: $white;
-		background-color: $color_pomegranate_approx;
-		background-image: none;
-	}
-	&.active {
-		border-color: $color_pomegranate_approx;
-		color: $white;
-		background-color: $color_pomegranate_approx;
-		background-image: none;
-	}
-	&.disabled {
-		border-color: $color_outrageous_orange_approx;
-		background-color: $color_outrageous_orange_approx;
-		&:hover {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
-		}
-		&:focus {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
-		}
-		&.focus {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
-		}
-		&:active {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
-		}
-		&.active {
-			border-color: $color_outrageous_orange_approx;
-			background-color: $color_outrageous_orange_approx;
-		}
-	}
-	.badge {
-		color: $color_outrageous_orange_approx;
-		background-color: $white;
-	}
-}
-.btn-primary[disabled] {
-	border-color: $color_outrageous_orange_approx;
-	background-color: $color_outrageous_orange_approx;
-	&:hover {
-		border-color: $color_outrageous_orange_approx;
-		background-color: $color_outrageous_orange_approx;
-	}
-	&:focus {
-		border-color: $color_outrageous_orange_approx;
-		background-color: $color_outrageous_orange_approx;
-	}
-	&.focus {
-		border-color: $color_outrageous_orange_approx;
-		background-color: $color_outrageous_orange_approx;
-	}
-	&:active {
-		border-color: $color_outrageous_orange_approx;
-		background-color: $color_outrageous_orange_approx;
-	}
-	&.active {
-		border-color: $color_outrageous_orange_approx;
-		background-color: $color_outrageous_orange_approx;
-	}
-}
-.btn {
-	border: 0;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 300px;
-	text-transform: uppercase;
-	font-family: $font_0, $font_1, $font_2, $font_3;
-	font-weight: 700;
-}
-.btn-xl {
-	padding: 15px 30px;
-}
-::-moz-selection {
-	//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	text-shadow: none;
-	color: $white;
-	background: $color_log_cabin_approx;
-}
-::selection {
-	//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	text-shadow: none;
-	color: $white;
-	background: $color_log_cabin_approx;
-}
-img::selection {
-	color: $white;
-	background: 0 0;
-}
-img::-moz-selection {
-	color: $white;
-	background: 0 0;
-}
-body {
-	webkit-tap-highlight-color: $color_log_cabin_approx;
-}
-#map {
-	height: 300px;
-	overflow: visible;
-	position: relative;
-}
-.call-to-action h2 {
-	margin: 0 auto 20px;
-}
-.no-gutter > [class*=col-] {
-	padding-right: 0;
-	padding-left: 0;
-}
-.open > .dropdown-toggle {
-	&.btn-default {
-		border-color: $color_gallery_approx;
-		color: $color_log_cabin_approx;
-		background-color: $concrete;
-		background-image: none;
-	}
-	&.btn-primary {
-		border-color: $color_pomegranate_approx;
-		color: $white;
-		background-color: $color_pomegranate_approx;
-		background-image: none;
-	}
+
+#contact {
+	background: #222;
+	color:$light;
 }
