@@ -186,7 +186,9 @@ header {
 .content-box.crew {
   height: auto;
   overflow: hidden;
-  padding: 4rem 0; }
+  padding: 4rem 0;
+  background: #f05f40;
+  color: #fff; }
   .content-box.crew .inner-content {
     max-width: 960px; }
   .content-box.crew h2 {
