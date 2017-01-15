@@ -30,6 +30,19 @@ h2 {
 	text-transform: none;
 	font-weight: 700;
 	letter-spacing: 1px;
+	position: relative;
+
+	&:before {
+		content: "";
+		height: 2px;
+		width: 84px;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -42px;
+		top: -1rem;
+		background: $accent1;
+	}
 }
 
 h3 {
@@ -89,7 +102,7 @@ $container-width: 1280px;
 }
 
 .content-box {
-	padding: 4rem 1rem;
+	padding: 5em 1rem 4rem;
 	height: auto;
 	width: 100%;
 	overflow: hidden;

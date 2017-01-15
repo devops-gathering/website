@@ -28,7 +28,7 @@ header {
 			margin-top: 0;
 			margin-bottom: 0;
 			font-weight: 700;
-			font-size:  6rem;
+			font-size:  5rem;
 			color: $light;
 			font-family: $font2;
 			margin-bottom:  4rem;
@@ -114,6 +114,22 @@ header {
 	text-align: center;
 }
 
+// about
+//--------------------------------------------------------------------------------------------------------
+.content-box.about {
+	background: $accent1;
+
+	h2, h3, p {
+		color: $light;
+	}
+
+	h2 {
+		&:before {
+			background: $light;
+		}
+	}
+}
+
 // topics
 //--------------------------------------------------------------------------------------------------------
 .content-box.topics {
@@ -125,6 +141,9 @@ header {
 
 	h2 {
 		margin-bottom: 0;
+		&:before {
+			background: $light;
+		}
 	}
 
 	.topics {
@@ -142,13 +161,12 @@ header {
 	}
 }
 
-//  crew Styles
+//  advisory
 //----------------------------------------------------------------------------------------
-.content-box.crew {
+.content-box.advisory {
 	height: auto;
 	overflow: hidden;
-	padding: 4rem 0;
-	background: $accent1;
+	background: #f7765a;
 	color: $light;
 
 	.inner-content {
@@ -157,11 +175,15 @@ header {
 
 	h2 {
 		text-align: center;
+		&:before {
+			background: $light;
+		}
 	}
 
 	h3{
 		font-size: 1.5rem;
 		text-align: center;
+		margin-bottom: 0;
 	}
 
 	p {
@@ -212,6 +234,7 @@ header {
 		}
 	}
 }
+
 @include mq-680 {
 	.content-box.crew {
 		padding: 2rem 0.5rem;
@@ -236,31 +259,40 @@ header {
 .content-box.sponsoring {
 	background: $accent4;
 
+	.inner-content {
+		max-width:  1024px;
+	}
+
 	h2, p {
 		color: $dark;
 	}
 	
-	.logo {  
-		margin: 0 0 2rem 0;
+	a {
+		@include flexbox;
+		justify-content:center;
+		align-items: center;
+		border-bottom: 2px solid #d0d0d0;
+		@include default-trans(1s border-color ease);
+		margin-bottom:  2rem;
 
-		div{
-			//background: #fff;
-			@include flexbox;
-			justify-content:center;
-			align-items: center;
-
-			&.big {height: 300px;}
-			&.medium {height: 250px;}
-			&.small {height: 200px;}
+		&:hover {
+			border-color: $accent1;
 		}
+
+		img {
+			height: 90%;
+			width: auto;
+			max-width: 170px;
+		}
+
+		&.big {height: 170px;}
+		&.medium {height: 130px;}
+		&.small {height: 100px;}
 	}
 
-	.more {
-		margin: 0 auto;
-	}
 }
 
-// Programm
+// programm
 //--------------------------------------------------------------------------------------------------------
 .content-box.program {
 	background: $accent1;
@@ -403,6 +435,66 @@ header {
 
 				.acc-content p {
 					padding: 0;
+				}
+			}
+		}
+	}
+}
+
+// contact
+//--------------------------------------------------------------------------------------------------------
+.content-box.contact {
+	background: $dark;
+
+	h2,p,a {
+		color: $light;
+	}
+
+	a {
+		display: block;
+		height: 60px;
+		width: 60px;
+		border-radius: 50%;
+		font-size: 1.8rem;
+		background: $accent1;
+		text-align: center;
+		line-height: 58px;
+		margin: 0 auto;
+		@include default-trans(1s color ease, 1s background ease);
+
+		&:hover{
+			background: $light;
+			color: $accent1;
+		}
+	}
+}
+
+// footer
+//--------------------------------------------------------------------------------------------------------
+footer {
+	background: #252525;
+	height: auto;
+	overflow: hidden;
+	padding: 0 1rem;
+
+	p {
+		margin: 0;
+		width: auto; 
+		float: left;
+		padding: 2rem 0;
+		color: #505050;
+		font-size: 1rem;
+		line-height: 1;
+
+		&:last-child {
+			float: right;
+
+			a {
+				color: #505050;
+				@include default-trans(1s color ease);
+
+				&:hover {
+					color: $accent1;
 				}
 			}
 		}
