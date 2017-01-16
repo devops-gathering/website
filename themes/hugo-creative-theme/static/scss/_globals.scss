@@ -18,6 +18,13 @@ $font2: 'Merriweather', serif;
 $root-font-size: 16px;
 $main-font-size: 1.125rem;
 
+
+body {
+	font-family: $font2;
+	height: auto;
+	background: $accent4;
+}
+
 // text options
 h1,h2,h3,h5,h6 {
 	font-family: $font1;
@@ -82,13 +89,26 @@ p {
 	}
 }
 
+@include mq-420 {
+	h2 {
+		font-size: 1.5rem;
+		line-height: 1.3;
+	}
 
-body {
-	font-family: $font2;
-	height: auto;
-	background: $accent4;
+	h3 {
+		font-size: 1.2rem;
+		line-height: 1.2;
+	}
+
+	p {
+		text-align: left;
+		text-align: center;
+	}
+
+	.columns {
+		padding: 0;
+	}
 }
-
 
 // Global container stylings
 //--------------------------------------------------------------------------------------
@@ -113,4 +133,11 @@ $container-width: 1280px;
 	max-width:  $container-width;
 	height: auto;
 	margin:  0 auto;
+}
+
+@include mq-768 {
+	.content-box {
+		padding: 4em 1rem 3rem;
+		overflow: hidden;
+	}
 }
