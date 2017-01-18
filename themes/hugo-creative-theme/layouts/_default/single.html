@@ -2,8 +2,10 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
             {{ partial "head.html" . }}
+            {{ partial "seo/google_tag_manager.html" }}
     </head>
     <body class="single">
+     {{ partial "seo/google_tag_manager_body.html" }}
      {{ partial "nav.html" . }}
      {{ partial "hero-single.html" . }}
 
