@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	
+	// Workshop and Program accordion
 	$('.accordion .acc-container').each(function(){
 		$(this).click(function(){
 			$('.acc-container').removeClass('active').children('.acc-content').slideUp();
@@ -6,5 +8,9 @@ $(document).ready(function(){
 			$(this).addClass('active');
 		});
 	});
-});
 
+	// Show and hide navigation
+	$('.burger').click(function(){
+		$('.navigation-overlay').toggleClass('open');
+	});
+});	
