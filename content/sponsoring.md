@@ -1,42 +1,30 @@
 +++
-caption = "Lorem Ipsum dolor sit amet"
-title = "Sponsoring Lorem ipsum langer text bla"
-draft = true
+caption = "Sponsoring & Sponsors "
+title = "How to become a sponsor? "
+draft = false
 date = "2017-01-12T12:28:54+01:00"
 +++
 
+## Sponsoring DevOps Gathering
+We are hosting a self organized and non-profit conference providing a platform for the DevOps Community and the DevOps revolution. We like to bring together all of you together: students, developers, CTOs and experts to discuss the hot topics Docker, Kubernetes, Microservices, Clouds and everything else regarding DevOps. Let's share the best practices, the know how and learn from those who know best!
 
-## h2 Headline
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem minus voluptatum, ad, laborum ipsa quod! Amet, adipisci, repudiandae! Voluptates facere illum quae iste deleniti quia accusamus necessitatibus! Sapiente, consectetur!
+Join the DevOps Gathering and help bringing DevOps friends and communities together! :-)
 
-* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias accusamus omnis ad, ratione labore quibusdam necessitatibus facilis 
-* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore non architecto ea velit a, unde rerum hic veritatis fuga expedita impedit, molestias deleniti quaerat tempore earum sapiente corrupti culpa vitae!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore non architecto ea velit a, unde rerum hic veritatis fuga expedita impedit, molestias deleniti quaerat tempore earum sapiente corrupti culpa vitae!
-* Lorem Ipsum	 dolor sit amet
+We offer Gold, Silver, Bronze, Video, Coffee and Party Night sponsor packages. If you have other ideas how you want to sponsor the event, please get in touch with us. We are happy to create a new sponsor package just for you.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis tenetur iste alias quam in provident magni quis dolorem fugiat modi libero harum nobis adipisci saepe nemo, a eius atque, maiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, repellat. Minus,  [Ein Link](http://www.google.de "Ttitle") optio blanditiis ab, deleniti nemo delectus dolorem provident praesentium ex incidunt. In hic animi quos facilis obcaecati asperiores praesentium. lorem
-
-![Ein bild](/img/header.jpg)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta sint optio facilis, quibusdam quos porro eius labore provident cum, officia exercitationem, ea at? Consequatur voluptate ad aperiam? Fugit, officia tempora.
-
-<a href="#" class="more">Learn more</a>
+<a href="/pdf/DevOpsGathering2017_Sponsoring_Information.pdf" class="more">sponsor packages</a>
 <div class="clearfix"></div>
 
+**There are so many reasons to become a sponsor...**
 
-##  Pricing Lorem Ipsum
+* Get in touch with the DevOps Community.
+* Meet with developers and operations experts ranging from students to CTOs, from corporate developers to senior technology executives .
+* Learn about the latest features and best practices in DevOps and the Docker architectures.
+* Learn what other companies are doing with DevOps.
+* Collaborate with engineering managers from other companies.
+* Discuss strategic partnerships with technical product managers from other companies.
 
-| Ticktes | Early Bird | Standard |
-| :--| --:| --:|
-| Standard 3 Tages Ticket | 499€ | 499 € |
-| Standard 2 Tages Ticket Conference | 249 € | 299 € |
-| Standard 1 Tages Ticket (Workshops) | 299 € | 349 € |
-| Studenten 3 Tages Ticket | 129€ | 129 € |
-| Studenten 2 Tages Ticket Conference | 59 € | 79 € |
-| Studenten 1 Tages Ticket (Workshops) | 79 € | 99 € |
+Do you have more questions? [Please contact us!](mailto:sponsor@devops-gathering.io "Mail us")
 
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ipsum sed nihil saepe quis fuga vel sequi laboriosam sapiente, dolorem in distinctio fugit accusantium voluptas laborum amet labore, enim necessitatibus.
-
-
-1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam impedit a doloremque voluptates accusantium distinctio iure corporis maiores, perferendis tempora fugit nisi, quisquam illum quae! Animi at rem, distinctio ipsam.
-2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta recusandae soluta, voluptate omnis nobis alias. Rem nostrum nemo eum tenetur reiciendis, saepe commodi magnam consectetur earum odio quis, repudiandae aliquid.
+<a href="/pdf/DevOpsGathering2017_Sponsoring_Information.pdf" class="more">sponsor packages</a>
+<div class="clearfix"></div>
