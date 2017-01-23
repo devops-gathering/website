@@ -221,6 +221,9 @@ p {
         .navigation-container .social-media li a i {
           font-size: 1.7rem; }
 
+.navigation-overlay {
+  display: none; }
+
 @media (max-width: 960px) {
   .navigation-container .branding {
     font-size: 1.2rem;
@@ -749,11 +752,16 @@ header {
           padding-left: 155px;
           font-size: 1rem;
           line-height: 1.5;
-          color: #7d7d7d; }
+          color: #7d7d7d;
+          height: auto;
+          overflow: hidden; }
           .content-box.program .accordion .acc-container .acc-content p span, .content-box.program .accordion .acc-container-break .acc-content p span {
             font-family: "Open Sans", sans-serif;
             font-weight: 700;
             color: #333; }
+          .content-box.program .accordion .acc-container .acc-content p a.more, .content-box.program .accordion .acc-container-break .acc-content p a.more {
+            width: auto;
+            float: left; }
       .content-box.program .accordion .acc-container.active h3, .content-box.program .accordion .acc-container-break.active h3 {
         color: #f05f40; }
     .content-box.program .accordion .acc-container-break h3 {

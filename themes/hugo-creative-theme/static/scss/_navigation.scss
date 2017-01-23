@@ -119,6 +119,10 @@
 	}
 }
 
+.navigation-overlay {
+	display: none;
+}
+
 @include mq-960 {
 	.navigation-container {
 
