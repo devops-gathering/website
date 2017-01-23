@@ -49,7 +49,7 @@ h2 {
     left: 50%;
     margin-left: -42px;
     top: -1rem;
-    background: #f05f40; }
+    background: #258fbc; }
 
 h3 {
   font-size: 2rem;
@@ -71,7 +71,7 @@ p {
   line-height: 44px;
   border-radius: 22px;
   padding: 0 22px;
-  background: #f05f40;
+  background: #258fbc;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   color: #fff;
@@ -82,7 +82,7 @@ p {
   -o-transition: 1s background ease;
   transition: 1s background ease; }
   .more:hover {
-    background: #ed431f;
+    background: #f66e00;
     color: #fff; }
 
 @media (max-width: 420px) {
@@ -137,7 +137,7 @@ p {
   .navigation-container .branding {
     font-family: "Merriweather", serif;
     font-size: 1.5rem;
-    color: #f05f40;
+    color: #258fbc;
     display: block;
     position: absolute;
     left: 0;
@@ -171,8 +171,8 @@ p {
         -o-transition: 1s border-color ease, 1s color ease;
         transition: 1s border-color ease, 1s color ease; }
         .navigation-container .navigation li a:hover, .navigation-container .navigation li a.active {
-          border-color: #f05f40;
-          color: #f05f40; }
+          border-color: #258fbc;
+          color: #258fbc; }
         .navigation-container .navigation li a:after {
           content: "";
           position: absolute;
@@ -217,7 +217,7 @@ p {
         -o-transition: 1s color ease;
         transition: 1s color ease; }
         .navigation-container .social-media li a:hover {
-          color: #f05f40; }
+          color: #258fbc; }
         .navigation-container .social-media li a i {
           font-size: 1.7rem; }
 
@@ -240,7 +240,7 @@ p {
     height: 40px;
     border-radius: 50%;
     color: #fff;
-    background: #f05f40;
+    background: #258fbc;
     cursor: pointer;
     outline: none;
     -webkit-transition: 1s background ease;
@@ -249,7 +249,7 @@ p {
     -o-transition: 1s background ease;
     transition: 1s background ease; }
     .navigation-container .burger:hover {
-      background: #ed431f; }
+      background: #f66e00; }
 
   .navigation-overlay {
     width: 80vw;
@@ -345,7 +345,7 @@ header {
       color: #fff;
       font-size: 2.5rem;
       margin: 0;
-      color: #f05f40; }
+      color: #258fbc; }
       header .header-content h2:before, header .header-content h3:before {
         display: none; }
     header .header-content h3 {
@@ -394,7 +394,7 @@ header {
           content: "";
           width: 70px;
           height: 3px;
-          background: #f05f40;
+          background: #258fbc;
           position: absolute;
           top: -1.5rem;
           left: 0; }
@@ -438,7 +438,7 @@ header {
             content: "";
             width: 70px;
             height: 3px;
-            background: #f05f40;
+            background: #258fbc;
             position: absolute;
             top: -1.5rem;
             left: 1rem; } }
@@ -454,7 +454,7 @@ header {
       color: #fff;
       font-size: 2rem;
       margin: 0;
-      color: #f05f40; }
+      color: #258fbc; }
     header .header-content h3 {
       font-size: 1.5rem;
       margin-bottom: 3rem;
@@ -492,7 +492,7 @@ header {
       color: #fff;
       font-size: 2rem;
       margin: 0;
-      color: #f05f40; }
+      color: #258fbc; }
     header .header-content h3 {
       font-size: 1.5rem;
       margin-bottom: 3rem;
@@ -544,14 +544,14 @@ header {
   text-align: center; }
 
 .content-box.about {
-  background: #f05f40; }
+  background: #258fbc; }
   .content-box.about h2, .content-box.about h3, .content-box.about p {
     color: #fff; }
   .content-box.about h2:before {
     background: #fff; }
 
 .content-box.topics {
-  background: #f05f40; }
+  background: #258fbc; }
   .content-box.topics h2, .content-box.topics h3, .content-box.topics p {
     color: #fff; }
   .content-box.topics h2 {
@@ -564,7 +564,7 @@ header {
     margin: 2rem 0 3rem 0; }
     .content-box.topics .topics li {
       font-size: 1.3rem;
-      border-top: 1px solid #f59885;
+      border-top: 1px solid #88c4de;
       color: #fff;
       padding: 0.7rem 0;
       line-height: 1.4; }
@@ -577,7 +577,7 @@ header {
 .content-box.advisory {
   height: auto;
   overflow: hidden;
-  background: #f7765a;
+  background: #44a6d0;
   color: #fff; }
   .content-box.advisory .inner-content {
     max-width: 960px; }
@@ -615,7 +615,7 @@ header {
         width: 40px;
         text-align: center;
         line-height: 40px;
-        background: #f05f40;
+        background: #258fbc;
         border-radius: 50%;
         color: #fff;
         -webkit-transition: 1s background ease, 1s color ease;
@@ -624,7 +624,7 @@ header {
         -o-transition: 1s background ease, 1s color ease;
         transition: 1s background ease, 1s color ease; }
         .content-box.advisory ul li a:hover {
-          background: #ed431f;
+          background: #f66e00;
           color: #fff; }
 
 @media (max-width: 680px) {
@@ -659,7 +659,7 @@ header {
     transition: 1s border-color ease;
     margin-bottom: 2rem; }
     .content-box.sponsoring a:hover {
-      border-color: #f05f40; }
+      border-color: #258fbc; }
     .content-box.sponsoring a img {
       height: 90%;
       width: auto;
@@ -671,8 +671,43 @@ header {
     .content-box.sponsoring a.small {
       height: 100px; }
 
+.content-box.speaker {
+  background: #f5f5f5; }
+  .content-box.speaker .inner-content {
+    max-width: 1100px; }
+  .content-box.speaker .columns:last-child {
+    float: left; }
+  .content-box.speaker h2, .content-box.speaker p {
+    color: #333; }
+  .content-box.speaker p {
+    margin-bottom: 3rem; }
+  .content-box.speaker a {
+    -webkit-transition: 1s border-color ease;
+    -moz-transition: 1s border-color ease;
+    -ms-transition: 1s border-color ease;
+    -o-transition: 1s border-color ease;
+    transition: 1s border-color ease;
+    margin-bottom: 2rem;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    color: #333;
+    border-bottom: 2px solid #d0d0d0; }
+    .content-box.speaker a:hover {
+      border-color: #258fbc; }
+    .content-box.speaker a img {
+      height: auto;
+      width: auto;
+      max-width: 200px;
+      text-align: center;
+      display: block;
+      margin: 0 auto 1rem; }
+    .content-box.speaker a span {
+      display: block;
+      padding-bottom: 1rem; }
+
 .content-box.program {
-  background: #f05f40;
+  background: #258fbc;
   padding-bottom: 6rem; }
   .content-box.program h2, .content-box.program p {
     color: #fff; }
@@ -715,9 +750,9 @@ header {
         -o-transition: 1s color ease;
         transition: 1s color ease; }
         .content-box.program .accordion .acc-container h3:hover, .content-box.program .accordion .acc-container-break h3:hover {
-          color: #f05f40; }
+          color: #258fbc; }
         .content-box.program .accordion .acc-container h3 .time, .content-box.program .accordion .acc-container-break h3 .time {
-          background: #f05f40;
+          background: #258fbc;
           display: block;
           width: 136px;
           text-align: center;
@@ -750,7 +785,7 @@ header {
           text-align: left;
           margin: 0 0 1rem 0;
           padding-left: 155px;
-          font-size: 1rem;
+          font-size: 1.125rem;
           line-height: 1.5;
           color: #7d7d7d;
           height: auto;
@@ -761,13 +796,19 @@ header {
             color: #333; }
           .content-box.program .accordion .acc-container .acc-content p a.more, .content-box.program .accordion .acc-container-break .acc-content p a.more {
             width: auto;
-            float: left; }
+            float: left;
+            font-size: 1rem; }
       .content-box.program .accordion .acc-container.active h3, .content-box.program .accordion .acc-container-break.active h3 {
-        color: #f05f40; }
+        color: #258fbc; }
     .content-box.program .accordion .acc-container-break h3 {
-      cursor: default; }
+      cursor: default;
+      overflow: hidden;
+      line-height: 53px; }
       .content-box.program .accordion .acc-container-break h3:hover {
         color: #333; }
+      .content-box.program .accordion .acc-container-break h3 span {
+        max-height: 43px;
+        line-height: 30px; }
 
 @media (max-width: 960px) {
   .content-box.program .accordion .acc-container h3 span.time, .content-box.program .accordion .acc-container-break h3 span.time {
@@ -792,7 +833,7 @@ header {
     font-size: 2rem;
     letter-spacing: 0; }
   .content-box.single-content a {
-    color: #f05f40;
+    color: #258fbc;
     -webkit-transition: 1s color ease;
     -moz-transition: 1s color ease;
     -ms-transition: 1s color ease;
@@ -831,7 +872,7 @@ header {
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background: #f05f40;
+        background: #258fbc;
         position: absolute;
         left: 0;
         top: 14px; }
@@ -850,7 +891,7 @@ header {
       color: #565656;
       font-size: 1.125rem; }
   .content-box.single-content blockquote {
-    border-left: 2px solid #f05f40;
+    border-left: 2px solid #258fbc;
     margin-bottom: 3rem;
     padding-top: 0; }
   .content-box.single-content table {
@@ -892,7 +933,7 @@ header {
     width: 60px;
     border-radius: 50%;
     font-size: 1.8rem;
-    background: #f05f40;
+    background: #258fbc;
     text-align: center;
     line-height: 58px;
     margin: 0 auto;
@@ -903,7 +944,7 @@ header {
     transition: 1s color ease, 1s background ease; }
     .content-box.contact a:hover {
       background: #fff;
-      color: #f05f40; }
+      color: #258fbc; }
 
 @media (max-width: 768px) {
   .content-box.contact {
@@ -933,7 +974,7 @@ footer {
       -o-transition: 1s color ease;
       transition: 1s color ease; }
       footer p a:hover {
-        color: #f05f40; }
+        color: #258fbc; }
 
 @media (max-width: 620px) {
   footer {

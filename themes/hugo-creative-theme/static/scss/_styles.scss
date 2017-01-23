@@ -396,7 +396,7 @@ header {
 
 		li {
 			font-size: 1.3rem;
-			border-top: 1px solid #f59885;
+			border-top: 1px solid #88c4de;
 			color: $light;
 			padding: 0.7rem 0;
 			line-height: 1.4;
@@ -421,7 +421,7 @@ header {
 .content-box.advisory {
 	height: auto;
 	overflow: hidden;
-	background: #f7765a;
+	background: #44a6d0;
 	color: $light;
 
 	.inner-content {
@@ -544,7 +544,59 @@ header {
 		&.medium {height: 130px;}
 		&.small {height: 100px;}
 	}
+}
 
+// speaker
+//--------------------------------------------------------------------------------------------------------
+.content-box.speaker {
+	background: $accent4;
+
+	.inner-content {
+		max-width:  1100px;
+	}
+
+	.columns {
+		&:last-child {
+			float: left;
+		}
+	}
+
+	h2, p {
+		color: $dark;
+	}
+
+	p {
+		margin-bottom:  3rem;
+	}
+	
+	a {
+		@include default-trans(1s border-color ease);
+		margin-bottom:  2rem;
+		text-align: center;
+		overflow: hidden;
+		display: block;
+		color: $dark;
+		border-bottom: 2px solid #d0d0d0;
+
+		&:hover {
+			border-color: $accent1;
+		}
+
+		img {
+			height: auto;
+			width: auto;
+			max-width: 200px;
+			text-align: center;
+			display: block;
+			margin:  0 auto 1rem;
+
+		}
+
+		span {
+			display: block;
+			padding-bottom:  1rem;
+		}
+	}
 }
 
 // programm
@@ -648,7 +700,7 @@ header {
 					text-align: left;
 					margin: 0 0 1rem 0;
 					padding-left: 155px;
-					font-size: 1rem;
+					font-size: 1.125rem;
 					line-height: 1.5;
 					color: #7d7d7d;
 					height:  auto;
@@ -663,6 +715,7 @@ header {
 					a.more {
 						width:  auto;
 						float: left;
+						font-size:  1rem;
 					}
 				}
 			}
@@ -676,9 +729,16 @@ header {
 		.acc-container-break {
 			h3 {
 				cursor: default;
+				overflow: hidden;
+				line-height: 53px;
 
 				&:hover {
 					color: $dark;
+				}
+
+				span {
+					max-height: 43px;
+					line-height: 30px;
 				}
 			}
 		}	
