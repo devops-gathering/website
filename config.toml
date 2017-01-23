@@ -62,3 +62,7 @@ baseurl = "https://devops-gathering.io"
 
     [params.tickets]
          enabled = true
+
+	[params.workshops]
+		lunchbreak="12:30-13:30"
+		text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi eum aspernatur quod debitis veritatis, ipsum cumque. Odio, eligendi nam repudiandae quae accusantium doloribus quod doloremque numquam provident explicabo, magni impedit."

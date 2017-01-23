@@ -3,9 +3,11 @@ $(document).ready(function(){
 	// Workshop and Program accordion
 	$('.accordion .acc-container').each(function(){
 		$(this).click(function(){
-			$('.acc-container').removeClass('active').children('.acc-content').slideUp();
+			if($(this).hasClass('active')) {
+				$(this).toggleClass('active');
+			}
 			$(this).children('.acc-content').slideToggle();
-			$(this).addClass('active');
+			$('.acc-container h3').children('.acc-content').slideUp();
 		});
 	});
 
