@@ -561,6 +561,18 @@ header {
     color: #fff; }
   .content-box.about h2:before {
     background: #fff; }
+  .content-box.about h2.normal {
+    position: initial; }
+  .content-box.about .topics {
+    display: block;
+    list-style-type: none;
+    margin: 2rem 0 3rem 0; }
+    .content-box.about .topics li {
+      font-size: 1.3rem;
+      border-top: 1px solid #88c4de;
+      color: #fff;
+      padding: 0.7rem 0;
+      line-height: 1.4; }
 
 .content-box.topics {
   background: #258fbc; }

@@ -1,13 +1,14 @@
 +++
 name="Niclas"
 lastname="Mietz"
-image="/img/speakers/niclas.png"
+image="/img/speakers/niclas-mietz.png"
 firm="bee42 solutions GmbH"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore distinctio officiis nemo nesciunt doloremque tempore quia suscipit reiciendis, fugit minima qui voluptate voluptatum rem hic eius quaerat. Quae, nihil! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aperiam sed debitis, ea vero quam perspiciatis, ad deserunt a obcaecati asperiores soluta ipsum eveniet voluptate atque nobis ipsam maiores perferendis.
+Niclas is Devops Engineer at the bee42 solutios and studys computer science at FH Dortmund.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt inventore distinctio officiis nemo nesciunt doloremque tempore quia suscipit reiciendis, fugit minima qui voluptate voluptatum rem hic eius quaerat. Quae, nihil! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aperiam sed debitis, ea vero quam perspiciatis, ad deserunt a obcaecati asperiores soluta ipsum eveniet voluptate atque nobis ipsam maiores perferendis.
+Afterworks he likes to work with Open-Source projects with container touch and new technologies in the container ecosystem. 
+He also likes to join locale meetups in his area also he is one of the organisators from Docker Bochum. 
 
-* [sdsd](Workshop)
+* [Automated container builds with GitLab](https://devops-gathering.io/workshops/Automated-container-builds-with-GitLab/)
 

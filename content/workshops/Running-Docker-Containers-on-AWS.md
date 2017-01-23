@@ -1,6 +1,12 @@
 +++
 title = "Running Docker Containers on AWS"
 speaker = "Philipp Garbe"
+firm = "AutoScout24"
+bio = """
+Philipp works as Lead Software Developer at AutoScout24 in Munich.
+"""
+image="/img/speakers/phillip-garbe.png"
+speaker_link="/speakers/phillip-garbe/"
 time = "13:30 - 17:00"
 weight = 5
 abstract= """
