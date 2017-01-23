@@ -83,7 +83,11 @@ header {
 				position: absolute;
 				bottom: 4rem;
 			}
-
+			
+			div {
+				float: left;
+				position: relative;
+			}
 
 			h1 {
 				position: relative;
@@ -104,6 +108,18 @@ header {
 					top: -1.5rem;
 					left: 0;
 				}
+			}
+
+			img {
+    width: 160px;
+    height: auto;
+    float: left;
+    margin: -2.5rem 2rem 0 0;
+    right: 0;
+    bottom: 3rem;
+
+				right: 0;
+				bottom: 3rem;
 			}
 
 		}

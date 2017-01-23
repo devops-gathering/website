@@ -383,6 +383,9 @@ header {
       header.single .header-content .header-content-inner {
         position: absolute;
         bottom: 4rem; }
+      header.single .header-content div {
+        float: left;
+        position: relative; }
       header.single .header-content h1 {
         position: relative;
         text-align: left;
@@ -398,6 +401,15 @@ header {
           position: absolute;
           top: -1.5rem;
           left: 0; }
+      header.single .header-content img {
+        width: 160px;
+        height: auto;
+        float: left;
+        margin: -2.5rem 2rem 0 0;
+        right: 0;
+        bottom: 3rem;
+        right: 0;
+        bottom: 3rem; }
 
 @media (max-width: 1024px) {
   header {

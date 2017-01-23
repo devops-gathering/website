@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+            {{ partial "head.html" . }}
+            {{ partial "seo/seo.html" .}}
+            {{ partial "seo/google_tag_manager.html" }}
+
+    </head>
+    <body class="single">
+     {{ partial "seo/google_tag_manager_body.html" }}
+     {{ partial "nav.html" . }}
+<header class="single">
+    <div class="header-content">
+        <div class="header-content-inner">
+                   <img src="{{.Params.image}}" alt="{{.Params.name}} {{.Params.lastname}}">
+                   <div>
+        <p>Speaker</p>
+            <h1>{{.Params.name}} {{.Params.lastname}}</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="overlay"></div>
+</header>
+
+
+     <div class="content-box single-content">
+         <div class="inner-content"> 
+            {{ .Content}}
+        </div>
+    </div>
+    {{partial "contact.html" .}}
+    {{partial "footer.html" .}}
+     {{ partial "js.html" . }}
+    </body>
+
+</html>

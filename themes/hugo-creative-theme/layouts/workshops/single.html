@@ -1,48 +1,36 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-    <head>
-            {{ partial "head.html" . }}
-            {{ partial "seo/seo.html" .}}
-            {{ partial "seo/google_tag_manager.html" }}
+<head>
+				{{ partial "head.html" . }}
+				{{ partial "seo/seo.html" .}}
+				{{ partial "seo/google_tag_manager.html" }}
 
-    </head>
-    <body class="single">
-     {{ partial "seo/google_tag_manager_body.html" }}
-     {{ partial "nav.html" . }}
-     {{ partial "hero-single.html" . }}
+</head>
+<body class="single">
+ {{ partial "seo/google_tag_manager_body.html" }}
+ {{ partial "nav.html" . }}
+ {{ partial "hero-single.html" . }}
 
-     <div class="content-box single-content">
-         <div class="inner-content"> 
+ <div class="content-box single-content">
+		 <div class="inner-content"> 
+				<div class="clearfix"></div>
+				{{ .Content | markdownify }}
 
-            <div class="clearfix"></div>
-            {{ .Content | markdownify }}
+				<div class="speaker-box">
+					<div class="small-12 medium-4 large-2 columns">
+						 <a href=""><img src="/img/peter-rossbach-bee42.png" alt=""></a> 
+					</div>
+					<div class="small-12 medium-8 large-10 columns">
+						<h2><a href="">Peter Rossbach </a><span>bee42 solutions GmbH</span></h2>
 
-                        <div class="speaker-box">
-                <div class="small-12 medium-4 large-2 columns">
-                   <a href=""><img src="/img/peter-rossbach-bee42.png" alt=""></a> 
-                </div>
-                <div class="small-12 medium-8 large-10 columns">
-                                <h2><a href="">Peter Rossbach </a><span>bee42 solutions GmbH</span></h2>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odio ratione tempore aliquam reiciendis id, <a href="#">read more</a></p>
-                </div>
-            </div>
-
-                           <div class="speaker-box">
-                <div class="small-12 medium-4 large-2 columns">
-                   <a href=""><img src="/img/peter-rossbach-bee42.png" alt=""></a> 
-                </div>
-                <div class="small-12 medium-8 large-10 columns">
-                                <h2><a href="">Peter Rossbach </a><span>bee42 solutions GmbH</span></h2>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odio ratione tempore aliquam reiciendis id, <a href="#">read more</a></p>
-                </div>
-            </div>         
-        </div>
-    </div>
-    {{partial "contact.html" .}}
-    {{partial "footer.html" .}}
-     {{ partial "js.html" . }}
-    </body>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odio ratione tempore aliquam reiciendis id, <a href="#">read more</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+{{partial "contact.html" .}}
+{{partial "footer.html" .}}
+ {{ partial "js.html" . }}
+</body>
 
 </html>
