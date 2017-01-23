@@ -16,7 +16,8 @@ You will learn the basic Docker commands to create Docker images and push them t
 We'll dig deep into the art of crafting Dockerfiles for Windows with utilizing PowerShell commands. This way you'll learn some best practices how to write almost perfect Dockerfiles for Windows.
 Finally we will take a real world application based upon microservices and dockerize it into a set of Windows containers. You'll learn how to use Docker Compose to start, orchestrate and scale the whole application.
 
-Agenda
+## Agenda
+
 * Setup Docker Engine on Windows Server 2016
 * Learn about the base OS images
 * Secure remote Docker access via TLS
@@ -25,7 +26,7 @@ Agenda
 * Dockerfile best practices
 * Dockerizing a Windows application
 
-What you will need
+## What you will need
 * Basic Windows and Docker experience recommended, but not required
 * Bring your own laptop (Windows, macOS, Linux)
 * You'll need RDP client and Docker client on your laptop

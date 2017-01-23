@@ -538,7 +538,7 @@ header {
 		color: $dark;
 	}
 	
-	a {
+	a.logo {
 		@include flexbox;
 		justify-content:center;
 		align-items: center;
@@ -560,6 +560,7 @@ header {
 		&.medium {height: 130px;}
 		&.small {height: 100px;}
 	}
+
 }
 
 // speaker
