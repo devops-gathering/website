@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+            {{ partial "head.html" . }}
+            {{ partial "seo/seo.html" .}}
+            {{ partial "seo/google_tag_manager.html" }}
+
+    </head>
+    <body class="single">
+     {{ partial "seo/google_tag_manager_body.html" }}
+     {{ partial "nav.html" . }}
+     {{ partial "hero-single.html" . }}
+
+     <div class="content-box single-content">
+         <div class="inner-content"> 
+            {{ .Content | markdownify }}
+        </div>
+    </div>
+    {{partial "contact.html" .}}
+    {{partial "footer.html" .}}
+     {{ partial "js.html" . }}
+    </body>
+
+</html>

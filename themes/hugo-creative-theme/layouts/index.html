@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
-            {{ partial "head.html" . }}
-             {{ partial "seo/seo.html" .}}
-            {{ partial "seo/google_tag_manager.html" . }}
+        {{ partial "head.html" . }}
+        {{ partial "seo/seo.html" .}}
+        {{ partial "seo/google_tag_manager.html" . }}
     </head>
     <body>
-
-     {{ partial "seo/google_tag_manager_body.html" . }}
-               {{ partial "nav.html" . }}
+        {{ partial "seo/google_tag_manager_body.html" . }}
+        {{ partial "nav.html" . }}
         {{ partial "hero.html" . }}
 
         <div class="container">
             {{ partial "about.html" . }}
             {{ partial "callforpapers.html" . }}
             {{ partial "topics.html" . }}
+            {{ partial "workshops.html" . }}
             {{ partial "advisory.html" . }}
             {{ partial "sponsoring.html" . }}
             {{ partial "contact.html" . }}
