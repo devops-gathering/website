@@ -141,32 +141,76 @@ p {
     display: block;
     position: absolute;
     left: 0;
-    top: 0.8rem; }
+    top: 1rem; }
     .navigation-container .branding span {
       font-weight: 700; }
+  .navigation-container .burger {
+    display: none; }
+  .navigation-container .navigation {
+    display: block;
+    margin: 0;
+    float: right; }
+    .navigation-container .navigation li {
+      list-style-type: none;
+      display: inline-block;
+      float: left;
+      margin-left: 1rem; }
+      .navigation-container .navigation li a {
+        display: block;
+        color: #333;
+        font-size: 1rem;
+        position: relative;
+        float: left;
+        height: 66px;
+        line-height: 66px;
+        clear: both;
+        border-top: 4px solid #fff;
+        -webkit-transition: 1s border-color ease, 1s color ease;
+        -moz-transition: 1s border-color ease, 1s color ease;
+        -ms-transition: 1s border-color ease, 1s color ease;
+        -o-transition: 1s border-color ease, 1s color ease;
+        transition: 1s border-color ease, 1s color ease; }
+        .navigation-container .navigation li a:hover, .navigation-container .navigation li a.active {
+          border-color: #f05f40;
+          color: #f05f40; }
+        .navigation-container .navigation li a:after {
+          content: "";
+          position: absolute;
+          bottom: 0.5rem;
+          left: 0;
+          height: 2px;
+          width: 0;
+          background: #fff;
+          -webkit-transition: 1s width ease;
+          -moz-transition: 1s width ease;
+          -ms-transition: 1s width ease;
+          -o-transition: 1s width ease;
+          transition: 1s width ease; }
+        .navigation-container .navigation li a:hover:after {
+          width: 100%; }
   .navigation-container .social-media {
     display: block;
     float: right;
-    margin: 2px 4rem 0 0; }
+    height: 70px;
+    margin: 0 0 0 2rem;
+    border-left: 1px solid #d4d4d4; }
     .navigation-container .social-media li {
       list-style-type: none;
       float: left;
       display: inline-block;
-      height: 35px;
-      margin-top: 0.8rem;
-      border-right: 1px solid #d4d4d4; }
+      height: 70px;
+      margin: 0 1rem; }
       .navigation-container .social-media li:last-child {
-        border: none; }
+        border: none;
+        margin: 0; }
       .navigation-container .social-media li a {
         float: left;
         display: block;
-        width: 35px;
-        height: 100%;
-        font-size: 1.125rem;
-        color: #696969;
-        line-height: 34px;
+        height: 70px;
         text-align: center;
-        margin: 0 0 0 0.4rem;
+        font-size: 1rem;
+        color: #696969;
+        line-height: 70px;
         -webkit-transition: 1s color ease;
         -moz-transition: 1s color ease;
         -ms-transition: 1s color ease;
@@ -174,7 +218,17 @@ p {
         transition: 1s color ease; }
         .navigation-container .social-media li a:hover {
           color: #f05f40; }
+        .navigation-container .social-media li a i {
+          font-size: 1.7rem; }
+
+@media (max-width: 960px) {
+  .navigation-container .branding {
+    font-size: 1.2rem;
+    top: 1.4rem; }
+  .navigation-container .navigation, .navigation-container .social-media {
+    display: none; }
   .navigation-container .burger {
+    display: block;
     position: absolute;
     right: 0;
     top: 0.8rem;
@@ -194,112 +248,62 @@ p {
     .navigation-container .burger:hover {
       background: #ed431f; }
 
-.navigation-overlay {
-  position: fixed;
-  z-index: 99;
-  background: #f05f40;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  top: -100%;
-  left: 0;
-  -webkit-transition: 1s top ease;
-  -moz-transition: 1s top ease;
-  -ms-transition: 1s top ease;
-  -o-transition: 1s top ease;
-  transition: 1s top ease; }
-  .navigation-overlay.open {
-    top: 0;
-    -webkit-transition: 1s top ease;
-    -moz-transition: 1s top ease;
-    -ms-transition: 1s top ease;
-    -o-transition: 1s top ease;
-    transition: 1s top ease; }
-  .navigation-overlay .inner-content {
-    padding: 0 0 3rem 0;
-    position: relative;
+  .navigation-overlay {
+    width: 80vw;
+    max-width: 256px;
     height: auto;
-    overflow: hidden;
-    border-bottom: 2px solid #ff9d88; }
-  .navigation-overlay .navigation {
-    display: block;
-    margin: 0; }
-    .navigation-overlay .navigation li {
-      list-style-type: none; }
-      .navigation-overlay .navigation li a {
-        display: block;
-        color: #fff;
-        font-size: 4rem;
-        position: relative;
-        float: left;
-        clear: both; }
-        .navigation-overlay .navigation li a:after {
-          content: "";
-          position: absolute;
-          bottom: 0.5rem;
-          left: 0;
-          height: 2px;
-          width: 0;
-          background: #fff;
-          -webkit-transition: 1s width ease;
-          -moz-transition: 1s width ease;
-          -ms-transition: 1s width ease;
-          -o-transition: 1s width ease;
-          transition: 1s width ease; }
-        .navigation-overlay .navigation li a:hover:after {
-          width: 100%; }
-    .navigation-overlay .navigation.right {
-      position: absolute;
+    padding: 1rem 1.5rem;
+    top: 70px;
+    right: -100%;
+    position: fixed;
+    z-index: 100;
+    background: #444444;
+    -webkit-transition: 1s right ease;
+    -moz-transition: 1s right ease;
+    -ms-transition: 1s right ease;
+    -o-transition: 1s right ease;
+    transition: 1s right ease; }
+    .navigation-overlay.open {
       right: 0;
-      bottom: 4rem; }
-      .navigation-overlay .navigation.right li a {
-        float: right;
-        text-align: right;
-        font-size: 2rem; }
-
-@media (max-width: 960px) {
-  .navigation-container .social-media {
-    display: none; }
-
-  .navigation-overlay {
-    padding: 1rem; }
-    .navigation-overlay .navigation li a {
-      font-size: 2rem; } }
-@media (max-width: 500px) {
-  .navigation-container .branding {
-    font-size: 1.2rem;
-    top: 1.3rem; }
-  .navigation-container .social-media {
-    display: none; }
-
-  .navigation-overlay {
-    padding: 1rem; }
-    .navigation-overlay .inner-content {
-      border: none;
-      padding: 0; }
-    .navigation-overlay .navigation {
-      margin-bottom: 1rem;
-      height: auto;
-      overflow: hidden; }
-      .navigation-overlay .navigation li a {
-        font-size: 1.3rem;
-        padding: 0.2rem 0;
+      -webkit-transition: 1s right ease;
+      -moz-transition: 1s right ease;
+      -ms-transition: 1s right ease;
+      -o-transition: 1s right ease;
+      transition: 1s right ease; }
+    .navigation-overlay .navigation, .navigation-overlay .social-media {
+      display: block;
+      float: none;
+      clear: both;
+      margin: 0;
+      width: 100%;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #828282; }
+      .navigation-overlay .navigation li, .navigation-overlay .social-media li {
+        list-style-type: none;
+        height: auto; }
+        .navigation-overlay .navigation li a, .navigation-overlay .social-media li a {
+          display: block;
+          color: #fff;
+          font-size: 1.125rem;
+          padding: 0.5rem 0;
+          height: auto;
+          width: 100%;
+          line-height: 1; }
+      .navigation-overlay .navigation.social-media, .navigation-overlay .social-media.social-media {
         width: 100%;
-        text-align: center;
-        border-bottom: 1px solid #ff9d88; }
-        .navigation-overlay .navigation li a:after {
-          display: none; }
-      .navigation-overlay .navigation.right {
-        position: static; }
-        .navigation-overlay .navigation.right li a {
-          font-size: 1.5rem;
-          float: left;
-          text-align: center; }
-          .navigation-overlay .navigation.right li a:after {
-            display: none; } }
+        padding-bottom: 0;
+        border: none; }
+        .navigation-overlay .navigation.social-media li, .navigation-overlay .social-media.social-media li {
+          display: inline-block; }
+          .navigation-overlay .navigation.social-media li a, .navigation-overlay .social-media.social-media li a {
+            display: block;
+            float: left;
+            height: 50px;
+            list-style: 50px;
+            margin-right: 0.5rem; }
+            .navigation-overlay .navigation.social-media li a i, .navigation-overlay .social-media.social-media li a i {
+              font-size: 1.7rem;
+              line-height: 39px; } }
 header {
   height: 80vh;
   width: 100%;
