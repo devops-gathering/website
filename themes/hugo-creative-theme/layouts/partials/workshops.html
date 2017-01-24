@@ -4,7 +4,7 @@
 		<p>{{.Site.Params.workshops.text | safeHTML}}</p>
 		<ul class="accordion">
 
-			{{range first 2 (where .Data.Pages.ByWeight "Section" "workshops") }}
+			{{range first 1 (where .Data.Pages.ByWeight "Section" "workshops") }}
 				{{.Render "li"}}
 			{{end}}
 
