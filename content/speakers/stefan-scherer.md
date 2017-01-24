@@ -1,7 +1,7 @@
 +++
 name="Stefan"
 lastname="Scherer"
-image="/img/speakers/stefan-scherer.jpeg"
+image="/img/speakers/stefan-scherer.png"
 firm="SEAL Systems"
 +++
 
