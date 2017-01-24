@@ -723,14 +723,16 @@ header {
       border-color: #258fbc; }
     .content-box.speaker a img {
       height: auto;
-      width: auto;
+      width: 100%;
       max-width: 200px;
       text-align: center;
       display: block;
       margin: 0 auto 1rem; }
     .content-box.speaker a span {
       display: block;
-      padding-bottom: 1rem; }
+      padding-bottom: 1rem;
+      height: 46px;
+      line-height: 1.2; }
 
 .content-box.single-content .speaker-box {
   background: #e6e6e6;

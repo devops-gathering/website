@@ -622,7 +622,7 @@ header {
 
 		img {
 			height: auto;
-			width: auto;
+			width: 100%;
 			max-width: 200px;
 			text-align: center;
 			display: block;
@@ -633,6 +633,8 @@ header {
 		span {
 			display: block;
 			padding-bottom:  1rem;
+			height:  46px;
+			line-height: 1.2;
 		}
 	}
 }
