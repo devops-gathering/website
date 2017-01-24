@@ -16,5 +16,4 @@ Wholehearted embracer of agile principles.
 Found his home at German cyber security service provider GDATA Advanced Analytics, where he can do all of the above on a daily basis.
 
 
-* ["Bootiful" Containers with Spring-Boot and Docker](https://devops-gathering.io/workshops/Learning-Docker-on-a-Raspberry-Pi-ARM-Cluster/)
-
+* ["Bootiful" Containers with Spring-Boot and Docker]({{< relref "workshops/Bootiful-Containers-with-Spring-Boot-and-Docker.md" >}})

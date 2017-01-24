@@ -9,5 +9,4 @@ Philipp works as Lead Software Developer at AutoScout24 in Munich. Since more th
 
 Philipp is driven by technologies and tools that allows him to release faster and more often. He expects that every commit automatically goes into production and it shouldn't surprise that he's excited about microservices, docker and the cloud. Affected by Pain Driven Development, he believes that things need to be changed whenever the pain is big enough.
 
-* [Running Docker Containers on AWS](https://devops-gathering.io/workshops/Running-Docker-Containers-on-AWS/)
-
+* [Running Docker Containers on AWS]({{< relref "workshops/Running-Docker-Containers-on-AWS.md" >}})
