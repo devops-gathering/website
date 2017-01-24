@@ -1,5 +1,5 @@
 languageCode = "en-us"
-theme = "hugo-creative-theme"
+theme = "conference"
 title = "Devops Gathering 2017"
 baseurl = "https://devops-gathering.io"
 
