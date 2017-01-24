@@ -9,20 +9,20 @@ Niclas is DevOps Engineer at the bee42 solutions and studies computer science at
 """
 weight = 2
 abstract = """
-Learn more about Continuous Integration and delivery of container-based software. Set up and configure GitLab/CI for your automatic docker images build. Create your integration test with a simple runners. Learn the basics to create good docker images automatically.
+Learn more about Continuous Integration and delivery of container-based software. Set up and configure GitLab/CI for your automatic docker images build. Create your integration test with a simple runner. Learn the basics to create good docker images automatically.
 """
 +++
 
-Whether small startups or large companies - many companies rely on the open-source Docker technology. But what about the kind of containers that roll up the virtualization market and change the software development in the long term? Docker promises a quick start, flexible configuration and stable images for development and production. Nice, but a developer or operator must be setup there automation to build, test and deliver Docker images. At this workshop you learn to setup GitLab/CI to maintain your project sources, automate your Continuous Integration and Delivery pipeline for simple Docker images.
+Whether small startups or large companies - many of them rely on the open-source Docker technology. But what about the kind of containers that roll up the virtualization market and change the software development in the long term? Docker promises a quick start, flexible configuration and stable images for development and production. Nice, but a developer or operator must be present in order to setup automation, to build, test and deliver Docker images. At this workshop you learn how to setup GitLab/CI with the objective to maintain your project sources, automate your Continuous Integration and Delivery pipeline for simple Docker images.
 
-We start with an overview and introduce the first steps with the use of GitLab/CI. You will get an overview of the most important components, instructions and concepts. Using a simple example, you will learn how to implement a microservice, automate the build with a simple gitlab runner, install with Docker, test and integrate with other services in an environment.
+We start with an overview and introduce the first steps by demonstrating the ussage of GitLab/CI. You will get an overview of the most important components, instructions and concepts. Using a simple example, you will learn how to implement a microservice, automate the build with a simple gitlab runner, install with Docker, test and integrate with other services in an environment.
 
 
 ## Key Takeaways
 
-  * Learn how to simple setup GitLab/CI
+  * Learn how to setup GitLab/CI in a simple way
   * Learn the basic concepts of build docker images with GitLab/CI
-  * Learn setup a simple microservice test pipeline
+  * Learn to setup a simple microservice test pipeline
 
 ## What you will need
 
