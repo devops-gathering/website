@@ -111,12 +111,12 @@ header {
 			}
 
 			img {
-    width: 160px;
-    height: auto;
-    float: left;
-    margin: -2.5rem 2rem 0 0;
-    right: 0;
-    bottom: 3rem;
+			    width: 160px;
+			    height: auto;
+			    float: left;
+			    margin: -2.5rem 2rem 0 0;
+			    right: 0;
+			    bottom: 3rem;
 
 				right: 0;
 				bottom: 3rem;
@@ -571,9 +571,10 @@ header {
 		}
 
 		img {
-			height: 90%;
+			height: auto;
+			max-height:  160px;
 			width: auto;
-			max-width: 170px;
+			max-width: 160px;
 		}
 
 		&.big {height: 170px;}
