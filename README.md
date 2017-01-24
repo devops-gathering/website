@@ -7,25 +7,26 @@
 Before we start we should ensure that we can work correctly. So lets build all required containers.
 
 ```bash
-mkdir -p devops-gathering
+$ mkdir -p devops-gathering
 ```
 
 ```
-cd devops-gathering
-```
-
-```bash
-git clone git@github.com/devops-gathering/website.git
+$ cd devops-gathering
 ```
 
 ```bash
-docker-compose build
+$ git clone git@github.com/devops-gathering/website.git
+```
+
+```bash
+$ cd website
+$ docker-compose build
 ```
 
 After this lets start our local development with
 
 ```bash
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 Now you can visit your local development page under [http://localhost:1313](http://localhost:1313)
