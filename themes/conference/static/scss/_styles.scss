@@ -586,17 +586,11 @@ header {
 			max-height:  160px;
 			width: auto;
 			max-width: 160px;
-
-			&.margin {
-			margin-bottom: 2rem;
-			}
 		}
 
 		&.big {height: 170px;}
 		&.medium {height: 130px;}
 		&.small {height: 100px;}
-
-		&.margin {margin-bottom: 2rem;}
 	}
 
 }
