@@ -1,6 +1,6 @@
 <div class="content-box program" id="workshops">
 	<div class="inner-content">
-		<h2>Workshops</h2>
+		<h2>Docker Workshops at 23.3</h2>
 		<p>{{.Site.Params.workshops.text | safeHTML}}</p>
 		<ul class="accordion">
 
@@ -11,7 +11,7 @@
 			<li class="acc-container-break">
 				<div class="acc-title">
 					<h3><span class="time break">{{.Site.Params.workshops.lunchbreak}}</span>Lunch Break</h3>
-				</div>	
+				</div>
 			</li>
 			{{range last 3 (where .Data.Pages.ByWeight "Section" "workshops") }}
 				{{.Render "li"}}
