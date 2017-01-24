@@ -15,18 +15,28 @@
 		 <div class="inner-content"> 
 				<div class="clearfix"></div>
 				{{ .Content | markdownify }}
-
 				<div class="speaker-box">
-					<div class="small-12 medium-4 large-2 columns">
-						 <a href=""><img src="/img/peter-rossbach-bee42.png" alt=""></a> 
-					</div>
-					<div class="small-12 medium-8 large-10 columns">
-						<h2><a href="">Peter Rossbach </a><span>bee42 solutions GmbH</span></h2>
+    <div class="small-12 medium-4 large-2 columns">
+            <a href=""><img src="{{.Params.image}}" alt=""></a> 
+    </div>
+    <div class="small-12 medium-8 large-10 columns">
+        <h2><a href="{{ .Params.speaker_link}}">{{.Params.speaker}}<span>{{.Params.firm}}</span></a></h2>
+		<p>{{.Params.bio }}<a href="{{ .Params.speaker_link}}">read more</a></p>
+    </div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure odio ratione tempore aliquam reiciendis id, <a href="#">read more</a></p>
-					</div>
-				</div>
+	{{if .Params.speaker2 }}
+					<div class="speaker-box">
+    <div class="small-12 medium-4 large-2 columns">
+            <a href=""><img src="{{.Params.speaker2_image}}" alt=""></a> 
+    </div>
+    <div class="small-12 medium-8 large-10 columns">
+        <h2><a href="{{ .Params.speaker2_link}}">{{.Params.speaker2}}<span>{{.Params.speaker2_firm}}</span></a></h2>
+		<p>{{.Params.speaker2_bio }}<a href="{{.Params.speaker2_link}}">read more</a></p>
+    </div>  </div>
+	{{end}}
+</div>
 			</div>
+		
 		</div>
 {{partial "contact.html" .}}
 {{partial "footer.html" .}}

@@ -387,6 +387,26 @@ header {
 			background: $light;
 		}
 	}
+
+
+	h2.normal {
+		position: initial;
+	}
+	
+
+	.topics {
+		display: block;
+		list-style-type: none;
+		margin: 2rem 0 3rem 0;
+
+		li {
+			font-size: 1.3rem;
+			border-top: 1px solid #88c4de;
+			color: $light;
+			padding: 0.7rem 0;
+			line-height: 1.4;
+		}
+	}
 }
 
 // topics
@@ -538,7 +558,7 @@ header {
 		color: $dark;
 	}
 	
-	a {
+	a.logo {
 		@include flexbox;
 		justify-content:center;
 		align-items: center;
@@ -560,6 +580,7 @@ header {
 		&.medium {height: 130px;}
 		&.small {height: 100px;}
 	}
+
 }
 
 // speaker
