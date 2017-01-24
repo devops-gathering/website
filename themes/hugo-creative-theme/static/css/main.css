@@ -252,6 +252,7 @@ p {
       background: #f66e00; }
 
   .navigation-overlay {
+    display: block;
     width: 80vw;
     max-width: 256px;
     height: auto;
@@ -685,9 +686,10 @@ header {
     .content-box.sponsoring a.logo:hover {
       border-color: #258fbc; }
     .content-box.sponsoring a.logo img {
-      height: 90%;
+      height: auto;
+      max-height: 160px;
       width: auto;
-      max-width: 170px; }
+      max-width: 160px; }
     .content-box.sponsoring a.logo.big {
       height: 170px; }
     .content-box.sponsoring a.logo.medium {
