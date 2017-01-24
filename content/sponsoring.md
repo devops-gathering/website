@@ -6,7 +6,7 @@ date = "2017-01-12T12:28:54+01:00"
 +++
 
 ## Sponsoring DevOps Gathering
-We are hosting a self organized and non-profit conference providing a platform for the DevOps Community and the DevOps revolution. We like to bring together all of you together: students, developers, CTOs and experts to discuss the hot topics Docker, Kubernetes, Microservices, Clouds and everything else regarding DevOps. Let's share the best practices, the know how and learn from those who know best!
+We are hosting a self organized and non-profit conference providing a platform for the DevOps Community and the DevOps revolution. We like to bring you all together: students, developers, CTOs and experts to discuss the hot topics Docker, Kubernetes, Microservices, Clouds and everything else regarding DevOps. Let's share the best practices, the know-how and learn from those who know best!
 
 Join the DevOps Gathering and help bringing DevOps friends and communities together! :-)
 
@@ -18,9 +18,9 @@ We offer Gold, Silver, Bronze, Video, Coffee and Party Night sponsor packages. I
 **There are so many reasons to become a sponsor...**
 
 * Get in touch with the DevOps Community.
-* Meet with developers and operations experts ranging from students to CTOs, from corporate developers to senior technology executives .
-* Learn about the latest features and best practices in DevOps and the Docker architectures.
-* Learn what other companies are doing with DevOps.
+* Meet with developers and operations experts ranging from students to CTOs, from corporate developers to senior technology executives.
+* Learn about the latest features and best practices regarding DevOps and the Docker architectures.
+* Learn what other companies are doing in terms of DevOps.
 * Collaborate with engineering managers from other companies.
 * Discuss strategic partnerships with technical product managers from other companies.
 
