@@ -1,0 +1,25 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            {{ with .Site.Params.hero.subtitle }}
+                <p>{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with .Site.Params.hero.subtitle2 }}
+               <h3>{{ . | markdownify }}</h3>
+            {{ end }}
+            {{ with .Site.Params.hero.slogan }}
+                <h1>{{ . | markdownify  }}</h1>
+            {{ end }}
+            {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle .Site.Params.hero.date }}
+            {{ end }}
+            {{ with .Site.Params.hero.date }}
+                <h2>{{ . | markdownify }}</h2>
+            {{ end }}
+            {{ with .Site.Params.hero.location }}
+               <h3>{{ . | markdownify }}</h3>
+           {{ end }}
+        </div>
+    </div>
+    <div class="overlay"></div>
+</header>

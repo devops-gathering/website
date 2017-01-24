@@ -1,0 +1,8 @@
+<div class="content-box speaker" id="speakers">
+	<h2>Speakers</h2>
+	<div class="inner-content">
+		{{ range where .Data.Pages "Section" "speakers" }}
+			{{ .Render "li" }}
+		{{end}}	
+	</div>
+</div>

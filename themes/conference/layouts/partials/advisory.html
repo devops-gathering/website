@@ -1,0 +1,13 @@
+<div class="content-box advisory " id="advisory">
+	 <h2>Advisory Board</h2> 
+	<div class="inner-content">
+			{{ range .Site.Params.commitee.members }}
+				<div class="small-12 medium-6 large-6 columns">
+					<img src="img/{{ .img }}" alt="">
+					<h3>{{ .name  }}</h3>
+					<p>{{ .firm }}</p>				
+					<p>{{ .bio}}</p>
+				</div>
+			{{ end }}
+	</div>
+</div>

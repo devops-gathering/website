@@ -1,0 +1,47 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section class="bg-primary" id="about">
+<div class="content-box about">
+	<div class="inner-content">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.about.title }}
+                    <h2 class="section-heading">{{ . | markdownify }}</h2>
+                {{ end }}
+      
+                <p class="text-faded">The DevOps Gathering is an international conference located in Bochum - surrounded by the metropolitan area of the Ruhr Valley. This melting pot of past times industrial revolutions is nowadays a hot spot for Germany’s IT industry - a perfect place to discuss the next big revolution of our industry, the DevOps revolution. Let’s discuss the hot topics inside the DevOps community and start talking about <br><strong>Docker, Kubernetes, Microservices, Clouds</strong> and everything else regarding DevOps.</p>
+
+                <p>We are hosting a <strong>non-profit conference</strong> striving for <strong>high-quality content</strong> and providing a platform for experienced international speakers at the G DATA Campus in the heart of Bochum.</p>
+            </div>
+            <h2 class="normal">Topics</h2>
+            <div class="small-12 medium-12 large-4 columns">
+			<ul class="topics">
+				<li>Docker on ARM</li>
+				<li>Docker Orchestration </li>
+				<li>Docker Security</li>
+				<li>Docker Networking</li>
+				<li>Docker for Microservices</li>
+			</ul>
+		</div>	
+
+		<div class="small-12 medium-12 large-4 columns">
+		<ul class="topics">
+			<li>Docker for Java or Go Developer</li>
+			<li>Logging &amp; Monitoring</li>
+			<li>Stateful Container </li>
+			<li>Provisioning</li>	
+			<li>Continuous Integration and Delivery </li>
+		</ul>
+		</div>
+		<div class="small-12 medium-12 large-4 columns">
+		<ul class="topics">
+			<li>Kubernetes</li>
+			<li>Cloud</li>		
+			<li>Container Technologies</li>
+			<li>Microservice based Front-End Development</li>
+		</ul>
+		</div>
+		<div class="clear"></div>
+        </div>
+    </div>
+        </div>
+            </div>
+</section>

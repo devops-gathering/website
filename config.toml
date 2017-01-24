@@ -1,5 +1,5 @@
 languageCode = "en-us"
-theme = "hugo-creative-theme"
+theme = "conference"
 title = "Devops Gathering 2017"
 baseurl = "https://devops-gathering.io"
 
@@ -35,7 +35,8 @@ baseurl = "https://devops-gathering.io"
 		slogan     = "DevOps Gathering 2017"
 		subtitle   = "Take your seat and get pushed to the next level"
 		date = "24 – 25 March, 2017"
-		location = "G Data Campus Bochum"
+    subtitle2 = "bee42 solutions proudly presents"
+		location = "GData Campus Bochum"
 		buttonText = "Call for Papers"
 		link = "https://papercall.io/devops-gathering2017"
 
@@ -44,15 +45,13 @@ baseurl = "https://devops-gathering.io"
 		img = "peter-rossbach-bee42.png"
 		name = "Peter Rossbach"
 		firm = "bee42 solutions gmbh"
-		bio = "Peter Rossbach is a infra coder, system architect and coach of numerous web systems and founder of the bee42 solutions gmbh. He realized appropriate infrastructure products and offer training based on the Docker ecosystem current web technologies, microservices, Apache Tomcat, NoSQL databases and cloud platforms."
+		bio = "Peter Rossbach is a infra coder, system architect and coach of numerous web systems and founder of the bee42 solutions gmbh. He is also CTO of Setlog Gmbh a Supply Chain Management company. Peter realized appropriate infrastructure products and offer many training based on the Docker and Kubernetes ecosystem, current web technologies, microservices, Apache Tomcat, Java, NoSQL databases and cloud platforms."
 
 	[[params.commitee.members]]
 		img = "dieter-reuter.png"
 		name = "Dieter Reuter"
-		firm = "Hypriot"
-		bio  = "Dieter Reuter is Docker Captain at Hypriot  with thirty years of enterprise IT experience and unquenchable curiosity. Dealing with cutting-edge cloud technologies, obsessed with the DevOps movement and its associated automation. Is now in the process of pushing Docker and Containers to ARM based IoT devices with rocket-like speed."
-	
-
+		firm = "bee42 solutions gmbh"
+		bio  = "Dieter Reuter is a Senior Consultant at bee42 solutions gmbh and Docker Captain at Hypriot with more than 30 years of enterprise IT experience and unquenchable curiosity. Dealing with cutting-edge cloud technologies, obsessed with the DevOps movement and its associated automation. Dieter is using Docker from the early days on and is pushing Docker and Containers to ARM based IoT devices with rocket-like speed."
 
 	# Contact section
 	[params.contact]
@@ -62,3 +61,7 @@ baseurl = "https://devops-gathering.io"
 
     [params.tickets]
          enabled = true
+
+	[params.workshops]
+		lunchbreak="12:30-13:30"
+		text="This Docker Workshops are an perfect fit for DevOps Engineers.<br> Attendees have the chance to learn from some exciting Docker Captains and Experts. <br> The concept of the workshop is to leave room for experiments.<br>  The goal of the workshops are to interact with one another and learn from the speaker a lot."
