@@ -51,7 +51,7 @@ baseurl = "https://devops-gathering.io"
 		name = "Dieter Reuter"
 		firm = "Hypriot"
 		bio  = "Dieter Reuter is Docker Captain at Hypriot  with thirty years of enterprise IT experience and unquenchable curiosity. Dealing with cutting-edge cloud technologies, obsessed with the DevOps movement and its associated automation. Is now in the process of pushing Docker and Containers to ARM based IoT devices with rocket-like speed."
-	
+
 
 
 	# Contact section
@@ -65,4 +65,4 @@ baseurl = "https://devops-gathering.io"
 
 	[params.workshops]
 		lunchbreak="12:30-13:30"
-		text="This Docker Workshops are an perfect fit for DevOps Engineers.<br> Attendees have the chance to learn from some exciting Docker Captains and Experts. <br> The concept of the workshop is to leave room for experiments.<br>  The goal of the workshops are to interact with one another and learn from the peaker a lot."
+		text="This Docker Workshops are an perfect fit for DevOps Engineers.<br> Attendees have the chance to learn from some exciting Docker Captains and Experts. <br> The concept of the workshop is to leave room for experiments.<br>  The goal of the workshops are to interact with one another and learn from the speaker a lot."
