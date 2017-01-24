@@ -675,7 +675,7 @@ header {
 // programm
 //--------------------------------------------------------------------------------------------------------
 .content-box.program {
-	background: $accent1;
+	background: $accent5;
 	padding-bottom:  6rem;
 
 	h2, p {
@@ -848,6 +848,40 @@ header {
 		&:before {
 			background: $light;
 		}
+	}
+
+	p {
+		margin-bottom:  3rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+		margin:  2rem 0 0.5rem 0;
+		color: $light;
+	}
+}
+
+#map1, #map2 {
+	height: 300px;
+	width: 100%;
+}
+
+// location
+//--------------------------------------------------------------------------------------------------------
+.content-box.tickets {
+	background: $accent5;
+	padding-bottom: 3rem;
+
+	h2, p {
+		color: $light;
+
+		&:before {
+			background: $light;
+		}
+	}
+
+	a {
+		color: $accent2;
 	}
 
 	p {
