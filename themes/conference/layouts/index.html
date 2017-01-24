@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+        {{ partial "seo/seo.html" .}}
+        {{ partial "seo/google_tag_manager.html" . }}
+    </head>
+    <body>
+        {{ partial "seo/google_tag_manager_body.html" . }}
+        {{ partial "nav.html" . }}
+        {{ partial "hero.html" . }}
+
+        <div class="container">
+            {{ partial "about.html" . }}
+            {{ partial "workshops.html" . }}
+            {{ partial "advisory.html" . }}
+            {{ partial "speakers.html" . }}
+            {{ partial "tickets.html" . }}
+            {{ partial "sponsoring.html" . }}
+            {{ partial "location.html" . }}
+            {{ partial "contact.html" . }}
+        </div>
+
+        {{ partial "footer.html" .}}
+
+        {{ partial "js.html" . }}
+
+        {{ template "_internal/google_analytics.html" . }}
+
+    </body>
+</html>
