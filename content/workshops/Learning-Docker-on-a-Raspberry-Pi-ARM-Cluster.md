@@ -5,7 +5,7 @@ speaker_link ="/speakers/dieter-reuter/"
 image = "/img/speakers/dieter-reuter.png"
 time = "09:00 - 12:30"
 bio = """
-Dieter Reuter is a Senior Consultant at bee42 solutions gmbh and Docker Captain at Hypriot with more than 30 years of enterprise IT experience and unquenchable curiosity. 
+Dieter Reuter is a Senior Consultant at bee42 solutions gmbh and Docker Captain at Hypriot with more than 30 years of enterprise IT experience and unquenchable curiosity.
 """
 
 weight = 1
@@ -14,7 +14,7 @@ speaker2 ="Peter Rossbach"
 speaker2_link="/speakers/peter-rossbach/"
 speaker2_image="/img/speakers/peter-rossbach.png"
 speaker2_bio="""
-Peter Rossbach is a infra coder, system architect and coach of numerous web systems and founder of the bee42 solutions gmbh. 
+Peter Rossbach is a infra coder, docker enabler, system architect and coach of numerous web systems, CTO of the Setlog GmbH and founder of the bee42 solutions gmbh.
 """
 abstract = """
 Using containers to develop, test and run applications is well known for cloud and datacenter environments. Since last year Docker is also officially available for a wide range of ARM devices. In this hands-on workshop we're going to introduce you to the principles and specific requirements of using Docker on a low-cost ARM cluster. Step by step we're looking into the details on how to install Docker in no time and run your first microservice application with Docker Compose. Later on we're digging even deeper into the specific requirements for containerized IoT applications to build resource constraint containers and optimizing containers for minimal size
@@ -47,4 +47,3 @@ Additionally we'll dig deeper into the specific requirements of using containers
   * Basic Docker experience recommended, but not required
   * Bring your own laptop (Windows, macOS, Linux)
   * You'll need a SSH client or Putty to access the ARM cluster
-

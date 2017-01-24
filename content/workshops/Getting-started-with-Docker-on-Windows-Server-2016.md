@@ -12,7 +12,7 @@ speaker2 ="Dieter Reuter"
 speaker2_link="/speakers/dieter-reuter/"
 speaker2_image="/img/speakers/dieter-reuter.png"
 speaker2_bio="""
-Dieter Reuter is a Senior Consultant at bee42 solutions gmbh and Docker Captain at Hypriot with more than 30 years of enterprise IT experience and unquenchable curiosity. 
+Dieter Reuter is a Senior Consultant at bee42 solutions gmbh and Docker Captain at Hypriot with more than 30 years of enterprise IT experience and unquenchable curiosity.
 """
 abstract = """
 In this hands-on workshop you'll learn about the new features of Windows Server 2016: Docker and Windows Containers. We will start how to install the Docker Engine on Microsoft Azure and secure it for remote access with TLS certificates.
