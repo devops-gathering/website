@@ -755,7 +755,7 @@ header {
     height: auto; }
 
 .content-box.program {
-  background: #258fbc;
+  background: #44a6d0;
   padding-bottom: 6rem; }
   .content-box.program h2, .content-box.program p {
     color: #fff; }
@@ -874,6 +874,26 @@ header {
   .content-box.location p {
     margin-bottom: 3rem; }
   .content-box.location h3 {
+    font-size: 1.5rem;
+    margin: 2rem 0 0.5rem 0;
+    color: #fff; }
+
+#map1, #map2 {
+  height: 300px;
+  width: 100%; }
+
+.content-box.tickets {
+  background: #44a6d0;
+  padding-bottom: 3rem; }
+  .content-box.tickets h2, .content-box.tickets p {
+    color: #fff; }
+    .content-box.tickets h2:before, .content-box.tickets p:before {
+      background: #fff; }
+  .content-box.tickets a {
+    color: #f66e00; }
+  .content-box.tickets p {
+    margin-bottom: 3rem; }
+  .content-box.tickets h3 {
     font-size: 1.5rem;
     margin: 2rem 0 0.5rem 0;
     color: #fff; }
