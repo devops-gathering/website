@@ -1,7 +1,7 @@
 +++
-name="Phillip"
+name="Philipp"
 lastname="Garbe"
-image="/img/speakers/phillip-garbe.png"
+image="/img/speakers/philipp-garbe.png"
 firm="AutoScout24"
 +++
 
