@@ -5,9 +5,9 @@ weight=6
 speaker = "Kevin Wittek"
 speaker_link ="/speakers/kevin-wittek/"
 image = "/img/speakers/kevin-wittek.jpeg"
-firm="Senior Software Developer - GDATA Advanced Analytics / CEO - Styracosoft GbR"
+firm="Senior Software Developer - G DATA Advanced Analytics / CEO - Styracosoft GbR"
 bio = """
-Java developer and JVM fanboy, since being introduced to the language back in school 12 years ago. Founded his own company during his study at university. Develops mobile apps and client-server applications, which lead to his discovery of Grails and the Groovy ecosystem.
+Java developer and JVM fanboy, since being introduced to the language back in school 12 years ago. Founded his own company besides his study at university. Develops mobile apps and client-server applications, which lead to his discovery of Grails and the Groovy ecosystem.
 """
 speaker2 ="Matthias Rottländer"
 speaker2_link="/speakers/matthias-rottlaender/"
@@ -30,6 +30,8 @@ This workshop takes you through the complete development lifecycle of a simple m
 The rise of container technologies allows us to fundamentally change the way we develop, test and deploy software. However, the problem and solution gap by which software developers are confronted nowadays has become even bigger. We - as a profession - still need to discover patterns and practices for successfully dealing with this level of complexity.
 
 Thanks to tools like Docker, spinning up a full-fledged relational database isn’t more difficult or time consuming than using an in-memory database anymore. So why not run your integration tests on your local machine, inside an environment which resembles production as close as possible?
+
+This workshop takes you through the complete development lifecycle of a simple microservice, using familiar tools such as Spring-Boot and Gradle. After that we take a glimpse into the new possibilities, that the container technology give our development and testing environments.
 
 ## Agenda:
 * Run Spring-Boot Apps inside a Docker container
