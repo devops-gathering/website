@@ -3,7 +3,7 @@ title = "Running Docker Containers on AWS"
 speaker = "Philipp Garbe"
 firm = "AutoScout24"
 bio = """
-Philipp works as Lead Software Developer at AutoScout24 in Munich and Docker Captain.
+Philipp works as Lead Software Developer at AutoScout24 in Munich and is Docker Captain.
 """
 image="/img/speakers/phillip-garbe.png"
 speaker_link="/speakers/phillip-garbe/"
@@ -15,7 +15,7 @@ Running containers locally has been made very easy by Docker with tools like Doc
 But how do you setup Docker Swarm cluster on AWS? What is necessary to deploy your application to the swarm?
 
 In this workshop, Philipp guides you step-by-step through the process of setting up Docker Swarm from scratch.
-He also shows how to deploy and update applications based on Docker Compose v3. 
+He also shows how to deploy and update applications based on Docker Compose v3.
 Principals like immutable infrastructure and configuration as code will influence the entire process as CloudFormation plays an important role.
 """
 +++
