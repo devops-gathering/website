@@ -12,7 +12,7 @@ Java developer and JVM fanboy, since being introduced to the language back in sc
 speaker2 ="Matthias Rottländer"
 speaker2_link="/speakers/matthias-rottlaender/"
 speaker2_image="/img/speakers/matthias-rottlaender.png"
-speaker2_firm="Software Developer - GDATA Advanced Analytics / CEO - Styracosoft GbR"
+speaker2_firm="Software Developer - G DATA Advanced Analytics / CEO - Styracosoft GbR"
 speaker2_bio="""
 Jack-Of-All-Trades promoting perpetual pursuit of technical excellence.
 Developer of Java systems since about 10 years ago.
