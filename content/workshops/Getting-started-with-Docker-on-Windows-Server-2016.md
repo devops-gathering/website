@@ -4,7 +4,7 @@ speaker="Stefan Scherer"
 speaker_link="/speakers/stefan-scherer/"
 image="/img/speakers/stefan-scherer.jpeg"
 bio="""
- Stefan is a Sr. Software Engineer at SEAL Systems. He is an early adopter of Docker on Windows, giving feedback and sharing his experience as a Microsoft MVP and Docker Captain.
+ Stefan is a Sr. Software Engineer at SEAL Systems. As Docker Captain he is an early adopter of Docker on Windows, who shares his experience as a Microsoft MVP with Microsoft.  
 """
 time="13:30 - 17:00"
 weight = 4
@@ -18,6 +18,7 @@ abstract = """
 In this hands-on workshop you'll learn about the new features of Windows Server 2016: Docker and Windows Containers. We will start how to install the Docker Engine on Microsoft Azure and secure it for remote access with TLS certificates.
 You will learn the basic Docker commands to create Docker images and push them to the Docker Hub. In order to run a Docker container you'll pull a specific Docker image from the Docker Hub and run it on your Docker Engine. With this practice you'll also learn how to configure TCP/IP ports and volumes to connect your running container to the outside world.
 We'll dig deep into the art of crafting Dockerfiles for Windows with utilizing PowerShell commands. This way you'll learn some best practices how to write almost perfect Dockerfiles for Windows.
+<br>
 Finally we will take a real world application based upon microservices and dockerize it into a set of Windows containers. You'll learn how to use Docker Compose to start, orchestrate and scale the whole application.
 """
 +++
