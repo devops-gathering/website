@@ -36,7 +36,7 @@ baseurl = "https://devops-gathering.io"
 		subtitle   = "Take your seat and get pushed to the next level"
 		date = "24 – 25 March, 2017"
     subtitle2 = "bee42 solutions proudly presents"
-		location = "GData Campus Bochum"
+		location = "G Data Campus Bochum"
 		buttonText = "Call for Papers"
 		link = "https://papercall.io/devops-gathering2017"
 
