@@ -7,7 +7,7 @@ speaker_link ="/speakers/kevin-wittek/"
 image = "/img/speakers/kevin-wittek.jpeg"
 firm="Senior Software Developer - GDATA Advanced Analytics / CEO - Styracosoft GbR"
 bio = """
-Java developer and JVM fanboy since being introduced to the language back in school 12 years ago. Found his own company during his university years, developing mobile apps and client-server applications, which lead to his discovery of Grails and the Groovy ecosystem.
+Java developer and JVM fanboy, since being introduced to the language back in school 12 years ago. Founded his own company during his study at university, developing mobile apps and client-server applications, which lead to his discovery of Grails and the Groovy ecosystem.
 """
 speaker2 ="Matthias Rottländer"
 speaker2_link="/speakers/matthias-rottlaender/"
