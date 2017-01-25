@@ -3,7 +3,7 @@ name="Matthias"
 lastname="Rottländer"
 image="/img/speakers/matthias-rottlaender.png"
 firm="""
-Software Developer - GDATA Advanced Analytics
+Software Developer - G DATA Advanced Analytics
 CEO - Styracosoft GbR
 """
 +++

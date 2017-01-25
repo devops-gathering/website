@@ -3,7 +3,7 @@ name="Kevin"
 lastname="Wittek"
 image="/img/speakers/kevin-wittek.png"
 firm="""
-Senior Software Developer - GDATA Advanced Analytics
+Senior Software Developer - G DATA Advanced Analytics
 CEO - Styracosoft GbR
 """
 +++
