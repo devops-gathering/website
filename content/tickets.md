@@ -17,7 +17,7 @@ All conference and workshop tickets include food, drinks, great talks and Wi-Fi.
 
 **Saturday (March 25th) - Open Space**
 
-The 2 Day Ticket includes the conference day, the evening reception and the Open Space . The 3 Day Ticket includes all: The workshops, the conference, open space and also the evening reception.
+The 2 Day Ticket includes the conference day, the evening reception and the Open Space. The 3 Day Ticket includes everything: The workshops, the conference, Open Space day and also the evening event.
 
 | Tickets (all prices incl. VAT)| Early Bird (till February 16th) | Standard |
 | :--| --:| --:|

@@ -32,7 +32,7 @@ Additionally we'll dig deeper into the specific requirements of using containers
 
 ## Key Takeaways
 
-  * Learn how to orchestrate containers with Docker on low-cost baremetal hardware
+  * Learn how to orchestrate containers with Docker on low-cost bare metal hardware
   * Learn the basic concepts of Docker and building fault-tolerant services
   * Learn building resource constraint containers and optimizing containers for minimal size
 

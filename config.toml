@@ -20,7 +20,7 @@ baseurl = "https://devops-gathering.io"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Devops Gathering 2017"
-	description = "The DevOps Gathering is an international conference located in Bochum - surrounded by the metropolitan area of the Ruhr Valley. This melting pot of past times industrial revolutions is nowadays a hot spot for Germany’s IT industry - a perfect place to discuss the next big revolution of our industry, the DevOps revolution. Let’s discuss the hot topics inside the DevOps community and start talking about Docker, Kubernetes, Microservices, Clouds and everything else regarding DevOps.We are hosting a non-profit conference striving for high-quality content and providing a platform for experienced international speakers at the G DATA Campus in the heart of Bochum."
+	description = "The DevOps Gathering is an international conference located in Bochum - surrounded by the metropolitan area of the Ruhr Valley. This melting pot of past times industrial revolutions is nowadays a hot spot for Germany’s IT industry - a perfect place to discuss the next big revolution of our industry, the DevOps revolution. Let’s discuss the trending topics inside the DevOps community and start talking about Docker, Kubernetes, Microservices, Clouds and everything else regarding DevOps.We are hosting a non-profit conference striving for high-quality content and providing a platform for experienced international speakers at the G DATA Campus in the heart of Bochum."
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -36,7 +36,7 @@ baseurl = "https://devops-gathering.io"
 		subtitle   = "Take your seat and get pushed to the next level"
 		date = "24 – 25 March, 2017"
     subtitle2 = "bee42 solutions proudly presents"
-		location = "GData Campus Bochum"
+		location = "G Data Campus Bochum"
 		buttonText = "Call for Papers"
 		link = "https://papercall.io/devops-gathering2017"
 
@@ -55,18 +55,26 @@ baseurl = "https://devops-gathering.io"
 
 	# Contact section
 	[params.contact]
-		headline = "Questions ?"
+		headline = "Questions?"
 		description = "Send us an email and we will get back to you as soon as possible!"
 		email = "info@devops-gathering.io"
 
     [params.tickets]
          enabled = true
 
+	[params.talks]
+		lunchbreak="12:30-13:30"
+		text="These Docker Workshops are a perfect fit for DevOps Engineers.<br> Attendees obtain the chance to gain first hand knowledge from experienced Docker Captains and Experts. <br> The concept of the workshop leaves room for experiments and a rich interaction between attendees and speaker."
+
+
 	[params.workshops]
 		lunchbreak="12:30-13:30"
-		text="This Docker Workshops are an perfect fit for DevOps Engineers.<br> Attendees have the chance to learn from some exciting Docker Captains and Experts. <br> The concept of the workshop is to leave room for experiments.<br>  The goal of the workshops are to interact with one another and learn from the speaker a lot."
 
+		text="This Docker Workshops are an perfect fit for DevOps Engineers.<br> Attendees have the chance to learn from some exciting Docker Captains and Experts. <br> The concept of the workshop is to leave room for experiments.<br>  The goal of the workshops are to interact with one another and learn from the speaker a lot."
 
 [params.talks]
 	lunchbreak="12:30-13:30"
 	text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae ullam eveniet aut. Veritatis tenetur, amet architecto deleniti sequi a voluptatem doloremque adipisci, aperiam obcaecati cupiditate, quisquam ut nobis enim."
+
+		text="These Docker Workshops are a perfect fit for DevOps Engineers.<br> Attendees obtain the chance to gain first hand knowledge from experienced Docker Captains and Experts. <br> The concept of the workshop leaves room for experiments and a rich interaction between attendees and speaker."
+

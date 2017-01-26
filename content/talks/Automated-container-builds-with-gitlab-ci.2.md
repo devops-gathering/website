@@ -1,7 +1,7 @@
 +++
 title ="Automated container building with GitLab/CI"
 speaker = "Niclas Mietz"
-time = "09:30 - 12:30"
+time = " - "
 speaker_link="/speakers/niclas-mietz/"
 image="/img/speakers/niclas-mietz.png"
 bio ="""
