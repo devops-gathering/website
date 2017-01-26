@@ -2,7 +2,7 @@
 title="Getting started with Docker on Windows Server 2016"
 speaker="Stefan Scherer"
 speaker_link="/speakers/stefan-scherer/"
-image="/img/speakers/stefan-scherer.jpeg"
+image="/img/speakers/stefan-scherer.png"
 bio="""
 Stefan is a Sr. Software Engineer at SEAL Systems. He is an early adopter of Docker on Windows and gives, as a Microsoft MVP and Docker Captain, feedback directly to Microsoft about his experience.  
 """
