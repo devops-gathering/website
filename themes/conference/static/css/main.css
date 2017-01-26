@@ -220,6 +220,13 @@ p {
           color: #258fbc; }
         .navigation-container .social-media li a i {
           font-size: 1.7rem; }
+      .navigation-container .social-media li.bee {
+        border-left: 1px solid #d4d4d4;
+        padding-left: 0.5rem; }
+        .navigation-container .social-media li.bee a img {
+          width: 70px;
+          height: auto;
+          margin-top: -5px; }
 
 .navigation-overlay {
   display: none; }
@@ -307,7 +314,14 @@ p {
             margin-right: 0.5rem; }
             .navigation-overlay .navigation.social-media li a i, .navigation-overlay .social-media.social-media li a i {
               font-size: 1.7rem;
-              line-height: 39px; } }
+              line-height: 39px; }
+          .navigation-overlay .navigation.social-media li.bee, .navigation-overlay .social-media.social-media li.bee {
+            padding-left: 0.5rem;
+            border: none; }
+            .navigation-overlay .navigation.social-media li.bee a img, .navigation-overlay .social-media.social-media li.bee a img {
+              width: 70px;
+              height: auto;
+              margin-top: -5px; } }
 header {
   height: 80vh;
   width: 100%;
@@ -1105,7 +1119,7 @@ header {
     .content-box.contact #mc_embed_signup input.button:hover {
       background: #f66e00; } }
 footer {
-  background: #252525;
+  background: #d0d0d0;
   height: auto;
   overflow: hidden;
   padding: 0 1rem; }
@@ -1125,9 +1139,14 @@ footer {
       -moz-transition: 1s color ease;
       -ms-transition: 1s color ease;
       -o-transition: 1s color ease;
-      transition: 1s color ease; }
+      transition: 1s color ease;
+      margin-left: 10px; }
       footer p a:hover {
         color: #258fbc; }
+      footer p a img {
+        width: 100px;
+        height: auto;
+        margin-top: -21px; }
 
 @media (max-width: 620px) {
   footer {
@@ -1142,6 +1161,10 @@ footer {
       margin-bottom: 0.5rem;
       line-height: 1.4; }
       footer p:last-child {
-        float: none; } }
+        float: none; }
+    footer p a img {
+      width: 65px;
+      height: auto;
+      margin-top: -14px; } }
 
 /*# sourceMappingURL=main.css.map */
