@@ -9,20 +9,7 @@
 				{{.Render "li"}}
 			{{end}}
 
-			<li class="acc-container-break">
-				<div class="acc-title">
-					<h3><span class="time break">{{.Site.Params.talks.lunchbreak}}</span>Lunch Break</h3>
-				</div>
-			</li>
-			{{range last 4 (where .Data.Pages.ByWeight "Section" "talks") }}
-				{{.Render "li"}}
-			{{end}}		
-
-			<li class="acc-container-break">
-				<div class="acc-title">
-					<h3><span class="time break">from 19:15</span>Partynight</h3>
-				</div>
-			</li>				
+					
 		</ul>
 
 	</div>
