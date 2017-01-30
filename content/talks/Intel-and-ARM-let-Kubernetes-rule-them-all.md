@@ -14,3 +14,9 @@ Kubernetes is a great container orchestration system; does it work on other arch
 +++
 
 The talk will explain what the difficulties are when dealing with clusters of various platforms, as well as how to solve them. As a demo, a cross-platform nginx workload backed with persistent, reliable storage will be deployed from the dashboard, monitored with Heapster, InfluxDB and Grafana and autoscaled while traffic is generated against the Ingress controller. There might be a chance for someone from the audience to be a chaos monkey and unplug a power cable from any node at any time during the heavy traffic in order to demonstrate the auto-healing functions of Kubernetes.
+
+Key takeaways:
+* Learn how easy it is to setup kubernetes on ARM Clusters
+* Learn how kubernetes administration work on ARM
+* Learn how to publish microservices with kubernetes
+* Learn how to monitor the complete cluster and services
