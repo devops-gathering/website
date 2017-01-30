@@ -1,13 +1,13 @@
 +++
 title ="Automated container building with GitLab/CI"
 speaker = "Niclas Mietz"
-time = " - "
+time = "15:45 - 16:15"
 speaker_link="/speakers/niclas-mietz/"
 image="/img/speakers/niclas-mietz.png"
 bio ="""
 Niclas is DevOps Engineer at the bee42 solutions and studies computer science at FH Dortmund. Next to his job he likes to work with Open-Source projects with container touch and new technologies in the container ecosystem. Besides supporting and visiting local meetups his organizing the Docker Bochum meetup.
 """
-weight = 2
+weight = 8
 abstract = """
 Learn more about Continuous Integration and delivery of container-based software. Set up and configure GitLab/CI for your automatic docker images build. Create your integration test with a simple runner. Learn the basics to create good docker images automatically.
 """
