@@ -2,9 +2,9 @@
 <div class="content-box open-space">
 	<div class="inner-content">
 		<div class="small-12 medium-12 large-12 columns">
-
-			<h2 class="section-heading">Open space</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis earum, temporibus veniam perferendis aspernatur recusandae harum quam culpa vitae, autem tenetur esse rem inventore commodi officiis repellendus praesentium repellat animi.</p>
+			{{ range where .Data.Pages "Section" "openspace" }}
+				{{ .Render "summary" }}
+			{{end}}
 		</div>
 				
 	</div>
