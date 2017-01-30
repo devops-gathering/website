@@ -18,7 +18,8 @@ With Windows Server 2016 you can use Docker and Windows Containers to have the s
 
 In this talk you will learn how to release your application both as Linux and Windows container and deploy them as multiarch Docker image.
 
-Key takeaways:
+## Key takeaways:
+
 * Learn how to build and release an application with GitHub
 * Build a Linux application with Travis CI
 * Build a Windows application with AppVeyor CI

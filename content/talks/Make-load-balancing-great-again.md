@@ -19,7 +19,8 @@ But it still remains tedious to easily connect these services without changing t
 
 This talk will be co-presented with Manuel Laufenberg, maintainer on Træfik.
 
-Key takeaways:
+## Key takeaways:
+
 * Learn how a modern reverse-proxy and ingress loadbalancer work
 * Learn how to publish many dynamic microservices at container orchestrator.
 * Learn how easy it is to setup automatically Let’s Encrypt

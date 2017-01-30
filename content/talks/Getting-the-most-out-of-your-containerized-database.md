@@ -14,7 +14,8 @@ Microservice environments with databases often grow to be a complex architecture
 
 You’re part of an experienced DevOps team who are both container and database savvy. This talk will offer a tune up, helping you make sure that your containerized databases are performing at their best. We’ll look at how to capitalize on the elastic scalability of containers for your database, how configuration via shared nothing/masterless architecture could help you do more and how to avoid unnecessary network traffic and utilize local instance stores. Also, you will learn about CrateDB.
 
-Key takeaways:
+## Key takeaways:
+
 * Learn how a setup CrateDB at a container world
 * Learn how setup a masterless DB architecture
 * Learn how to tune CrateDB
