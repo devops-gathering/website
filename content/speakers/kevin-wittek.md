@@ -6,6 +6,7 @@ firm="""
 Senior Software Developer - G DATA Advanced Analytics
 CEO - Styracosoft GbR
 """
+weight=1
 +++
 
 Java developer and JVM fanboy since being introduced to the language back in school 12 years ago. Found his own company during his university years, developing mobile apps and client-server applications, which lead to his discovery of Grails and the Groovy ecosystem. Fell in love with TDD because of Spock. 

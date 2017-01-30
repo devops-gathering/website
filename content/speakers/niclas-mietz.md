@@ -3,6 +3,7 @@ name="Niclas"
 lastname="Mietz"
 image="/img/speakers/niclas-mietz.png"
 firm="bee42 solutions GmbH"
+weight=1
 +++
 
 Niclas is DevOps Engineer at the bee42 solutions and studies computer science at FH Dortmund.

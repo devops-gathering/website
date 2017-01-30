@@ -3,6 +3,7 @@ name="Dieter"
 lastname="Reuter"
 image="/img/speakers/dieter-reuter.png"
 firm="bee42 solutions GmbH"
+weight=1
 +++
 
 Dieter Reuter is a Senior Consultant at bee42 solutions gmbh and Docker Captain at Hypriot with more than 30 years of enterprise IT experience and unquenchable curiosity.
