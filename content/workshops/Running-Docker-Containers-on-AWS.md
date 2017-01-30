@@ -5,7 +5,7 @@ firm = "AutoScout24"
 bio = """
 Philipp works as Lead Software Developer at AutoScout24 in Munich. As Docker Captain he shares his knowledge and experience about Containers.
 """
-image="/img/speakers/phillip-garbe.png"
+image="/img/speakers/philipp-garbe.png"
 speaker_link="/speakers/phillip-garbe/"
 time = "13:30 - 17:00"
 weight = 5
