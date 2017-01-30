@@ -62,6 +62,11 @@ baseurl = "https://devops-gathering.io"
     [params.tickets]
          enabled = true
 
+	[params.talks]
+		lunchbreak="13:00-14:00"
+		text="These Docker Workshops are a perfect fit for DevOps Engineers.<br> Attendees obtain the chance to gain first hand knowledge from experienced Docker Captains and Experts. <br> The concept of the workshop leaves room for experiments and a rich interaction between attendees and speaker."
+
+
 	[params.workshops]
 		lunchbreak="12:30-13:30"
-		text="These Docker Workshops are a perfect fit for DevOps Engineers.<br> Attendees obtain the chance to gain first hand knowledge from experienced Docker Captains and Experts. <br> The concept of the workshop leaves room for experiments and a rich interaction between attendees and speaker."
+		text="This Docker Workshops are an perfect fit for DevOps Engineers.<br> Attendees have the chance to learn from some exciting Docker Captains and Experts. <br> The concept of the workshop is to leave room for experiments.<br>  The goal of the workshops are to interact with one another and learn from the speaker a lot."

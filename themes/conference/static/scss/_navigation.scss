@@ -115,6 +115,16 @@
 					font-size: 1.7rem;
 				}
 			}
+
+			&.bee {
+				border-left: 1px solid #d4d4d4;
+				padding-left: 0.5rem;
+				a img {
+					width: 70px;
+					height: auto;
+					margin-top:  -5px;
+				}
+			}
 		}
 	}
 }
@@ -217,6 +227,18 @@
 							font-size: 1.7rem;
 							line-height: 39px;
 						}
+					}
+
+					&.bee {
+						padding-left: 0.5rem;
+						border: none;
+						
+						a img {
+							width: 70px;
+							height: auto;
+							margin-top:  -5px;
+						}
+				
 					}
 				}
 			}

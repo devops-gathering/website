@@ -1216,7 +1216,7 @@ header {
 // footer
 //--------------------------------------------------------------------------------------------------------
 footer {
-	background: #252525;
+	background: #d0d0d0;
 	height: auto;
 	overflow: hidden;
 	padding: 0 1rem;
@@ -1237,9 +1237,16 @@ footer {
 		a {
 			color: #505050;
 			@include default-trans(1s color ease);
+			margin-left: 10px;
 
 			&:hover {
 				color: $accent1;
+			}
+
+			img {
+				width:  100px;
+				height: auto;
+				margin-top: -21px;
 			}
 		}		
 	}
@@ -1262,6 +1269,12 @@ footer {
 			&:last-child {
 				float: none;
 			}	
+		}
+
+		p a img {
+			width: 65px;
+			height: auto;
+			margin-top: -14px;
 		}
 	}		
 }
