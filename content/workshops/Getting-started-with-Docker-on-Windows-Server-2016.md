@@ -8,7 +8,7 @@ bio="""
 Stefan is a Sr. Software Engineer at SEAL Systems. He is an early adopter of Docker on Windows and gives, as a Microsoft MVP and Docker Captain, feedback directly to Microsoft about his experience.  
 """
 time="13:30 - 17:00"
-weight = 4
+weight = 5
 speaker2 ="Dieter Reuter"
 speaker2_link="/speakers/dieter-reuter/"
 speaker2_image="/img/speakers/dieter-reuter.png"

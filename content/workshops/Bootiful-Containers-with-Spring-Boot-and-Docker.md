@@ -2,7 +2,7 @@
 title='"Bootiful" Containers with Spring-Boot and Docker'
 keywords = ["docker java", "docker tdd", "docker microservice", "docker spring-boot", "dockerfile" ,  "docker workshop", "docker training", "devops", "devops gathering"]
 time="13:30 - 17:00"
-weight=6
+weight=7
 speaker = "Kevin Wittek"
 speaker_link ="/speakers/kevin-wittek/"
 image = "/img/speakers/kevin-wittek.jpeg"
