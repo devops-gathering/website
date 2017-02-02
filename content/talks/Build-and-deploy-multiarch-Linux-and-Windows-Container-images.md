@@ -1,5 +1,6 @@
 +++
 title ="Build and deploy multiarch Linux and Windows Container images"
+keywords = ["docker windows container", "docker multiarch images", "orchestration", "cloud", "docker talk", "devops", "devops gathering"]
 speaker = "Stefan Scherer"
 speaker_link="/speakers/stefan-scherer/"
 image="/img/speakers/stefan-scherer.png"

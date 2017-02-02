@@ -1,5 +1,6 @@
 +++
 title ="Make load-balancing great again with Træfik!"
+keywords = ["traefik", "load balancing", "http reverse proxy", "golang", "docker swarming", "docker talk", "devops", "devops gathering"]
 speaker = "Emile Vauge"
 speaker_link="/speakers/emile-vauge/"
 bio ="""

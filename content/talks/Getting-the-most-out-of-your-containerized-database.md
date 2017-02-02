@@ -1,5 +1,6 @@
 +++
 title ="Getting the most out of your containerized database"
+keywords = ["cratedb", "docker", "elasticsearch", "nosql", "orchestration",  "docker talk", "devops", "devops gathering"]
 speaker = "Claus Matzinger"
 speaker_link="/speakers/claus-matzinger/"
 bio="""

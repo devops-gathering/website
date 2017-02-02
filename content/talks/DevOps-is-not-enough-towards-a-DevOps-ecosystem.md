@@ -1,5 +1,6 @@
 +++
 title ="Keynote: DevOps is not enough - towards a DevOps ecosystem"
+keywords = ["devops", "devops culture", "devops ecosystem", "devops keynote", "devops", "devops gathering"]
 speaker = "Uwe Friedrichsen"
 speaker_link="/speakers/uwe-friedrichsen/"
 image="/img/speakers/uwe-friedrichsen.jpg"
