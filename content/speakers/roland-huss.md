@@ -10,5 +10,6 @@ Dr. Roland Huss is a Principal Software Engineer at Red Hat working on Fuse. He 
 """
 
 
-* [Docker and Kubernetes for Java Developers]({{< relref "/workshops/Docker-and-Kubernetes-for-Java-Developers.md" >}})
+* [Docker and Kubernetes for Java Developers]({{< relref "workshops/Docker-and-Kubernetes-for-Java-Developers.md" >}})
+* [Docker Container Loading]({{< relref "talks/Docker-Container-Loading.md" >}})
 
