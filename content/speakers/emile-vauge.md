@@ -2,6 +2,7 @@
 name="Emile"
 lastname="Vauge"
 firm="traefik.io"
+image="/img/speakers/emile-vauge.png"
 weight=2
 +++
 

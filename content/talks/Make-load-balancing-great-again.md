@@ -3,6 +3,7 @@ title ="Make load-balancing great again with Træfik!"
 keywords = ["traefik", "load balancing", "http reverse proxy", "golang", "docker swarming", "docker talk", "devops", "devops gathering"]
 speaker = "Emile Vauge"
 speaker_link="/speakers/emile-vauge/"
+image="/img/speakers/emile-vauge.png"
 bio ="""
 Creator of traefik.io, Emile is developer and founder of containo.us. More than 10 years experience developing applications for the web and the industry, certified Docker trainer, he got interested lately in the DevOps method. He is particularly interested in orchestration tools like Swarm, Mesos and Kubernetes.
 """

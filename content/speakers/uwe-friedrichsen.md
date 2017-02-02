@@ -2,7 +2,7 @@
 name="Uwe"
 lastname="Friedrichsen"
 firm="codecentric"
-image="/img/speakers/uwe-friedrichsen.jpg"
+image="/img/speakers/uwe-friedrichsen.png"
 weight=1
 +++
 

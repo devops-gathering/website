@@ -8,6 +8,7 @@ A software engineer by trade, Claus Matzinger runs field engineering at Crate.io
 
 """
 weight = 4
+draft=true
 abstract = """
 Microservice environments with databases often grow to be a complex architecture behind the scenes to the point where requirements can’t be met. This talk will show how to run a scalable stack with persistent data storage based on Docker and how that will lead to less grey hairs on the Ops team.
 """
