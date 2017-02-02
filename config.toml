@@ -58,6 +58,7 @@ baseurl = "https://devops-gathering.io"
 		headline = "Questions?"
 		description = "Send us an email and we will get back to you as soon as possible!"
 		email = "info@devops-gathering.io"
+		twitter ="https://twitter.com/devopsgathering"
 
     [params.tickets]
          enabled = true

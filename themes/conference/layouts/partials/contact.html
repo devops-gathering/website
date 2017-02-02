@@ -11,9 +11,18 @@
 				<p>{{ . | markdownify }}</p>
 		{{ end }}
 		{{ if .Site.Params.contact.email }}
+
+				<div class="logo small-12 medium-6 large-6 columns">
 			<a href="mailto:{{ .Site.Params.contact.email }}"> 
 				<i class="fa fa-envelope-o wow bounceIn" data-wow-delay=".1s"></i>
 			</a>
+				</div>
+
+		<div class="logo small-12 medium-6 large-6 columns">
+			<a href="{{ .Site.Params.contact.twitter }}"> 
+				<i class="fa fa-twitter wow bounceIn" data-wow-delay=".1s"></i>
+			</a>
+				</div>
 	</div>
 	{{ end }}
 
