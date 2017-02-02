@@ -65,7 +65,7 @@ baseurl = "https://devops-gathering.io"
 
 	[params.talks]
 		lunchbreak="13:00-14:00"
-		text="These Talks are a perfect fit for DevOps Engineers.<br> Attendees obtain interesseting stories from Experts with different knowledge areas."
+		text="These Talks are a perfect fit for DevOps Engineers.<br> Attendees obtain interesseting stories from Experts with different knowledge areas.<br> The complete list of talks and the timeline we publish very soon!"
 
 
 	[params.workshops]
