@@ -1,5 +1,6 @@
 +++
 title="Getting started with Docker on Windows Server 2016"
+keywords = ["docker windows container", "docker azure", "docker raspberry pi", "orchestration", "docker microservice", "cloud", "docker workshop", "docker training", "devops", "devops gathering"]
 speaker="Stefan Scherer"
 speaker_link="/speakers/stefan-scherer/"
 image="/img/speakers/stefan-scherer.png"

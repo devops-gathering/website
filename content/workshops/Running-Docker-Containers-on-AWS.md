@@ -1,5 +1,6 @@
 +++
 title = "Running Docker Containers on AWS"
+keywords = ["docker aws", "docker swarming", "docker compose", "orchestration", "cloudformation" , "docker workshop", "docker training", "devops", "devops gathering"]
 speaker = "Philipp Garbe"
 firm = "AutoScout24"
 bio = """

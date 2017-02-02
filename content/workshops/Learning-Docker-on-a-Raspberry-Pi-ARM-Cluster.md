@@ -1,6 +1,7 @@
 +++
-speaker = "Dieter Reuter"
 title = "Learning Docker on a Raspberry Pi ARM-Cluster"
+keywords = ["docker arm", "docker swarming", "docker Raspberry PI", "orchestration", "docker microservice", "docker iot", "docker workshop", "docker training", "devops", "devops gathering"]
+speaker = "Dieter Reuter"
 speaker_link ="/speakers/dieter-reuter/"
 image = "/img/speakers/dieter-reuter.png"
 time = "09:00 - 12:30"

@@ -1,5 +1,6 @@
 +++
 title ="Docker and Kubernetes for Java Developers"
+keywords = ["docker java", "kubernetes", "docker image", "docker maven-plugin", "docker wildfly" , "docker spring-boot", "docker workshop", "docker training", "devops", "devops gathering"]
 speaker = "Roland Huss"
 speaker_link="/speakers/roland-huss/"
 image="/img/speakers/roland-huss.jpg"
