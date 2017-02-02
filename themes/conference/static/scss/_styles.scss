@@ -873,6 +873,19 @@ header {
 		margin:  2rem 0 0.5rem 0;
 		color: $light;
 	}
+
+
+	.more {
+		color: $light;
+		max-width:  auto;
+		background: #88c4de;
+		@include default-trans(1s background ease);
+
+		&:hover {
+			color: $light;
+			background: $accent2;
+		}
+	}
 }
 
 #map1, #map2 {
@@ -906,6 +919,18 @@ header {
 		font-size: 1.5rem;
 		margin:  2rem 0 0.5rem 0;
 		color: $light;
+	}
+
+		.more {
+		color: $light;
+		max-width:  auto;
+		background: $accent2;
+		@include default-trans(1s background ease);
+
+		&:hover {
+			color: $light;
+			background: #88c4de;
+		}
 	}
 }
 

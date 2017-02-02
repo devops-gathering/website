@@ -236,7 +236,7 @@ p {
 @media (max-width: 960px) {
   .navigation-container .branding {
     font-size: 1.2rem;
-    top: 1.4rem; }
+    top: 0.5rem; }
   .navigation-container .navigation, .navigation-container .social-media {
     display: none; }
   .navigation-container .burger {
@@ -903,6 +903,18 @@ header {
     font-size: 1.5rem;
     margin: 2rem 0 0.5rem 0;
     color: #fff; }
+  .content-box.location .more {
+    color: #fff;
+    max-width: auto;
+    background: #88c4de;
+    -webkit-transition: 1s background ease;
+    -moz-transition: 1s background ease;
+    -ms-transition: 1s background ease;
+    -o-transition: 1s background ease;
+    transition: 1s background ease; }
+    .content-box.location .more:hover {
+      color: #fff;
+      background: #f66e00; }
 
 #map1, #map2 {
   height: 300px;
@@ -923,6 +935,18 @@ header {
     font-size: 1.5rem;
     margin: 2rem 0 0.5rem 0;
     color: #fff; }
+  .content-box.tickets .more {
+    color: #fff;
+    max-width: auto;
+    background: #f66e00;
+    -webkit-transition: 1s background ease;
+    -moz-transition: 1s background ease;
+    -ms-transition: 1s background ease;
+    -o-transition: 1s background ease;
+    transition: 1s background ease; }
+    .content-box.tickets .more:hover {
+      color: #fff;
+      background: #88c4de; }
 
 #map1, #map2 {
   height: 300px;
