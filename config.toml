@@ -34,7 +34,7 @@ baseurl = "https://devops-gathering.io"
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "DevOps Gathering 2017"
 		subtitle   = "Take your seat and get pushed to the next level"
-		date = "24 – 25 March, 2017"
+		date = "23 – 25 March, 2017"
     subtitle2 = "bee42 solutions proudly presents"
 		location = "G Data Campus Bochum"
 		buttonText = "Call for Papers"
