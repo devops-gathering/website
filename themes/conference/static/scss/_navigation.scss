@@ -21,7 +21,11 @@
 		display: block;
 		position: absolute;
 		left: 0;
-		top: 1rem;
+		top: 0.5rem;
+			img{
+				width: 100%;
+			}
+		
 
 		span {
 			font-weight: 700;
@@ -115,6 +119,16 @@
 					font-size: 1.7rem;
 				}
 			}
+
+			&.bee {
+				border-left: 1px solid #d4d4d4;
+				padding-left: 0.5rem;
+				a img {
+					width: 70px;
+					height: auto;
+					margin-top:  -5px;
+				}
+			}
 		}
 	}
 }
@@ -128,7 +142,7 @@
 
 		.branding {
 			font-size: 1.2rem;
-			top: 1.4rem;
+			top: 0.5rem;
 		}
 
 		.navigation, .social-media {
@@ -217,6 +231,18 @@
 							font-size: 1.7rem;
 							line-height: 39px;
 						}
+					}
+
+					&.bee {
+						padding-left: 0.5rem;
+						border: none;
+						
+						a img {
+							width: 70px;
+							height: auto;
+							margin-top:  -5px;
+						}
+				
 					}
 				}
 			}

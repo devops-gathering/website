@@ -1,5 +1,6 @@
 +++
 title="Getting started with Docker on Windows Server 2016"
+keywords = ["docker windows container", "docker azure", "docker raspberry pi", "orchestration", "docker microservice", "cloud", "docker workshop", "docker training", "devops", "devops gathering"]
 speaker="Stefan Scherer"
 speaker_link="/speakers/stefan-scherer/"
 image="/img/speakers/stefan-scherer.png"
@@ -7,7 +8,7 @@ bio="""
 Stefan is a Sr. Software Engineer at SEAL Systems. He is an early adopter of Docker on Windows and gives, as a Microsoft MVP and Docker Captain, feedback directly to Microsoft about his experience.  
 """
 time="13:30 - 17:00"
-weight = 4
+weight = 5
 speaker2 ="Dieter Reuter"
 speaker2_link="/speakers/dieter-reuter/"
 speaker2_image="/img/speakers/dieter-reuter.png"

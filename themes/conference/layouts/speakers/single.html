@@ -12,7 +12,9 @@
         <header class="single">
             <div class="header-content">
                 <div class="header-content-inner">
+                    {{ if .Params.image}}
                         <img src="{{.Params.image}}" alt="{{.Params.name}} {{.Params.lastname}}">
+                   {{ end }}
                         <div>
                 <p>Speaker</p>
                     <h1>{{.Params.name}} {{.Params.lastname}}</h1>

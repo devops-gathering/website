@@ -1,5 +1,6 @@
 +++
 title = "Running Docker Containers on AWS"
+keywords = ["docker aws", "docker swarming", "docker compose", "orchestration", "cloudformation" , "docker workshop", "docker training", "devops", "devops gathering"]
 speaker = "Philipp Garbe"
 firm = "AutoScout24"
 bio = """
@@ -8,7 +9,7 @@ Philipp works as Lead Software Developer at AutoScout24 in Munich. As Docker Cap
 image="/img/speakers/philipp-garbe.png"
 speaker_link="/speakers/philipp-garbe/"
 time = "13:30 - 17:00"
-weight = 5
+weight = 6
 abstract= """
 Running containers locally has been made very easy by Docker with tools like Docker for Mac or Windows. With Docker Swarm a group of Docker engines can be turned into a virtual Docker Engine providing native clustering capabilities.
 

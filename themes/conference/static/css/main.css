@@ -141,7 +141,9 @@ p {
     display: block;
     position: absolute;
     left: 0;
-    top: 1rem; }
+    top: 0.5rem; }
+    .navigation-container .branding img {
+      width: 100%; }
     .navigation-container .branding span {
       font-weight: 700; }
   .navigation-container .burger {
@@ -220,6 +222,13 @@ p {
           color: #258fbc; }
         .navigation-container .social-media li a i {
           font-size: 1.7rem; }
+      .navigation-container .social-media li.bee {
+        border-left: 1px solid #d4d4d4;
+        padding-left: 0.5rem; }
+        .navigation-container .social-media li.bee a img {
+          width: 70px;
+          height: auto;
+          margin-top: -5px; }
 
 .navigation-overlay {
   display: none; }
@@ -227,7 +236,7 @@ p {
 @media (max-width: 960px) {
   .navigation-container .branding {
     font-size: 1.2rem;
-    top: 1.4rem; }
+    top: 0.5rem; }
   .navigation-container .navigation, .navigation-container .social-media {
     display: none; }
   .navigation-container .burger {
@@ -307,7 +316,14 @@ p {
             margin-right: 0.5rem; }
             .navigation-overlay .navigation.social-media li a i, .navigation-overlay .social-media.social-media li a i {
               font-size: 1.7rem;
-              line-height: 39px; } }
+              line-height: 39px; }
+          .navigation-overlay .navigation.social-media li.bee, .navigation-overlay .social-media.social-media li.bee {
+            padding-left: 0.5rem;
+            border: none; }
+            .navigation-overlay .navigation.social-media li.bee a img, .navigation-overlay .social-media.social-media li.bee a img {
+              width: 70px;
+              height: auto;
+              margin-top: -5px; } }
 header {
   height: 80vh;
   width: 100%;
@@ -887,6 +903,18 @@ header {
     font-size: 1.5rem;
     margin: 2rem 0 0.5rem 0;
     color: #fff; }
+  .content-box.location .more {
+    color: #fff;
+    max-width: auto;
+    background: #88c4de;
+    -webkit-transition: 1s background ease;
+    -moz-transition: 1s background ease;
+    -ms-transition: 1s background ease;
+    -o-transition: 1s background ease;
+    transition: 1s background ease; }
+    .content-box.location .more:hover {
+      color: #fff;
+      background: #f66e00; }
 
 #map1, #map2 {
   height: 300px;
@@ -907,6 +935,18 @@ header {
     font-size: 1.5rem;
     margin: 2rem 0 0.5rem 0;
     color: #fff; }
+  .content-box.tickets .more {
+    color: #fff;
+    max-width: auto;
+    background: #f66e00;
+    -webkit-transition: 1s background ease;
+    -moz-transition: 1s background ease;
+    -ms-transition: 1s background ease;
+    -o-transition: 1s background ease;
+    transition: 1s background ease; }
+    .content-box.tickets .more:hover {
+      color: #fff;
+      background: #88c4de; }
 
 #map1, #map2 {
   height: 300px;
@@ -1020,7 +1060,8 @@ header {
     font-size: 1.5em;
     margin-bottom: 1rem; } }
 .content-box.contact {
-  background: #333; }
+  background: url(/img/Dog.svg) right 20px bottom no-repeat #333;
+  background-size: 200px auto; }
   .content-box.contact h2, .content-box.contact p, .content-box.contact a {
     color: #fff; }
   .content-box.contact a {
@@ -1041,6 +1082,15 @@ header {
     .content-box.contact a:hover {
       background: #fff;
       color: #258fbc; }
+  .content-box.contact .icons {
+    margin: 0 auto;
+    max-width: 280px;
+    text-align: center; }
+    .content-box.contact .icons li {
+      display: inline-block;
+      margin: 0 0.5rem; }
+      .content-box.contact .icons li a {
+        float: left; }
   .content-box.contact #mc_embed_signup h3 {
     font-size: 1.125em;
     margin: 2rem 0 1rem;
@@ -1104,8 +1154,20 @@ header {
     border-radius: 0 22px 22px 0; }
     .content-box.contact #mc_embed_signup input.button:hover {
       background: #f66e00; } }
+@media (max-width: 1024px) {
+  .content-box.contact {
+    background: url(/img/Dog.svg) right 20px bottom no-repeat #333;
+    background-size: 150px auto; } }
+@media (max-width: 768px) {
+  .content-box.contact {
+    background: url(/img/Dog.svg) right 20px bottom no-repeat #333;
+    background-size: 100px auto; } }
+@media (max-width: 500px) {
+  .content-box.contact {
+    background: url(/img/Dog.svg) right 20px bottom no-repeat #333;
+    background-size: 50px auto; } }
 footer {
-  background: #252525;
+  background: #d0d0d0;
   height: auto;
   overflow: hidden;
   padding: 0 1rem; }
@@ -1125,9 +1187,14 @@ footer {
       -moz-transition: 1s color ease;
       -ms-transition: 1s color ease;
       -o-transition: 1s color ease;
-      transition: 1s color ease; }
+      transition: 1s color ease;
+      margin-left: 10px; }
       footer p a:hover {
         color: #258fbc; }
+      footer p a img {
+        width: 100px;
+        height: auto;
+        margin-top: -21px; }
 
 @media (max-width: 620px) {
   footer {
@@ -1142,6 +1209,10 @@ footer {
       margin-bottom: 0.5rem;
       line-height: 1.4; }
       footer p:last-child {
-        float: none; } }
+        float: none; }
+    footer p a img {
+      width: 65px;
+      height: auto;
+      margin-top: -14px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+<div class="content-box program" id="talks">
+	<div class="inner-content">
+
+		<h2>Talks at 24.3</h2>
+		<p>{{.Site.Params.talks.text | safeHTML}}</p>
+		<ul class="accordion">
+
+			{{range first 6 (where .Data.Pages.ByWeight "Section" "talks") }}
+				{{.Render "li"}}
+			{{end}}
+
+					
+		</ul>
+
+	</div>
+</div>

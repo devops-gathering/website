@@ -3,62 +3,19 @@
 	<p>Here is our venue for the pre conference workshops on 23.3 and the conference on 24./25.3</p>
 	<div class="inner-content">
     <div class="small-12 medium-6 large-6 columns">
-			<div id="map2"></div>
       <h3>Docker workshop venue</h3>
 			<h3>Veranstaltungszentrum RUB</h3>
 			<p>Universitätsstraße 150, 44801 Bochum</p>
 		</div>
 		<div class="small-12 medium-6 large-6 columns">
-			<div id="map1"></div>
+		
       <h3>Main conference venue</h3>
 			<h3>G Data Software AG</h3>
 			<p>Königsallee 178b, 44799 Bochum</p>
 		</div>
+
+	
+<p><a href="{{ .Site.BaseURL }}venue" style="display: inline-block" class="more">Read more</a></p>
+
 	</div>
 </div>
-
-<script>
-	function initialize(){
-		var styleArray =
-		[{"featureType":"road.local","elementType":"lalels.text","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"simplified"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":1},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}];
-
-	    var latlng = new google.maps.LatLng(51.458620,7.222102);
-	    var latlng2 = new google.maps.LatLng(51.444995,7.260625);
-	    var myOptions =
-	    {
-	        zoom: 15,
-	        center: latlng,
-	        mapTypeId: google.maps.MapTypeId.ROADMAP,
-	        styles: styleArray
-	    };
-
-	    var myOptions2 =
-	    {
-	        zoom: 15,
-	        center: latlng2,
-	        mapTypeId: google.maps.MapTypeId.ROADMAP,
-	        styles: styleArray
-	    };
-
-	    var map = new google.maps.Map(document.getElementById("map1"), myOptions);
-	    var map2 = new google.maps.Map(document.getElementById("map2"), myOptions2);
-
-	    var myMarker = new google.maps.Marker(
-	    {
-	        position: latlng,
-	        map: map,
-	        title:"D Data"
-	   });
-
-	    var myMarker2 = new google.maps.Marker(
-	    {
-	        position: latlng2,
-	        map: map2,
-	        title:"Veranstaltungszentrum RUB"
-	    });
-	}
-</script>
-
-<script async defer
-	src="https://maps.googleapis.com/maps/api/js?callback=initialize&key=AIzaSyAsNF-i6P3l9acsSekeflb61VZsssIg5CA&callback=initialize">
-</script>

@@ -6,6 +6,7 @@ firm="""
 Software Developer - G DATA Advanced Analytics
 CEO - Styracosoft GbR
 """
+weight=1
 +++
 
 Jack-Of-All-Trades promoting perpetual pursuit of technical excellence.Developer of Java systems since about 10 years ago.

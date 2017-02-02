@@ -873,6 +873,19 @@ header {
 		margin:  2rem 0 0.5rem 0;
 		color: $light;
 	}
+
+
+	.more {
+		color: $light;
+		max-width:  auto;
+		background: #88c4de;
+		@include default-trans(1s background ease);
+
+		&:hover {
+			color: $light;
+			background: $accent2;
+		}
+	}
 }
 
 #map1, #map2 {
@@ -906,6 +919,18 @@ header {
 		font-size: 1.5rem;
 		margin:  2rem 0 0.5rem 0;
 		color: $light;
+	}
+
+		.more {
+		color: $light;
+		max-width:  auto;
+		background: $accent2;
+		@include default-trans(1s background ease);
+
+		&:hover {
+			color: $light;
+			background: #88c4de;
+		}
 	}
 }
 
@@ -1084,7 +1109,8 @@ header {
 // contact
 //--------------------------------------------------------------------------------------------------------
 .content-box.contact {
-	background: $dark;
+	background: url(/img/Dog.svg)  right 20px  bottom no-repeat $dark;
+	background-size: 200px auto;
 
 	h2,p,a {
 		color: $light;
@@ -1105,6 +1131,21 @@ header {
 		&:hover{
 			background: $light;
 			color: $accent1;
+		}
+	}
+
+	.icons{
+		margin:  0 auto;
+		max-width: 280px;
+		text-align: center;
+
+		li {
+			display: inline-block;
+			margin:  0 0.5rem;
+
+			a {
+				float: left;
+			}
 		}
 	}
 
@@ -1213,10 +1254,32 @@ header {
 	}
 }
 
+@include mq-1024 {
+	.content-box.contact {
+		background: url(/img/Dog.svg)  right 20px  bottom no-repeat $dark;
+		background-size: 150px auto;
+	}
+}
+
+@include mq-768 {
+	.content-box.contact {
+			background: url(/img/Dog.svg)  right 20px  bottom no-repeat $dark;
+				background-size: 100px auto;
+	}
+}
+
+@include mq-500 {
+	.content-box.contact {
+			background: url(/img/Dog.svg)  right 20px  bottom no-repeat $dark;
+				background-size: 50px auto;
+	}
+}
+
+
 // footer
 //--------------------------------------------------------------------------------------------------------
 footer {
-	background: #252525;
+	background: #d0d0d0;
 	height: auto;
 	overflow: hidden;
 	padding: 0 1rem;
@@ -1237,9 +1300,16 @@ footer {
 		a {
 			color: #505050;
 			@include default-trans(1s color ease);
+			margin-left: 10px;
 
 			&:hover {
 				color: $accent1;
+			}
+
+			img {
+				width:  100px;
+				height: auto;
+				margin-top: -21px;
 			}
 		}		
 	}
@@ -1262,6 +1332,12 @@ footer {
 			&:last-child {
 				float: none;
 			}	
+		}
+
+		p a img {
+			width: 65px;
+			height: auto;
+			margin-top: -14px;
 		}
 	}		
 }
