@@ -3,27 +3,27 @@ title = "Container Open Space"
 os_date="25.3"
 draft = false
 description="""
-This Open Space is a perfect fit for Container experts; it offers attendees the opportunity to raise questions and problems regarding Docker, Kubernetes and Cloud technologies. 
+This Open Space is a perfect fit for Container experts; it offers attendees the opportunity to raise questions and problems regarding Docker, Kubernetes and Cloud technologies.
 
-The concept of the open space is to leave room for debates about how to solve the problems that go hand in hand with this new technology. The goal of this Open Space is to allow attendees to interact with one another and learn from each other – all under the guidance of an experienced moderator. 
+The concept of the open space is to leave room for debates about how to solve the problems that go hand in hand with this new technology. The goal of this Open Space is to allow attendees to interact with one another and learn from each other – all under the guidance of an experienced moderator.
 
 What technical challenges emerge?
 
 Have we reaped the benefits of the existing solutions?
-What experience values do we already have regarding Docker or Kubernetes in production? 
+What experience values do we already have regarding Docker or Kubernetes in production?
 
 These are some of the questions that will be addressed in the Container expert open space. Attendees are required to have basic Docker and Kubernetes knowledge.
 """
 +++
 
-This Open Space is a perfect fit for Container experts; it offers attendees the opportunity to raise questions and problems regarding Docker, Kubernetes and Cloud technologies. 
+This Open Space is a perfect fit for Container experts; it offers attendees the opportunity to raise questions and problems regarding Docker, Kubernetes and Cloud technologies.
 
-The concept of the open space is to leave room for debates about how to solve the problems that go hand in hand with this new technology. The goal of this Open Space is to allow attendees to interact with one another and learn from each other – all under the guidance of an experienced moderator. 
+The concept of the open space is to leave room for debates about how to solve the problems that go hand in hand with this new technology. The goal of this Open Space is to allow attendees to interact with one another and learn from each other – all under the guidance of an experienced moderator.
 
 What technical challenges emerge?
 
 Have we reaped the benefits of the existing solutions?
-What experience values do we already have regarding Docker or Kubernetes in production? 
+What experience values do we already have regarding Docker or Kubernetes in production?
 
 These are some of the questions that will be addressed in the Container expert open space. Attendees are required to have basic Docker and Kubernetes knowledge.
 
@@ -41,21 +41,20 @@ Open Space is the only process that focuses on expanding time and space for the 
 * The law of the two feet
 
 ## Schedule of the day
-| Time| Action |
-| :--| --:|
-| 8:00 | Breakfast |
-| 9:00 - 9:15| Open Space Introduction|
-| 9:15 - 9:45 | Finding topics |
-| 15 min | coffee break |
-| 10:00 - 11:00  | Discussions |
-| 15 min | coffee break |
-| 11:15 - 12:15 | Discussions |
-| 1 hour | lunch break |
-| 13:15 - 14:15 | Lightning Talks |
-| 14:15 - 14:30 | Adjusting the topics |
-| 14:30 - 15:30 | Discussions |
-| 30 min | coffee break |
-| 16:00 - 16:45 | Final words |
+
+| Time          |         Action          |
+|:--------------|:-----------------------:|
+| 8:30          |        Reception        |
+| 9:30 - 9:45   | Open Space Introduction |
+| 9:45 - 10:15  |     Finding Topics      |
+| 10:15 - 11:15 |  Open Space Sessions I  |
+| 11:15 - 12:15 | Open Space Sessions II  |
+| 1 hour        |       Lunch Break       |
+| 12:45 - 13:30 |    Open Stage Talks     |
+| 13:30 - 14:15 | Open Space Sessions III |
+| 14:15 - 15:00 | Open Space Sessions IV  |
+| 15:00 - 16:00 | Wrap-Up and Final Words |
+| >16:00        |      Say good bye       |
 
 ## What we offer?
 * Moderation
