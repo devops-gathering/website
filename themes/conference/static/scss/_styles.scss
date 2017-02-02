@@ -1109,7 +1109,8 @@ header {
 // contact
 //--------------------------------------------------------------------------------------------------------
 .content-box.contact {
-	background: $dark;
+	background: url(/img/Dog.svg)  right 20px  bottom no-repeat $dark;
+	background-size: 200px auto;
 
 	h2,p,a {
 		color: $light;
@@ -1130,6 +1131,21 @@ header {
 		&:hover{
 			background: $light;
 			color: $accent1;
+		}
+	}
+
+	.icons{
+		margin:  0 auto;
+		max-width: 280px;
+		text-align: center;
+
+		li {
+			display: inline-block;
+			margin:  0 0.5rem;
+
+			a {
+				float: left;
+			}
 		}
 	}
 
@@ -1235,6 +1251,19 @@ header {
 		}
 	}				
 		}
+	}
+}
+
+@include mq-1024 {
+	.content-box.contact {
+		background: url(/img/Dog.svg)  right 20px  bottom no-repeat $dark;
+		background-size: 150px auto;
+	}
+}
+
+@include mq-768 {
+	.content-box.contact {
+		background-image: none;
 	}
 }
 
