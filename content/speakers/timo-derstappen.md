@@ -1,7 +1,7 @@
 +++
 name="Timo"
 lastname="Derstappen"
-image="/img/speakers/timo-derstappen.jpeg"
+image="/img/speakers/timo-derstappen.png"
 weight=1
 +++
 

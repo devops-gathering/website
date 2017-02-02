@@ -1,7 +1,7 @@
 +++
 name="Roland"
 lastname="Huss"
-image="/img/speakers/roland-huss.jpg"
+image="/img/speakers/roland-huss.png"
 firm="Red Hat"
 weight=12
 +++

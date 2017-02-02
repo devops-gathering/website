@@ -3,7 +3,7 @@ title ="How we run Kubernetes in Kubernetes, aka Kubeception"
 keywords = ["kubernetes", "kubernetes caas", "orchestration", "cloud", "docker talk", "devops", "devops gathering"]
 speaker = "Timo Derstappen"
 speaker_link="/speakers/timo-derstappen/"
-image="/img/speakers/timo-derstappen.jpeg"
+image="/img/speakers/timo-derstappen.png"
 
 bio ="""
 Timo Derstappen is co-founder of Giant Swarm in Cologne. He has many years of experience in building scalable and automated cloud architectures. He likes his minimal linux desktop setup, puts nearly everything into containers and thinks Minecraft is a gateway drug.
