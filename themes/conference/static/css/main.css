@@ -1160,7 +1160,12 @@ header {
     background-size: 150px auto; } }
 @media (max-width: 768px) {
   .content-box.contact {
-    background-image: none; } }
+    background: url(/img/Dog.svg) right 20px bottom no-repeat #333;
+    background-size: 100px auto; } }
+@media (max-width: 500px) {
+  .content-box.contact {
+    background: url(/img/Dog.svg) right 20px bottom no-repeat #333;
+    background-size: 50px auto; } }
 footer {
   background: #d0d0d0;
   height: auto;

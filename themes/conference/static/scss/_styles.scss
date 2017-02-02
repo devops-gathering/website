@@ -1263,9 +1263,18 @@ header {
 
 @include mq-768 {
 	.content-box.contact {
-		background-image: none;
+			background: url(/img/Dog.svg)  right 20px  bottom no-repeat $dark;
+				background-size: 100px auto;
 	}
 }
+
+@include mq-500 {
+	.content-box.contact {
+			background: url(/img/Dog.svg)  right 20px  bottom no-repeat $dark;
+				background-size: 50px auto;
+	}
+}
+
 
 // footer
 //--------------------------------------------------------------------------------------------------------
