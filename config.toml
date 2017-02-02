@@ -20,7 +20,7 @@ baseurl = "https://devops-gathering.io"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Devops Gathering 2017"
-	description = "The DevOps Gathering is an international conference located in Bochum - surrounded by the metropolitan area of the Ruhr Valley. This melting pot of past times industrial revolutions is nowadays a hot spot for Germany’s IT industry - a perfect place to discuss the next big revolution of our industry, the DevOps revolution. Let’s discuss the trending topics inside the DevOps community and start talking about Docker, Kubernetes, Microservices, Clouds and everything else regarding DevOps.We are hosting a non-profit conference striving for high-quality content and providing a platform for experienced international speakers at the G DATA Campus in the heart of Bochum."
+	description = "The DevOps Gathering is an international conference located in Bochum - surrounded by the metropolitan area of the Ruhr Valley. This melting pot of past times industrial revolutions is nowadays a hot spot for Germany’s IT industry - a perfect place to discuss the next big revolution of our industry, the DevOps revolution. Let’s discuss the trending topics inside the DevOps community and start talking about Docker, Kubernetes, Microservices, Clouds and everything else regarding DevOps. The bee42 solutions gmbh are hosting a non-profit conference striving for high-quality content and providing a platform for experienced international speakers at the G DATA Campus in the heart of Bochum."
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
