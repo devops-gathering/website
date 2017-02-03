@@ -5,11 +5,11 @@
 		<p>{{.Site.Params.talks.text | safeHTML}}</p>
 		<ul class="accordion">
 
-			{{range first 6 (where .Data.Pages.ByWeight "Section" "talks") }}
+			{{range first 8 (where .Data.Pages.ByWeight "Section" "talks") }}
 				{{.Render "li"}}
 			{{end}}
 
-					
+
 		</ul>
 
 	</div>
