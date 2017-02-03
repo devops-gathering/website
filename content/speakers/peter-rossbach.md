@@ -10,3 +10,4 @@ Peter Rossbach is a infra coder, system architect and coach of numerous web syst
 
 
 * [Learning Docker on a Raspberry Pi ARM-Cluster]({{< relref "workshops/Learning-Docker-on-a-Raspberry-Pi-ARM-Cluster.md" >}})
+* [Docker Orchestration and Swarming]({{< relref "talks/Docker-Orchestration-and-Swarming.md" >}})
