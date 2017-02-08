@@ -2,7 +2,7 @@ languageCode = "en-us"
 theme = "conference"
 title = "Devops Gathering 2017"
 baseurl = "https://devops-gathering.io"
-
+enableRobotsTXT = true
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
