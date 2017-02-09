@@ -9,11 +9,11 @@ Stefan is a Sr. Software Engineer at SEAL Systems. He is an early adopter of Doc
 """
 weight = 5
 abstract = """
-Window Server 2016 brings Docker and Windows containers built-in. Let’s adopt this new way to deploy applications on Windows. You will learn how to unify your deployment for both Linux and Windows platforms.
+Window Server 2016 brings an Docker and Windows container built-in. Let’s adopt this new way to deploy applications on Windows. You will learn how to unite your deployment for both Linux and Windows platforms.
 """
 +++
 
-With Docker we have learned how to build and run applications in Linux containers. But what if you also have tasks that can run only on Windows machines?
+With Docker we learned how to build and run applications in Linux containers. But about tasks that can run only on Windows machines?
 
 With Windows Server 2016 you can use Docker and Windows Containers to have the same experience and workflow.
 

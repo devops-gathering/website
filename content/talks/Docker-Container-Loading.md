@@ -5,7 +5,7 @@ speaker = "Roland Huss"
 speaker_link="/speakers/roland-huss/"
 image="/img/speakers/roland-huss.png"
 bio="""
-Dr. Roland Huss is a Principal Software Engineer at Red Hat working on Fuse. He has been developing in Java for twenty years now but never forgot his roots as system administrator. Roland is an active open source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli pepper.
+Dr. Roland Huss is a Principal Software Engineer at Red Hat working on Fuse. He has been developing in Java for twenty years now, but never forgot his roots as system administrator. Roland is an active open source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli peppers.
 """
 weight = 2
 abstract = """

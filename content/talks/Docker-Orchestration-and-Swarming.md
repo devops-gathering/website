@@ -11,7 +11,7 @@ weight = 8
 abstract = """
 The Docker ecosystem offers promising tools for service discovering, automatic scaling, failover and deployment. The talk presents and discusses the practical benefits of the Docker orchestration platform.
 
- This talk presents creative ways to build, ship and run services.
+ This talk gives valuable insights to creative ways to build, ship and run services.
 """
 +++
-This presentation gives an overview of the technical solutions for the orchestration of Docker-based services. This means rethinking your IT-business in every area. Create, maintain and modify many machines and containers on your developer notebook, in your data center or the cloud is a challenge. Our applications are constantly being expanded and adapted to different use cases. Your microservices need a better environment. The Docker ecosystem offers promising tools for service discovering, automatic scaling, failover and deployment. The talk presents and discusses the practical benefits of the Docker orchestration platform.
+This talk gives an overview of the technical solutions for the orchestration of Docker-based services. This means rethinking your IT-business in every area. Create, maintain and modify many machines and containers on your developer notebook, in your data center or the cloud is a challenge. Our applications are constantly expanded and adapted to different use cases. Hence, microservices need a better environment. The Docker ecosystem offers promising tools for service discovering, automatic scaling, failover and deployment. The talk presents and discusses the practical benefits of the Docker orchestration platform.

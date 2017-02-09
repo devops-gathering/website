@@ -3,42 +3,44 @@ title = "Container Open Space"
 os_date="25.3"
 draft = false
 description="""
-This Open Space is a perfect fit for Container experts; it offers attendees the opportunity to raise questions and problems regarding Docker, Kubernetes and Cloud technologies.
+The Open Space format perfectly fits to the fast moving development of the Container ecosystem. It offers participants and experts the opportunity to launch discussions, address questions and challenges regarding Docker, Kubernetes and Cloud technologies.
 
-The concept of the open space is to leave room for debates about how to solve the problems that go hand in hand with this new technology. The goal of this Open Space is to allow attendees to interact with one another and learn from each other – all under the guidance of an experienced moderator.
+An Open Space is a simple and productive way for hosting conferences. Participants and experts will create and manage together their own agenda of parallel working sessions. The goal of this Open Space is to allow attendees to interact with one another and learn from each other – all under the guidance of an experienced moderator.
 
-What technical challenges emerge?
+**The topic of our Open Space is: What technical challenges emerge with Docker and Kubernetes?**
 
-Have we reaped the benefits of the existing solutions?
-What experience values do we already have regarding Docker or Kubernetes in production?
+Among others, we address the following questions:
 
-These are some of the questions that will be addressed in the Container expert open space. Attendees are required to have basic Docker and Kubernetes knowledge.
+* Do we know and proper use the benefits of existing solutions?
+* What experience do we already have with Docker or Kubernetes in production?
+
+However, these are only some of the questions we want to discuss with participants and Container experts.
+Participants are required to have basic Docker and Kubernetes knowledge.
 """
 +++
 
-This Open Space is a perfect fit for Container experts; it offers attendees the opportunity to raise questions and problems regarding Docker, Kubernetes and Cloud technologies.
+The Open Space format perfectly fits to the fast moving development of the Container ecosystem. It offers participants and experts the opportunity to launch discussions, address questions and challenges regarding Docker, Kubernetes and Cloud technologies.
 
-The concept of the open space is to leave room for debates about how to solve the problems that go hand in hand with this new technology. The goal of this Open Space is to allow attendees to interact with one another and learn from each other – all under the guidance of an experienced moderator.
+An Open Space is a simple and productive way for hosting conferences. Participants and experts will create and manage together their own agenda of parallel working sessions. The goal of this Open Space is to allow attendees to interact with one another and learn from each other – all under the guidance of an experienced moderator.
 
-What technical challenges emerge?
+**The topic of our Open Space is: What technical challenges emerge with Docker and Kubernetes?**
 
-Have we reaped the benefits of the existing solutions?
-What experience values do we already have regarding Docker or Kubernetes in production?
+Among others, we address the following questions:
 
-These are some of the questions that will be addressed in the Container expert open space. Attendees are required to have basic Docker and Kubernetes knowledge.
+* Do we know and proper use the benefits of existing solutions?
+* What experience do we already have with Docker or Kubernetes in production?
 
-## Open Space Rules
-Open Space is the only process that focuses on expanding time and space for the force of self-organisation to do its thing.
+However, these are only some of the questions we want to discuss with participants and Container experts.
+Participants are required to have basic Docker and Kubernetes knowledge.
 
-* Whoever comes it the right One!
-* Be prepared to be surprised!
-* There are people in Open Space who are like butterflies ...
-* There are people in Open Space who are like bumblebees ...
-* Infomarket: write down what's important (to you)!
-* Whenever it starts, it's the right time!
-* When it's over, it's over!
-* Whatever happens it's the only thing that can happen!
-* The law of the two feet
+## Open Space - What will happen
+We never know exactly what will happen when we open the space for people to do their most important work, but we can guarantee these results when any group gets into Open Space:
+
+* All of the issues that are MOST important to the participants will be raised.
+* All of the issues raised will be addressed by those participants most qualified and capable of getting something done on each of them.
+* In a time as short as one day, all of the most important ideas, discussion, recommendations, conclusions, questions for further study, and plans for immediate action will be documented in each session.
+* At the end, all results of each session will available and briefly discussed with all participants of the day.
+* AND… results like these can be planned and implemented faster than any other kind of so-called “large-group intervention.” It is literally possible to accomplish in one day what some other approaches take weeks or months to do.
 
 ## Schedule of the day
 
