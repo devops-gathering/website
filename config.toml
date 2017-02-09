@@ -25,6 +25,9 @@ enableRobotsTXT = true
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
+	[params.meta]
+	 image = "meta-image.png"
+
 	# About Devops Gathering
 	[params.about]
 		title="About DevOps Gathering"

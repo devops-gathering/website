@@ -1,11 +1,15 @@
 <!-- Required Open Graph Info -->
 <meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{else}} {{if .Site.Params.description}} {{.Site.Params.description}} {{end}}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .Params.type }}{{ .Params.type }}{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
+{{if .Params.images}}
 {{ with .Params.images }}{{ range first 6 . }}
 	<meta property="og:image" content="{{ . }}" />
 {{ end }}{{ end }}
+{{else}}
+	<meta property="og:image" content="{{.Site.BaseURL}}/{{ .Site.Params.meta.image }}" />
+{{end}}
 
 <!-- Optional Open Graph Markup -->
 <meta property="og:updated_time" content="{{ .Date }}"/>
