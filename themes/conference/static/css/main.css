@@ -952,6 +952,48 @@ header {
   height: 300px;
   width: 100%; }
 
+.content-box.open-space ul {
+  display: block;
+  float: none;
+  clear: both;
+  margin: 0 0 2rem 25%; }
+  .content-box.open-space ul li {
+    list-style-type: none;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    margin-bottom: 5px;
+    position: relative;
+    font-size: 1.125rem;
+    color: #565656;
+    text-align: left; }
+    .content-box.open-space ul li:last-child {
+      border: none; }
+    .content-box.open-space ul li:before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #258fbc;
+      position: absolute;
+      left: 0;
+      top: 14px; }
+  .content-box.open-space ul ul {
+    margin: 0 0 0 0.5rem; }
+    .content-box.open-space ul ul li {
+      border: none;
+      margin-bottom: 0;
+      padding: 0.1rem 0 0 1.5rem; }
+      .content-box.open-space ul ul li:before {
+        top: 9px; }
+
+@media (max-width: 1120px) {
+  .content-box.open-space ul {
+    margin: 0 0 2rem 25%; } }
+@media (max-width: 960px) {
+  .content-box.open-space ul {
+    margin: 0 0 2rem 10%; } }
+@media (max-width: 620px) {
+  .content-box.open-space ul {
+    margin: 0 0 2rem 0; } }
 .content-box.single-content {
   text-align: left; }
   .content-box.single-content .inner-content {
