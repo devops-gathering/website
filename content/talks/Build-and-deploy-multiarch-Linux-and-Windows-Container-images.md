@@ -8,6 +8,7 @@ bio="""
 Stefan is a Sr. Software Engineer at SEAL Systems. He is an early adopter of Docker on Windows and gives, as a Microsoft MVP and Docker Captain, feedback directly to Microsoft about his experience.  
 """
 weight = 5
+time = "14:00 - 14:30"
 abstract = """
 Window Server 2016 brings an Docker and Windows container built-in. Let’s adopt this new way to deploy applications on Windows. You will learn how to unite your deployment for both Linux and Windows platforms.
 """

@@ -8,6 +8,7 @@ bio="""
 Peter Rossbach is a infra coder, system architect and coach of numerous web systems and founder of the bee42 solutions gmbh. He is also CTO of Setlog Gmbh a Supply Chain Management company. Peter realized appropriate infrastructure products and offer many training based on the Docker and Kubernetes ecosystem, current web technologies, microservices, Apache Tomcat, Java, NoSQL databases and cloud platforms.
 """
 weight = 8
+time = "16:45 - 17:15"
 abstract = """
 The Docker ecosystem offers promising tools for service discovering, automatic scaling, failover and deployment. The talk presents and discusses the practical benefits of the Docker orchestration platform.
 

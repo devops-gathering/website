@@ -7,7 +7,8 @@ image="/img/speakers/emile-vauge.png"
 bio ="""
 Creator of traefik.io, Emile is developer and founder of containo.us. He has more than 10 years experience developing applications for the web and the industry and is certified Docker trainer. Lately he got interested in the DevOps methods. He is particularly interested in orchestration tools like Swarm, Mesos and Kubernetes.
 """
-weight = 2
+time= "16:00 - 16:30"
+weight = 7
 abstract = """
 How to effectively manage inbound network traffic in your container based infrastructure? This talk will be a deep dive into Træfik, a modern reverse-proxy and load balancer made to deploy easily microservices. You will see a lot of demos with Docker Swarm, Let’s Encrypt and Kubernetes.
 """

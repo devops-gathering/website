@@ -8,6 +8,7 @@ bio="""
 Dr. Roland Huss is a Principal Software Engineer at Red Hat working on Fuse. He has been developing in Java for twenty years now, but never forgot his roots as system administrator. Roland is an active open source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli peppers.
 """
 weight = 2
+time = "10:00 - 10:30"
 abstract = """
 "Docker build” with plain Dockerfiles is currently the canonical and recommended approach for creating Docker images. But is this also always the best way for all use cases?
 
