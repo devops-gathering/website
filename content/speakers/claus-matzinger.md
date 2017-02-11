@@ -1,6 +1,7 @@
 +++
 name="Claus"
 lastname="Matzinger"
+image="/img/speakers/claus-matzinger.png"
 firm="Crate.io"
 draft=false
 weight=3
