@@ -2,7 +2,7 @@
 name="Maykel"
 lastname="Moya"
 firm="ShuttleCloud Corp"
-image="/img/speakers/maykel-moya.jpg"
+image="/img/speakers/maykel-moya.png"
 weight=2
 +++
 
