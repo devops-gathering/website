@@ -8,7 +8,8 @@ bio="""
 Lucas Käldström (@luxas on Github) is an upper secondary school student who is a Kubernetes maintainer on his spare time. He has been actively engaged in the Kubernetes project for more than one and a half year now and ported Kubernetes to other platforms, including ARM 32 and 64-bit. He also wrote a design doc about how a multi-platform Kubernetes cluster should function and he has been a core member in the sig-cluster-lifecycle group since July 2016 and have been hacking code on kubeadm and been organizing kubeadm releases.
 
 """
-weight = 3
+weight = 6
+time = "14:45 - 15:15"
 abstract = """
 Kubernetes is a great container orchestration system; does it work on other architectures? Yes, it does! This is a talk and presentation about the multi-architecture features Kubernetes has and the talk shows how easy it now is to set up a Kubernetes cluster with nodes of three different architectures with kubeadm. Raspberry Pi’s of different flavours, Odroids and Up Boards are all invited to the party!
 """

@@ -7,7 +7,8 @@ image="/img/speakers/uwe-friedrichsen.png"
 bio="""
 Uwe Friedrichsen travels the IT world since many years. As a fellow of codecentric AG he is always looking for innovative ideas and concepts. His current focus areas are resilience, scalability and the IT of (the day after) tomorrow. Often, you can find him on conferences sharing his ideas, or as author of articles, blog posts, tweets and more.  
 """
-weight = 1
+weight = 9
+time = "17:30: - 18:30"
 abstract = """
 The DevOps movement is gaining momentum - which is good. But still, the DevOps potential is underestimated. DevOps is not only a more intense collaboration between Development and Operations or just the introduction of some new tools and technologies. Instead, DevOps is the implementation driver for a massive change in IT - and it is not enough in itself.
 """

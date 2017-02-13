@@ -5,9 +5,17 @@ speaker = "Emile Vauge"
 speaker_link="/speakers/emile-vauge/"
 image="/img/speakers/emile-vauge.png"
 bio ="""
-Creator of traefik.io, Emile is developer and founder of containo.us. He has more than 10 years experience developing applications for the web and the industry and is certified Docker trainer. Lately he got interested in the DevOps methods. He is particularly interested in orchestration tools like Swarm, Mesos and Kubernetes.
+Creator of Træfik, Emile is developer and founder of containo.us. He has more than 10 years experience developing applications for the web and the industry and is certified Docker trainer. Lately he got interested in the DevOps methods. He is particularly interested in orchestration tools like Swarm, Mesos and Kubernetes.
 """
-weight = 2
+speaker2 ="Manuel Laufenberg"
+speaker2_link="/speakers/manuel-laufenberg/"
+speaker2_image="/img/speakers/manuel-laufenberg.png"
+speaker2_firm="Software Developer - Colognetworx"
+speaker2_bio="""
+Maintainer of Træfik, Manuel is a technical architect for a local cologne based agency called Colognetworx.
+"""
+time= "16:00 - 16:30"
+weight = 7
 abstract = """
 How to effectively manage inbound network traffic in your container based infrastructure? This talk will be a deep dive into Træfik, a modern reverse-proxy and load balancer made to deploy easily microservices. You will see a lot of demos with Docker Swarm, Let’s Encrypt and Kubernetes.
 """
@@ -19,7 +27,6 @@ But it still remains tedious to easily connect these services without changing t
 
 [traefik.io](https://traefik.io), a reverse-proxy that can watch orchestrators’ API to generate its configuration automatically. This tiny tools solves what can be a huge pain when dealing with microservices deployed in an orchestrator.
 
-This talk will be co-presented with Manuel Laufenberg, maintainer on Træfik.
 
 ## Key takeaways:
 

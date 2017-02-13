@@ -5,11 +5,89 @@
 		<p>{{.Site.Params.talks.text | safeHTML}}</p>
 		<ul class="accordion">
 
-			{{range first 8 (where .Data.Pages.ByWeight "Section" "talks") }}
-				{{.Render "li"}}
+			{{range  $index, $element := (where .Data.Pages.ByWeight "Section" "talks") }}
+					{{if eq $index 0 }}
+					{{.Render "li"}}
+				{{end}}
 			{{end}}
 
 
+			{{range  $index, $element := (where .Data.Pages.ByWeight "Section" "talks") }}
+					{{if eq $index 1 }}
+					{{.Render "li"}}
+				{{end}}
+			{{end}}
+
+			<li class="acc-container-break">
+				<div class="acc-title">
+					<h3><span class="time break">10:45 - 11:00</span>Break</h3>
+				</div>
+			</li>
+
+			{{range  $index, $element := (where .Data.Pages.ByWeight "Section" "talks") }}
+					{{if eq $index 2 }}
+					{{.Render "li"}}
+				{{end}}
+			{{end}}
+
+			{{range  $index, $element := (where .Data.Pages.ByWeight "Section" "talks") }}
+					{{if eq $index 3 }}
+					{{.Render "li"}}
+				{{end}}
+			{{end}}
+
+			<li class="acc-container-break">
+				<div class="acc-title">
+					<h3><span class="time break">12:30 - 14:00</span>Lunch Break</h3>
+				</div>
+			</li>
+
+			{{range  $index, $element := (where .Data.Pages.ByWeight "Section" "talks") }}
+					{{if eq $index 4 }}
+					{{.Render "li"}}
+				{{end}}
+			{{end}}
+
+			{{range  $index, $element := (where .Data.Pages.ByWeight "Section" "talks") }}
+					{{if eq $index 5 }}
+					{{.Render "li"}}
+				{{end}}
+			{{end}}
+
+
+			<li class="acc-container-break">
+				<div class="acc-title">
+					<h3><span class="time break">15:15 - 16:00</span>Afternoon Break</h3>
+				</div>
+			</li>
+			{{range  $index, $element := (where .Data.Pages.ByWeight "Section" "talks") }}
+					{{if eq $index 6 }}
+					{{.Render "li"}}
+				{{end}}
+			{{end}}
+
+			{{range  $index, $element := (where .Data.Pages.ByWeight "Section" "talks") }}
+					{{if eq $index 7 }}
+					{{.Render "li"}}
+				{{end}}
+			{{end}}
+
+			<li class="acc-container-break">
+				<div class="acc-title">
+					<h3><span class="time break">until 17:30</span>Keynote break</h3>
+				</div>
+			</li>
+			{{range  $index, $element := (where .Data.Pages.ByWeight "Section" "talks") }}
+					{{if eq $index 8 }}
+					{{.Render "li"}}
+				{{end}}
+			{{end}}
+
+			<li class="acc-container-break">
+				<div class="acc-title">
+					<h3><span class="time break">18:30 - 22:00</span><a href="/after-conference">After Conference: Beer & Drinks & Snacks</a></h3>
+				</div>
+			</li>
 		</ul>
 
 	</div>

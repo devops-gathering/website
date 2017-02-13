@@ -8,7 +8,8 @@ image="/img/speakers/timo-derstappen.png"
 bio ="""
 Timo Derstappen is co-founder of Giant Swarm in Cologne. He has many years of experience in building scalable and automated cloud architectures. He likes his minimal linux desktop setup, puts nearly everything into containers and thinks Minecraft is a gateway drug.
 """
-weight = 6
+weight = 1
+time = "9:15 - 9:45"
 abstract = """
 In this talk we explain how we use a “mother” Kubernetes to deploy and manage fully-isolated and encrypted Kubernetes clusters for different customers or teams - aka Kubeception.
 """
