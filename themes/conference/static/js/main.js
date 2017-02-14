@@ -11,6 +11,8 @@ $(document).ready(function(){
 		});
 	});
 
+
+
 	// Add and clone navigation for resposive view
 	$('body').append('<div class="navigation-overlay"></div>');
 	$('.navigation').clone().prependTo('.navigation-overlay');
@@ -29,3 +31,16 @@ $(document).ready(function(){
 		return false;
 	});	
 });
+
+// show submenu on desktop when viewport is > 960
+if($(window).width() > 960) {
+	$('.navigation li').each(function(){
+		$(this).hover(function(){
+			$(this).children('ul').stop(true).slideToggle(700);
+		});
+	});
+} else {
+	$('.navigation li').each(function(){
+		$(this).unbind('mouseenter mouseleave')
+	});
+}

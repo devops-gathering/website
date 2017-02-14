@@ -46,6 +46,7 @@
 			display: inline-block;
 			float: left;
 			margin-left:  1rem;
+			position: relative;
 
 			a {
 				display: block;
@@ -53,7 +54,7 @@
 				font-size: 1rem;
 				position: relative;
 				float: left;
-				height: 66px;
+				height: 70px;
 				line-height: 66px;
 				clear: both;
 				border-top: 4px solid $light;
@@ -77,6 +78,69 @@
 
 				&:hover:after {
 					width: 100%;
+				}
+			}
+
+			// submenu
+			ul {
+				display: none;
+				position: absolute;
+				height: auto;
+				width: 260px;
+				top: 70px;
+				left: 0;
+				padding: 1rem 0 0 0;
+				margin: 0; 
+				border-radius: 5px;
+				-webkit-box-shadow: 0px 2px 21px -5px rgba(107,107,107,0.66);
+				-moz-box-shadow: 0px 2px 21px -5px rgba(107,107,107,0.66);
+				box-shadow: 0px 2px 21px -5px rgba(107,107,107,0.66);	
+
+				&:before {
+					content: "";
+					position: absolute;
+					width: 0;
+					height: 0;
+					left: 10px;
+					top: 6px;
+					border-style: solid;
+					border-width: 0 10px 10px 10px;
+					border-color: transparent transparent #ffffff transparent;
+				}
+
+
+				li {
+					display: block;
+					list-style-type: none;
+					float: none;
+					height: auto;
+					overflow: hidden;
+					margin: 0;
+					background: $light;
+					border-bottom: 1px solid #d4d4d4;
+
+					&:last-child {
+						border: none;
+					}
+
+					a {
+						display: block;
+						width: 100%;
+						height: auto;
+						line-height: 1;
+						padding:  1rem;
+						border: none;
+
+						i {
+							color:  $accent1;
+							margin-right:  0.5rem;
+						}
+
+						&:hover, &.active {
+							border: none;
+						}
+
+					}
 				}
 			}
 		}		
@@ -211,7 +275,22 @@
 					width: 100%;
 					line-height: 1;
 				}
-			}
+
+				ul {
+					margin: 0 0 0 2px;
+					border-left: 1px solid #828282;
+					padding: 0 0 0 0.7rem;
+
+					li {
+						a {
+							font-size: 1rem;
+							height: auto;
+							margin: 0;
+							padding: 0.5rem 0;
+						}
+					}
+				}
+			}			
 
 			&.social-media {
 				width: 100%;
@@ -237,11 +316,17 @@
 					&.bee {
 						padding-left: 0.5rem;
 						border: none;
+
+						a {
+							font-size: 0.8rem;
+							margin: 0;
+							padding-top: 1.5rem
+						}
 						
 						a img {
-							width: 70px;
+							width: 55px;
 							height: auto;
-							margin-top:  -5px;
+							margin-top:  -13px;
 						}
 				
 					}
