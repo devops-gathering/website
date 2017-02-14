@@ -27,13 +27,14 @@ Viktoriastraße 73, 44787 Bochum
 
 
 
-## Mercure Hotel Bochum City
-Massenbergstraße 19-21, 44787 Bochum
+## acora Hotel und Wohnen 
+Nordring 44 – 50, 44787 Bochum
 
-* single standard room for 94,63 Euro/Night
-* breakfast is exclusive: 17,00 Euro per day/breakfast
+* Code for booking: **DOG**
+* single standard room for 85,00 Euro/Night
+* breakfast is inclusive
 
 **Booking**
 
-| e-mail: [board@gdata.de](mailto:board@gdata.de"Mail us")
-| phone: +49 (0)234 9762 511
+| e-mail: [bochum@acora.de](mailto:bochum@acora.de"Mail us")
+| phone: +49 (0)234/68 96-985
