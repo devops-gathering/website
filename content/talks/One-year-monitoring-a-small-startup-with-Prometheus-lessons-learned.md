@@ -5,7 +5,7 @@ speaker = "Maykel Moya"
 speaker_link="/speakers/maykel-moya/"
 image = "/img/speakers/maykel-moya.jpg"
 bio="""
-Maykel is Site Realibilty Engineer at Shuttlcloud.
+Maykel is Site Reliability Engineer at ShuttleCloud Corp.
 """
 weight = 4
 draft= false
@@ -27,4 +27,3 @@ In this talk I'll present our monitoring infrastructure, the instrumentation and
 * Learn monitoring patterns
 * Learn about the instrumentation of prometheus
 * Learn how to scale prometheus
-* Learn how to setup prometheus at kubernetes
