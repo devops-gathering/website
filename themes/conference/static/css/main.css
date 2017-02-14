@@ -236,7 +236,8 @@ p {
 @media (max-width: 960px) {
   .navigation-container .branding {
     font-size: 1.2rem;
-    top: 0.5rem; }
+    top: 0.5rem;
+    max-width: 230px; }
   .navigation-container .navigation, .navigation-container .social-media {
     display: none; }
   .navigation-container .burger {
