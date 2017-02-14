@@ -568,124 +568,31 @@ header {
 	h2, p {
 		color: $dark;
 	}
-
-	.cat-container {
-		margin:  2rem 0;
-
-		h3 {
-			display: block;
-			height: auto;
-			width: 100%;
-			clear: both;
-			font-size: 1.5rem;
-			float: none;
-			background: #e6e6e6;
-			padding: 0.5rem;
-			margin-bottom:  2rem;
-			border-radius: 5px;
-		}		
-	}
-
-	.logo-container {
+	
+	a.logo {
+		@include flexbox;
+		justify-content:center;
+		align-items: center;
 		border-bottom: 2px solid #d0d0d0;
 		@include default-trans(1s border-color ease);
-		margin: 0 0 2rem;
-		padding: 0;
+		margin-bottom:  2rem;
 
 		&:hover {
 			border-color: $accent1;
-		}		
-
-		&:last-child {
-			border: none;
 		}
 
-		p {
-			text-align: left;
-			margin:  0 0 1rem;
+		img {
+			height: auto;
+			max-height:  160px;
+			width: auto;
+			max-width: 160px;
 		}
 
-		.external {
-			display: inline-block;
-			margin-bottom: 1rem;
-		}
-
-		.logo {
-			@include flexbox;
-			justify-content:center;
-			align-items: center;
-			@include default-trans(1s border-color ease);
-			margin-bottom:  1rem;
-
-			img {
-				height: auto;
-				max-height:  160px;
-				width: auto;
-				max-width: 160px;
-			}
-
-			&.big {height: 170px;}
-			&.medium {height: 130px;}
-			&.small {height: 100px;}
-		}		
+		&.big {height: 170px;}
+		&.medium {height: 130px;}
+		&.small {height: 100px;}
 	}
-}
 
-@include mq-680 {
-	.content-box.sponsoring {
-		background: $accent4;
-
-		h2, p {
-			color: $dark;
-		}
-
-		.cat-container {
-			margin:  0rem 0;
-
-			h3 {
-				display: block;
-				height: auto;
-				width: 100%;
-				clear: both;
-				font-size: 1.5rem;
-				float: none;
-				background: #e6e6e6;
-				padding: 0.5rem;
-				margin-bottom:  2rem;
-				border-radius: 5px;
-			}		
-		}
-
-		.logo-container {
-			border-bottom: 2px solid #d0d0d0;
-			@include default-trans(1s border-color ease);
-			margin: 0 0 1rem;
-			padding: 0;
-
-			&:hover {
-				border-color: $accent1;
-			}		
-
-			&:last-child {
-				border: none;
-			}
-
-			p {
-				text-align: center;
-				margin:  0 0 1rem;
-			}
-
-			.external {
-				display: block;
-				text-align: center;
-				margin: 0 auto 1rem
-			}
-
-			.logo {
-				&.big {height: 110px;}
-			}		
-		}
-	}	
 }
 
 // speaker
