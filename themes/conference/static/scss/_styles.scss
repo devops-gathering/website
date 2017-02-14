@@ -586,6 +586,11 @@ header {
 			max-height:  160px;
 			width: auto;
 			max-width: 160px;
+			&.wifo{
+				background: #0ab4ff;
+				padding:10px;
+				border-radius: 10px;
+			}
 		}
 
 		&.big {height: 170px;}
@@ -662,11 +667,17 @@ header {
 				max-height:  160px;
 				width: auto;
 				max-width: 160px;
+				&.wifo{
+				background: #0ab4ff;
+				padding:10px;
+				border-radius: 10px;
+			}
 			}
 
 			&.big {height: 170px;}
 			&.medium {height: 130px;}
 			&.small {height: 100px;}
+
 		}		
 	}
 }

@@ -773,6 +773,10 @@ header {
       max-height: 160px;
       width: auto;
       max-width: 160px; }
+      .content-box.sponsoring a.logo img.wifo {
+        background: #0ab4ff;
+        padding: 10px;
+        border-radius: 10px; }
     .content-box.sponsoring a.logo.big {
       height: 170px; }
     .content-box.sponsoring a.logo.medium {
@@ -780,6 +784,114 @@ header {
     .content-box.sponsoring a.logo.small {
       height: 100px; }
 
+.content-box.sponsoring-single {
+  background: #f5f5f5; }
+  .content-box.sponsoring-single .inner-content {
+    max-width: 1024px; }
+  .content-box.sponsoring-single h2, .content-box.sponsoring-single p {
+    color: #333; }
+  .content-box.sponsoring-single .cat-container {
+    margin: 2rem 0; }
+    .content-box.sponsoring-single .cat-container h3 {
+      display: block;
+      height: auto;
+      width: 100%;
+      clear: both;
+      font-size: 1.5rem;
+      float: none;
+      background: #e6e6e6;
+      padding: 0.5rem;
+      margin-bottom: 2rem;
+      border-radius: 5px; }
+  .content-box.sponsoring-single .logo-container {
+    border-bottom: 2px solid #d0d0d0;
+    -webkit-transition: 1s border-color ease;
+    -moz-transition: 1s border-color ease;
+    -ms-transition: 1s border-color ease;
+    -o-transition: 1s border-color ease;
+    transition: 1s border-color ease;
+    margin: 0 0 2rem;
+    padding: 0; }
+    .content-box.sponsoring-single .logo-container:hover {
+      border-color: #258fbc; }
+    .content-box.sponsoring-single .logo-container:last-child {
+      border: none; }
+    .content-box.sponsoring-single .logo-container p {
+      text-align: left;
+      margin: 0 0 1rem; }
+    .content-box.sponsoring-single .logo-container .external {
+      display: inline-block;
+      margin-bottom: 1rem; }
+    .content-box.sponsoring-single .logo-container .logo {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      -webkit-transition: 1s border-color ease;
+      -moz-transition: 1s border-color ease;
+      -ms-transition: 1s border-color ease;
+      -o-transition: 1s border-color ease;
+      transition: 1s border-color ease;
+      margin-bottom: 1rem; }
+      .content-box.sponsoring-single .logo-container .logo img {
+        height: auto;
+        max-height: 160px;
+        width: auto;
+        max-width: 160px; }
+        .content-box.sponsoring-single .logo-container .logo img.wifo {
+          background: #0ab4ff;
+          padding: 10px;
+          border-radius: 10px; }
+      .content-box.sponsoring-single .logo-container .logo.big {
+        height: 170px; }
+      .content-box.sponsoring-single .logo-container .logo.medium {
+        height: 130px; }
+      .content-box.sponsoring-single .logo-container .logo.small {
+        height: 100px; }
+
+@media (max-width: 680px) {
+  .content-box.sponsoring-single {
+    background: #f5f5f5; }
+    .content-box.sponsoring-single h2, .content-box.sponsoring-single p {
+      color: #333; }
+    .content-box.sponsoring-single .cat-container {
+      margin: 0rem 0; }
+      .content-box.sponsoring-single .cat-container h3 {
+        display: block;
+        height: auto;
+        width: 100%;
+        clear: both;
+        font-size: 1.5rem;
+        float: none;
+        background: #e6e6e6;
+        padding: 0.5rem;
+        margin-bottom: 2rem;
+        border-radius: 5px; }
+    .content-box.sponsoring-single .logo-container {
+      border-bottom: 2px solid #d0d0d0;
+      -webkit-transition: 1s border-color ease;
+      -moz-transition: 1s border-color ease;
+      -ms-transition: 1s border-color ease;
+      -o-transition: 1s border-color ease;
+      transition: 1s border-color ease;
+      margin: 0 0 1rem;
+      padding: 0; }
+      .content-box.sponsoring-single .logo-container:hover {
+        border-color: #258fbc; }
+      .content-box.sponsoring-single .logo-container:last-child {
+        border: none; }
+      .content-box.sponsoring-single .logo-container p {
+        text-align: center;
+        margin: 0 0 1rem; }
+      .content-box.sponsoring-single .logo-container .external {
+        display: block;
+        text-align: center;
+        margin: 0 auto 1rem; }
+      .content-box.sponsoring-single .logo-container .logo.big {
+        height: 110px; } }
 .content-box.speaker {
   background: #f5f5f5; }
   .content-box.speaker .inner-content {
