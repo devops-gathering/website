@@ -245,7 +245,8 @@
 		right: -100%;
 		position: fixed;
 		z-index: 100;
-		background: #444444;
+		background: $light;
+		border-radius: 0 0 0 5px;
 		@include default-trans(1s right ease);
 
 		&.open {
@@ -268,7 +269,7 @@
 
 				a {
 					display: block;
-					color: $light;
+					color: $dark;
 					font-size: 1.125rem;
 					padding: 0.5rem 0;
 					height: auto;
