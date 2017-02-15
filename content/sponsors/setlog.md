@@ -4,6 +4,7 @@ sponsor_type="silver"
 sponsor_image="/img/setlog.png"
 sponsor_url="https://setlog.com/en"
 draft=false
+anker="setlog"
 +++
 
 At Setlog we like to think value chains holistically – from inbound to outbound. More than a decade ago we've set out to develop software code that shall be groundbreaking for connective supply chain and vendor management. Our code of conduct? Be distinct, smart, and connective. Expect no less.
