@@ -318,7 +318,8 @@ p {
     right: -100%;
     position: fixed;
     z-index: 100;
-    background: #444444;
+    background: #fff;
+    border-radius: 0 0 0 5px;
     -webkit-transition: 1s right ease;
     -moz-transition: 1s right ease;
     -ms-transition: 1s right ease;
@@ -344,7 +345,7 @@ p {
         height: auto; }
         .navigation-overlay .navigation li a, .navigation-overlay .social-media li a {
           display: block;
-          color: #fff;
+          color: #333;
           font-size: 1.125rem;
           padding: 0.5rem 0;
           height: auto;
