@@ -7,4 +7,4 @@ draft=false
 anker="aufgeweckt"
 +++
 
-Vertrauen formt Identität - tief verwurzelt mit unserem Standort Bochum im Ruhrgebiet sind wir Ihre Agentur für das digitale Zeitalter. Modernes Webdesign und Frontend-Development sind unsere Expertisen. Vertrauen Sie uns und gemeinsam formen wir Ihre Identität im Netz.
+Trust forms identity - deeply rooted in our location Bochum in the Ruhr area, we are your agency for the digital age. Modern web design and front-end development are our expertise. Trust us and together we shape your identity on the web.
