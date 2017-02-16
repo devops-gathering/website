@@ -83,3 +83,8 @@ Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhal
 Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter http://twitter.com/account/settings ändern.
 
 Quellenangaben: Disclaimer von eRecht24, dem Portal zum Internetrecht von Rechtsanwalt Sören Siebert, Facebook-Disclaimer von eRecht24, Google Analytics Datenschutzerklärung, eRecht24 Datenschutzerklärung Google Adsense, Google +1 Bedingungen, Datenschutzerklärung für Twitter
+
+
+Design & Coding <br>
+[Agentur Aufgeweckt](http://www.agentur-aufgeweckt.de)<br>
+[bee42 solutions gmbh](https://bee42.com)

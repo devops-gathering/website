@@ -26,4 +26,5 @@ VAT-ID according to §27 a Umsatzsteuergesetz: DE284932374<br>
 Number in the commercial register HR B 14047
 
 Design & Coding <br>
-[Agentur Aufgeweckt](http://www.agentur-aufgeweckt.de)
+[Agentur Aufgeweckt](http://www.agentur-aufgeweckt.de)<br>
+[bee42 solutions gmbh](https://bee42.com)
