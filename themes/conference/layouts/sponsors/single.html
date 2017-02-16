@@ -9,6 +9,7 @@
     {{ partial "seo/google_tag_manager_body.html" }} {{ partial "nav-single.html" . }} {{ partial "hero-single.html" . }}
     <div class="content-box sponsoring-single">
         <div class="inner-content">
+            {{.Content | markdownify}}
             <div class="cat-container gold">
                 <h3>Gold Sponsor</h3>
                 {{ range $page := (where .Site.Pages "Section" "sponsors") }} {{ if eq $page.Params.sponsor_type "gold"}} {{ .Render "li" }} {{end}} {{end}}
