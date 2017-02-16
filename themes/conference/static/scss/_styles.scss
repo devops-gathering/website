@@ -611,6 +611,7 @@ header {
 	}
 
 	h2, p {
+		text-align: left;
 		color: $dark;
 	}
 
@@ -722,7 +723,6 @@ header {
 			}
 
 			p {
-				text-align: center;
 				margin:  0 0 1rem;
 			}
 

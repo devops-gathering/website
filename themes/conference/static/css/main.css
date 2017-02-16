@@ -790,6 +790,7 @@ header {
   .content-box.sponsoring-single .inner-content {
     max-width: 1024px; }
   .content-box.sponsoring-single h2, .content-box.sponsoring-single p {
+    text-align: left;
     color: #333; }
   .content-box.sponsoring-single .cat-container {
     margin: 2rem 0; }
@@ -885,7 +886,6 @@ header {
       .content-box.sponsoring-single .logo-container:last-child {
         border: none; }
       .content-box.sponsoring-single .logo-container p {
-        text-align: center;
         margin: 0 0 1rem; }
       .content-box.sponsoring-single .logo-container .external {
         display: block;
