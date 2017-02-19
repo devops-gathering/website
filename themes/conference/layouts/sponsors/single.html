@@ -3,53 +3,53 @@
 
 <head>
     {{ partial "head.html" . }}
-     {{ partial "seo/seo.html" .}} 
+     {{ partial "seo/seo.html" .}}
      {{ partial "seo/google_tag_manager.html" }}
 </head>
 
 <body class="single">
-    {{ partial "seo/google_tag_manager_body.html" }} 
-    {{ partial "nav-single.html" . }} 
+    {{ partial "seo/google_tag_manager_body.html" }}
+    {{ partial "nav-single.html" . }}
     {{ partial "hero-single.html" . }}
     <div class="content-box sponsoring-single">
         <div class="inner-content">
             <p>{{ .Content  }} </p>
             <div class="cat-container gold">
                 <h3>Gold Sponsor</h3>
-                {{ range $page := (where .Site.Pages "Section" "sponsors") }} 
-                    {{ if eq $page.Params.sponsor_type "gold"}} 
+                {{ range $page := (where .Site.Pages "Section" "sponsors") }}
+                    {{ if eq $page.Params.sponsor_type "gold"}}
                         {{ .Render "li" }}
-                    {{end}} 
+                    {{end}}
                 {{end}}
             </div>
             <div class="cat-container silver">
                 <h3>Silver Sponsor</h3>
-                          {{ range $page := (where .Site.Pages "Section" "sponsors") }} 
-                    {{ if eq $page.Params.sponsor_type "silver"}} 
+                          {{ range $page := (where .Site.Pages "Section" "sponsors") }}
+                    {{ if eq $page.Params.sponsor_type "silver"}}
                         {{ .Render "li" }}
-                    {{end}} 
+                    {{end}}
                 {{end}}
             </div>
             <div class="cat-container bronze">
                 <h3>Bronze Sponsor</h3>
-                         {{ range $page := (where .Site.Pages "Section" "sponsors") }} 
-                    {{ if eq $page.Params.sponsor_type "bronze"}} 
+                         {{ range $page := (where .Site.Pages "Section" "sponsors") }}
+                    {{ if eq $page.Params.sponsor_type "bronze"}}
                         {{ .Render "li" }}
-                    {{end}} 
+                    {{end}}
                 {{end}}
             </div>
             <div class="cat-container gold">
                 <h3>Metall Sponsor</h3>
-                         {{ range $page := (where .Site.Pages "Section" "sponsors") }} 
-                    {{ if eq $page.Params.sponsor_type "metall"}} 
+                         {{ range $page := (where .Site.Pages "Section" "sponsors") }}
+                    {{ if eq $page.Params.sponsor_type "metall"}}
                         {{ .Render "li" }}
-                    {{end}} 
+                    {{end}}
                 {{end}}
             </div>
         </div>
     </div>
     {{partial "contact.html" .}}
-     {{partial "footer.html" .}} 
+     {{partial "footer.html" .}}
      {{ partial "js.html" . }}
 </body>
 
