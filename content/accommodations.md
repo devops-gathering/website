@@ -21,7 +21,7 @@ Viktoriastraße 73, 44787 Bochum
 
 **Booking**
 
-| website: [www.art-hotel-tucholsky.de](www.art-hotel-tucholsky.de)
+| website: [www.art-hotel-tucholsky.de](http://www.art-hotel-tucholsky.de/)
 | e-mail: [info@art-hotel-tucholsky.de](mailto:info@art-hotel-tucholsky.de"Mail us") or [sb@bjw-gastronomie.de](mailto:sb@bjw-gastronomie.de"Mail us")
 | phone: +49 (0)234 964360 or +49 (0)234 5306670
 
