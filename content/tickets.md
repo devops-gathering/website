@@ -10,22 +10,22 @@ date = "2017-01-12T12:28:54+01:00"
 
 All conference and workshop tickets include food, drinks, great talks and Wi-Fi.
 
-**Thursday (March 23th) - Workshops**
+**Thursday (March 23th) - Pre-Conference Workshops**
 
 **Friday (March 24th) - Conference and evening reception**
 
 **Saturday (March 25th) - Open Space**
 
-The 2 Day Ticket includes the conference day, the evening reception and the Open Space. The 3 Day Ticket includes everything: The workshops, the conference, Open Space day and also the evening event.
+The 2 Day Ticket includes the conference day, the evening reception and the Open Space. The 3 Day Ticket includes everything: The pre-conference workshops, the conference, Open Space day and also the evening event.
 
 | Tickets (all prices incl. VAT)| Standard |
 | :--| --:|
 | 3 Day Ticket (Workshops & Conference)| 499 € |
 | 2 Day Ticket (Conference) | 299 € |
-| 1 Day Ticket (Workshops) | 349 € |
+| 1 Day Ticket (Pre-Conference Workshops) | 349 € |
 | Student 3 Day Ticket (Workshops & Conference)| 149 € |
 | Student 2 Day Ticket (Conference) | 79 € |
-| Student 1 Day Ticket (Workshops) | 99 € |
+| Student 1 Day Ticket (Pre-Conference Workshops) | 99 € |
 
 
 Students must present a valid student picture ID and proof of full-time attendance at an accredited university to register for the student tickets. Please send us therefor an e-mail with the documents (info@devops-gathering.io) in advance of the event in order to validate your booking.
