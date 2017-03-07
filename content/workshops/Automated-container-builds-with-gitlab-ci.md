@@ -2,7 +2,7 @@
 title ="Automated container building with GitLab/CI"
 keywords = ["docker gitlab", "gitlab", "continuous integration", "docker container", "docker-images", "docker workshop", "docker training", "devops", "devops gathering"]
 speaker = "Niclas Mietz"
-time = "09:30 - 12:30"
+time = "09:00 - 12:30"
 speaker_link="/speakers/niclas-mietz/"
 image="/img/speakers/niclas-mietz.png"
 bio ="""
