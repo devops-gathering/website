@@ -9,7 +9,7 @@ Maykel is Site Reliability Engineer at ShuttleCloud Corp.
 """
 weight = 4
 draft= false
-time = "11:45 - 11:30"
+time = "11:45 - 12:15"
 abstract = """
 ShuttleCloud is a small startup specialized in migrating email and contacts at scale, proud of having Google among its customers. We migrated our primitive monitoring to Prometheus one year ago and the switch have proved being cost-effective.
 
