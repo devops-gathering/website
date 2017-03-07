@@ -1,7 +1,7 @@
 +++
 title="Styracosoft"
 sponsor_type="metall"
-sponsor_image="/img/Styracosoft Logo Schriftzug.png"
+sponsor_image="/img/styracosoft.png"
 sponsor_url="https://twitter.com/styracosoft"
 draft=false
 anker="styracosoft"
