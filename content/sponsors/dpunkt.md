@@ -1,7 +1,7 @@
 +++
 title="dpunkt.verlag"
 sponsor_type="metall"
-sponsor_image="/img/dpunkt.eps"
+sponsor_image="/img/Dpunkt_Logo.png"
 sponsor_url="https://www.dpunkt.de/"
 draft=false
 anker="dpunkt"
