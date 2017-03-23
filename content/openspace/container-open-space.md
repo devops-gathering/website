@@ -4,6 +4,7 @@ os_date="25.3"
 draft = false
 description="""
 To address some questions about the open space on Saturday, we collected some information, so you know what to expect. 
+"""
 +++
 
 # WHAT IS AN OPEN SPACE?
