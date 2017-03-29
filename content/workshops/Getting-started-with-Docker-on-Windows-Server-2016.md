@@ -46,3 +46,7 @@ Finally we will take a real world application based upon microservices and docke
 * Basic Windows and Docker experience recommended, but not required
 * Bring your own laptop (Windows, macOS, Linux)
 * You'll need RDP client and Docker client on your laptop
+
+## Slides
+
+http://stefanscherer.github.io/windows-docker-workshop/

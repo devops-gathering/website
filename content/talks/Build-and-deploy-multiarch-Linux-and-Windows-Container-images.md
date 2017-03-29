@@ -28,3 +28,7 @@ In this talk you will learn how to release your application both as Linux and Wi
 * Push both platform specific Docker images
 * Draft a multiarch Docker image
 * Push your images to Docker Hub
+
+## Slides
+
+https://www.slideshare.net/stefscherer/build-and-deploy-multiarch-linux-and-windows-container-images

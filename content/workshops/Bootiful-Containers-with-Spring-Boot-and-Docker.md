@@ -40,3 +40,7 @@ This workshop takes you through the complete development lifecycle of a simple m
 * Make Spring-Boot Apps configurable with environment variables
 * Unit- and Integration-Test your Spring-Boot App with Spock and Docker
 * Deploy and configure Spring-Boot microservices using docker-compose
+
+## Slides
+
+http://slides.com/kiview/deck-8

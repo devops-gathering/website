@@ -54,3 +54,7 @@ In this workshop, Philipp guides you step-by-step through the process of setting
 * Bring your own laptop
 * Have your own AWS account (Free Tier, https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 * Install AWS Cli (http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
+
+## Slides
+
+https://github.com/pgarbe/containers_on_aws_workshop

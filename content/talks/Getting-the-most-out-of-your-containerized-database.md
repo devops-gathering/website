@@ -22,3 +22,7 @@ You’re part of an experienced DevOps team who are both container and database 
 * Learn how a setup CrateDB at a container world
 * Learn how setup a masterless DB architecture
 * Learn how to tune CrateDB
+
+## Slides:
+
+https://www.slideshare.net/ClausMatzinger/getting-the-most-out-of-your-containerized-database

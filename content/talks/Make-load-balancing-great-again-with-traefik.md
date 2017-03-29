@@ -35,3 +35,7 @@ But it still remains tedious to easily connect these services without changing t
 * Learn how easy it is to setup automatically Let’s Encrypt
 * Scale services without any manual reconfiguration
 * Learn tricks from active Træfik developers
+
+## Slides:
+
+https://emilevauge.github.io/DOG2017
