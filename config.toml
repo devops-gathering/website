@@ -20,7 +20,7 @@ enableRobotsTXT = true
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Devops Gathering 2017"
-	description = "The DevOps Gathering is an international community conference located in Germany. | March 23 - 25, 2017 | All about Docker, Kubernetes, Microservices, Clouds and everything else regarding DevOps."
+	description = "The DevOps Gathering is an international community conference located in Germany. | February 19 - 21, 2018 | All about Docker, Kubernetes, Microservices, Clouds and everything else regarding DevOps."
 	keywords = "DevOps Conference, DevOps Gathering, DevOps Community, DevOps Training, DevOps Workshop, Docker, DevOps, Docker Conference, Microservices, Kubernetes, Clouds"
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -35,9 +35,9 @@ enableRobotsTXT = true
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "DevOps Gathering 2017"
-		subtitle   = "Take your seat and get pushed to the next level"
-		date = "23 – 25 March, 2017"
+		slogan     = "DevOps Gathering 2018"
+		subtitle   = "Further and new informationen will follow soon"
+		date = "19th – 21st February, 2018"
     subtitle2 = "bee42 solutions proudly presents"
 		location = "G Data Campus Bochum"
 		buttonText = "Call for Papers"
